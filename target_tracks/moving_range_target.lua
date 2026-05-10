@@ -2,7 +2,6 @@
 
 server = server or {}
 
-
 track_distance = 2
 
 local function initTrack()

@@ -11,6 +11,8 @@ local function buildGround()
 		return
 	end
 	_groundBuilt = true
+function init()
+	DebugPrint("ground.lua init()")
 	matRock = CreateMaterial("rock", 0.3, 0.3, 0.3)
 	matDirt = CreateMaterial("dirt", 0.26, 0.23, 0.20, 1, 0, 0.1)
 	matGrass1 = CreateMaterial("unphysical", 0.17, 0.21, 0.15, 1, 0, 0.2)
@@ -20,8 +22,20 @@ local function buildGround()
 	matTarmacLine = CreateMaterial("dirt", 0.66, 0.57, 0.42, 1, 0, 0.1)
 	
 	LoadImage(file)
-	
 	w,h = GetImageSize()
+	if w == 0 or h == 0 then
+		LoadImage("images/coastal_tank_range.png")
+		w,h = GetImageSize()
+	end
+	if w == 0 or h == 0 then
+		LoadImage("MOD/images/coastal_tank_range.png")
+		w,h = GetImageSize()
+	end
+	
+	if w == 0 or h == 0 then
+		DebugPrint("ground.lua: failed to load heightmap image: "..tostring(file))
+		return
+	end
 
 	local maxSize = tileSize
 	
@@ -42,10 +56,9 @@ local function buildGround()
 	end
 end
 
-function init()
-	buildGround()
-end
-
 function server.init()
 	buildGround()
+function server.init()
+	DebugPrint("ground.lua server.init()")
+	init()
 end
