@@ -1,4 +1,9 @@
+<<<<<<< ours
 #version 2
+=======
+server = server or {}
+
+>>>>>>> theirs
 file = GetString("file", "testground.png", "script png")
 heightScale = GetInt("scale", 64)
 tileSize = GetInt("tilesize", 128)

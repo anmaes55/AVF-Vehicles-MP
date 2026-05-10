@@ -1,5 +1,7 @@
 #version 2
 
+server = server or {}
+
 
 track_distance = 2
 
