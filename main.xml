@@ -120,7 +120,7 @@
 						</group>
 					</group>
 					<group pos="-45.30001 1.3 32.8" rot="0.0 100.0 0.0">
-						<instance pos="1.10001 2.1 3.69999" rot="0.0 -70.0 0.0" file="MOD/prefabs/targets/t72_target.xml"/>
+						<instance pos="1.10001 2.1 3.69999" rot="0.0 -70.0 0.0" file="MOD/target_tracks/t72_target.xml"/>
 					</group>
 					<group pos="106.8 2.6 76.1" rot="0.0 -80.0 0.0">
 						<body tags="component=body" pos="0.45777 -0.11103 -0.77751" rot="-6.3 156.40001 -5.0" dynamic="true">
@@ -190,7 +190,7 @@
 						</body>
 					</group>
 					<group pos="19.7 -23.2 22.1">
-						<instance pos="-129.50002 26.7 -25.8" rot="0.0 -150.0 0.0" file="MOD/prefabs/targets/t72_target.xml"/>
+						<instance pos="-129.50002 26.7 -25.8" rot="0.0 -150.0 0.0" file="MOD/target_tracks/t72_target.xml"/>
 					</group>
 					<group name="t72_junk" pos="-194.0 3.8 155.10001">
 						<group pos="-21.2 -0.1 -9.9">
@@ -1438,4 +1438,3 @@
 		</group>
 	</group>
 </scene>
-
