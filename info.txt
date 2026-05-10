@@ -1,4 +1,4 @@
-name = AVF Vehicles
+name = AVF Vehicles MP
 author = elboydo
 description = A selection of vehicles from the AVF mod, specially curated and synced to the in game spawning mechanic! Many updated with new features, aesthetics and mechanics unique to the AVF mod. [noupload]
 tags = Gameplay, Asset
