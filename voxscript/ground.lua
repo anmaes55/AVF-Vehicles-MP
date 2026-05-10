@@ -4,7 +4,11 @@ heightScale = GetInt("scale", 64)
 tileSize = GetInt("tilesize", 128)
 hollow = GetInt("hollow", 0)
 
-function init()
+local function buildGround()
+	if _groundBuilt then
+		return
+	end
+	_groundBuilt = true
 	matRock = CreateMaterial("rock", 0.3, 0.3, 0.3)
 	matDirt = CreateMaterial("dirt", 0.26, 0.23, 0.20, 1, 0, 0.1)
 	matGrass1 = CreateMaterial("unphysical", 0.17, 0.21, 0.15, 1, 0, 0.2)
@@ -36,3 +40,10 @@ function init()
 	end
 end
 
+function init()
+	buildGround()
+end
+
+function server.init()
+	buildGround()
+end
