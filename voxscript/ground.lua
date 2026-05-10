@@ -1,18 +1,11 @@
 #version 2
-server = server or {}
-
 file = GetString("file", "testground.png", "script png")
 heightScale = GetInt("scale", 64)
 tileSize = GetInt("tilesize", 128)
 hollow = GetInt("hollow", 0)
 
 local function buildGround()
-	if _groundBuilt then
-		return
-	end
-	_groundBuilt = true
-function init()
-	DebugPrint("ground.lua init()")
+	DebugPrint("ground.lua buildGround()")
 	matRock = CreateMaterial("rock", 0.3, 0.3, 0.3)
 	matDirt = CreateMaterial("dirt", 0.26, 0.23, 0.20, 1, 0, 0.1)
 	matGrass1 = CreateMaterial("unphysical", 0.17, 0.21, 0.15, 1, 0, 0.2)
@@ -56,9 +49,12 @@ function init()
 	end
 end
 
-function server.init()
+function init()
+	DebugPrint("ground.lua init()")
 	buildGround()
+end
+
 function server.init()
 	DebugPrint("ground.lua server.init()")
-	init()
+	buildGround()
 end
