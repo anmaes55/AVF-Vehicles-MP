@@ -1,3 +1,4 @@
+#version 2
 
 
 function test_sight() 

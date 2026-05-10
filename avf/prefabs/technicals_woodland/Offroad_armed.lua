@@ -1,3 +1,4 @@
+#version 2
 --[[
 #include "../weapon_templates/weapon_templates.lua"
 #include "../weapon_templates/weapon_sights_templates.lua"

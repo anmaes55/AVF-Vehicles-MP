@@ -1,3 +1,4 @@
+#version 2
 file = GetString("file", "testground.png", "script png")
 heightScale = GetInt("scale", 64)
 tileSize = GetInt("tilesize", 128)

@@ -1,3 +1,4 @@
+#version 2
 
 --[[
 	use this file to config the parameters for your tank
