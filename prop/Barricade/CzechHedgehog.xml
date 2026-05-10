@@ -1,0 +1,10 @@
+<prefab version="0.9.3">
+	<group id_="605917312" pos="-0.1 -0.1 7.2">
+		<vox id_="2022498816" pos="0.1 0.1 0.1" texture="20 0.8" collide="true" prop="true" file="MOD/prop/Barricade/CzechHedgehog.vox" object="hedgehog main">
+			<vox id_="703965120" pos="-0.1 0.5 0.0" rot="-40 40" texture="20 0.8" file="MOD/prop/Barricade/CzechHedgehog.vox" object="hedgehog metal"/>
+			<vox id_="1918355840" pos="-0.1 0.4 0.0" rot="45 -40" texture="20 0.8" file="MOD/prop/Barricade/CzechHedgehog.vox" object="hedgehog metal"/>
+			<vox id_="1964496000" pos="0.0 0.4 0.0" rot="40 90" texture="20 0.8" file="MOD/prop/Barricade/CzechHedgehog.vox" object="hedgehog metal"/>
+		</vox>
+	</group>
+</prefab>
+

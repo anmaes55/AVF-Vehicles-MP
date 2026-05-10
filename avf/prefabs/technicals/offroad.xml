@@ -1,0 +1,71 @@
+<prefab version="0.9.6">
+	<group name="instance=MOD/avf/prefabs/technicals/offroad.xml" pos="-141.7 8.1 -33.31" rot="0.0 -88.0 0.0">
+		<script pos="-0.1 0.0 0.0" file="MOD/avf/scripts/Immersive_Tank.lua">
+			<vehicle name="offroad" tags="cfg=vehicle" pos="0.1 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="suv2 0.9" spring="0.8" damping="0.8" topspeed="60" acceleration="2" strength="5" antispin="0" antiroll="0.2" difflock="0.5" steerassist="0.0">
+				<group pos="-0.1 0.0 0.0" prop0="texture=1 .6">
+					<body pos="0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+						<vox pos="0.05 -0.2 0.15" rot="0 180 0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/technicals/offroad.vox" object="body">
+							<light pos="0.75 0.55 -2.2" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light pos="-0.65 0.55 -2.2" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light pos="0.6 0.55 -2.2" rot="0.0 180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light pos="-0.5 0.55 -2.2" rot="0.0 180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light pos="0.65 0.65 2.0" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+							<light pos="-0.55 0.65 2.0" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+							<location tags="exhaust" pos="0.5 0.05 -2.2" rot="-180.0 360.0 -180.0"/>
+							<location tags="vital" pos="0.05 0.55 1.3" rot="-180.0 360.0 -180.0"/>
+							<location tags="player" pos="0.35 1.25 0.15" rot="0.0 0.0 0.0"/>
+							<group name="immersive_elements" prop0="strength=12">
+								<vox name="engine" tags="engine" pos="0.0 0.2 1.5" file="MOD/avf/prefabs/technicals/offroad.vox" object="engine"/>
+								<vox name="fuel_tank" tags="fuel_tank" pos="-0.3 0.1 -1.19998" file="MOD/avf/prefabs/technicals/offroad.vox" object="fuel_tank"/>
+								<group name="ammo_rack" pos="-0.2 0.4 -0.4" prop0="tags=ammo_rack=0">
+									<vox name="ammo_rack" pos="-0.10001 0.1 -1.1" rot="0.0 90.0 0.0" file="MOD/avf/prefabs/technicals/offroad.vox" object="ammo_box_small"/>
+									<vox name="ammo_rack" pos="0.6 0.1 -1.10002" rot="0.0 90.0 0.0" file="MOD/avf/prefabs/technicals/offroad.vox" object="ammo_box_rocket"/>
+									<vox name="ammo_rack" pos="0.20002 -0.1 -0.2" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/technicals/offroad.vox" object="ammo_belt"/>
+								</group>
+							</group>
+							<group name="hinged_eleements" pos="0.0 1.0 0.0">
+								<vox pos="0.8 -0.7 0.4" prop="true" file="MOD/avf/prefabs/technicals/offroad.vox" object="door_front_left">
+									<joint pos="0.1 0.2 0.5" rot="90.0 90.0 0.0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+									<joint pos="0.1 0.6 0.5" rotspring="0" collide="true"/>
+								</vox>
+								<vox pos="0.79999 -0.7 -0.6" prop="true" file="MOD/avf/prefabs/technicals/offroad.vox" object="door_back_keft">
+									<joint pos="0.1 0.2 0.4" rot="90.0 90.0 0.0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+									<joint pos="0.1 0.6 0.4" rotspring="0" collide="true"/>
+								</vox>
+								<vox pos="0.0 -0.7 -2.3" prop="true" file="MOD/avf/prefabs/technicals/offroad.vox" object="rear_door">
+									<joint pos="-0.4 1.1 0.09999" rot="-90.0 0.0 0.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 100"/>
+									<joint pos="-0.40001 0.2 0.10002" rotspring="0" collide="true"/>
+								</vox>
+								<vox pos="0.0 -0.1 1.5" prop="true" file="MOD/avf/prefabs/technicals/offroad.vox" object="bonnet">
+									<joint pos="0.6 0.1 -0.59999" rot="0.0 -90.0 0.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 140"/>
+									<joint pos="-0.50001 0.1 -0.59999" rotspring="0" collide="true"/>
+								</vox>
+								<vox pos="-0.7 -0.7 0.4" prop="true" file="MOD/avf/prefabs/technicals/offroad.vox" object="door_front_right">
+									<joint pos="-0.1 0.2 0.5" rot="-90.0 90.0 0.0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+									<joint pos="-0.1 0.6 0.49999" rotspring="0" collide="true"/>
+								</vox>
+								<vox pos="-0.7 -0.7 -0.6" prop="true" file="MOD/avf/prefabs/technicals/offroad.vox" object="door_back_right">
+									<joint pos="-0.1 0.2 0.4" rot="-90.0 90.0 0.0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+									<joint pos="-0.1 0.6 0.4" rotspring="0" collide="true"/>
+								</vox>
+							</group>
+						</vox>
+						<wheel name="bl" pos="-0.65 -0.15 1.4" drive="1" travel="-0.1 0.2">
+							<vox pos="-0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/avf/prefabs/technicals/offroad.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel name="br" pos="0.65 -0.15 1.4" drive="1" travel="-0.1 0.2">
+							<vox pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals/offroad.vox" object="wheel_br"/>
+						</wheel>
+						<wheel name="fl" pos="-0.75 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+							<vox pos="0.0 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals/offroad.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel name="fr" pos="0.65 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+							<vox pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals/offroad.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</group>
+			</vehicle>
+		</script>
+	</group>
+</prefab>
+

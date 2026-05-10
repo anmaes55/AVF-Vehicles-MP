@@ -1,0 +1,282 @@
+<prefab version="0.9.5">
+	<group id_="1521707776" open_="true" name="instance=MOD/avf/prefabs/t90/t90a.xml" pos="-1.2 -0.2 -1.51" rot="0.0 0.0 0.0">
+		<script id_="984738496" open_="true" pos="-0.4 0.1 0.5" file="MOD/avf/scripts/Immersive_Tank.lua">
+			<script id_="1046608256" open_="true" pos="1.6 0.0 -0.7" file="MOD/avf/prefabs/t90/t90.lua">
+				<group id_="2062347136" open_="true" pos="0.3 0.0 0.0" prop0="texture=7 .5">
+					<vehicle id_="1798548736" open_="true" name="t90" tags="cfg=vehicle name=t90 t90_test" pos="-2.2 -0.1 0.2" rot="0.0 -90.0 0.0" driven="false" sound="tank1" spring="1" damping="0.8" topspeed="30" acceleration="0.35" strength="20" antispin="1" antiroll="3.2" difflock="1" steerassist="1" friction="2">
+						<body id_="360994336" open_="true" tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+							<vox id_="36374700" open_="true" tags="component=chassis RHA=90" pos="0.05 -0.1 0.35" rot="0 180 0" texture="8 .4" density="20" strength="10" file="MOD/avf/prefabs/t90/t90A.vox" object="t90body">
+								<light id_="1066663488" pos="0.8 1.05 3.5" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.2" unshadowed="0.2" glare="0.35"/>
+								<light id_="1790225152" pos="-0.8 1.05 3.5" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.2" unshadowed="0.2" glare="0.35"/>
+								<light id_="922147776" pos="1.35 1.15 -3.6" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.2" glare="0.1"/>
+								<light id_="1111099648" pos="-1.35 1.15 -3.6" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.2" glare="0.1"/>
+								<location id_="91952624" tags="exhaust" pos="2.2 1.3 -2.0" rot="0 60 0 "/>
+								<location id_="754824192" tags="exhaust" pos="2.1 1.3 -1.9" rot="-20 60 0 "/>
+								<location id_="1095828864" tags="exhaust" pos="2.1 1.3 -1.9" rot="20 80 0 "/>
+								<location id_="2146631680" tags="vital" pos="0.05 0.85 -1.9" rot="-180.0 360.0 -180.0"/>
+								<location id_="1082327552" tags="player" pos="-0.05 0.97 2.2" rot="0.0 0.0 0.0"/>
+								<vox id_="239089920" open_="true" name="hull_roof" tags="RHA=60" pos="0.1 1.2 -0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="hull_roof">
+									<group id_="1631290624" open_="true" name="hatches" prop0="rotspring=0" prop1="tags= RHA=150">
+										<vox id_="1694864384" name="engine_vents" pos="-0.1 0.0 -2.8" prop="true" file="MOD/avf/prefabs/t90/t90A.vox" object="engine_vents">
+											<joint id_="688497728" pos="0.9 0.12 0.4" collide="true"/>
+											<joint id_="311118368" pos="-0.9 0.12 0.4" collide="true"/>
+											<joint id_="2096821248" tags="break_joint" pos="0.0 0.12 -0.4" collide="true"/>
+										</vox>
+										<vox id_="251083744" name="engine_hatch" pos="-0.1 0.1 -1.9" prop="true" file="MOD/avf/prefabs/t90/t90A.vox" object="engine_hatch">
+											<joint id_="2069949824" pos="0.9 0.02 -0.4" collide="true"/>
+											<joint id_="979298688" pos="-0.9 0.02 -0.4" collide="true"/>
+											<joint id_="1934281984" tags="break_joint" pos="0.0 0.01 0.4" collide="true"/>
+										</vox>
+										<vox id_="2091250304" name="drivers_hatch" pos="-0.2 0.1 2.4" collide="true" prop="true" file="MOD/avf/prefabs/t90/t90A.vox" object="drivers_hatch">
+											<joint id_="504920160" pos="-0.36 0.04 -0.05" rot="90 0  0" type="hinge" size="0.1" rotstrength="1" rotspring="0" collide="true"/>
+										</vox>
+									</group>
+								</vox>
+								<vox id_="985066176" name="front_upper_glacis" tags="RHA=400" pos="-0.0 0.78 3.41" rot="15.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="glacis_top"/>
+								<vox id_="305547488" name="lights" tags="nocull RHA=10" pos="-0.85 0.9 3.41" file="MOD/avf/prefabs/t90/t90A.vox" object="front_light"/>
+								<vox id_="969074432" name="lights" tags="nocull RHA=10" pos="0.75 0.9 3.41" file="MOD/avf/prefabs/t90/t90A.vox" object="front_light"/>
+								<vox id_="642160896" name="front_lower_glacis" tags="nocull RHA=120" pos="-0.0 0.31 3.84" rot="-33.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="glacis_bottom"/>
+								<vox id_="489714880" name="sideR" tags="RHA=170" pos="-1.5 0.0 0.4" file="MOD/avf/prefabs/t90/t90A.vox" object="side_R"/>
+								<vox id_="422012064" name="sideL" tags="RHA=170" pos="1.5 0.0 0.4" file="MOD/avf/prefabs/t90/t90A.vox" object="side_L"/>
+								<vox id_="1191189504" name="tracks" pos="1.5 -0.3 0.36" collide="false" file="MOD/avf/prefabs/t90/t90A.vox" object="trackL"/>
+								<vox id_="434595744" name="tracks" pos="-1.5 -0.3 0.36" collide="false" file="MOD/avf/prefabs/t90/t90A.vox" object="trackR"/>
+								<group id_="87430360" name="ammo_racks" pos="-0.0 0.0 0.1">
+									<group id_="1059585152" name="ammo_carosells" pos="-0.1 0.3 0.2" prop0="tags=ammo_rack=0.01">
+										<group id_="1888666240" name="carosell" pos="-0.39996 0.13 0.21332" rot="0.0 22.0 0.0">
+											<vox id_="1246833024" name="ammo_rack" pos="-0.22 0.09 0.04" rot="89.0 90.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="646879808" name="ammo_rack" pos="-0.13471 0.09 0.34602" rot="89.0 114.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="707176576" name="ammo_rack" pos="0.06768 0.09 0.5909" rot="89.0 138.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1135939328" name="ammo_rack" pos="0.35217 0.09 0.73229" rot="89.0 162.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="956621824" name="ammo_rack" pos="0.66957 0.09 0.74574" rot="89.0 -174.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="322456800" name="ammo_rack" pos="0.965 0.09 0.62893" rot="89.0 -150.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="18154580" name="ammo_rack" pos="1.18738 0.09 0.40205" rot="89.0 -126.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="147137296" name="ammo_rack" pos="1.29826 0.09 0.10434" rot="89.0 -102.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1821291008" name="ammo_rack" pos="1.27846 0.09 -0.21273" rot="89.0 -78.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="37947660" name="ammo_rack" pos="1.1314 0.09 -0.49433" rot="89.0 -54.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="2073554560" name="ammo_rack" pos="0.88253 0.09 -0.69178" rot="89.0 -30.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1298216320" name="ammo_rack" pos="0.57486 0.09 -0.77092" rot="89.0 -6.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="378362432" name="ammo_rack" pos="0.2616 0.09 -0.71809" rot="89.0 18.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="728739264" name="ammo_rack" pos="-0.00309 0.09 -0.54241" rot="89.0 42.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1349534208" name="ammo_rack" pos="-0.17345 0.09 -0.27426" rot="89.0 66.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+										</group>
+										<group id_="890950784" name="carousel" pos="-0.44 0.0 0.0">
+											<vox id_="1668255104" name="ammo_rack" pos="-0.22 0.09 0.04" rot="89.0 90.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1185946368" name="ammo_rack" pos="-0.13471 0.09 0.34602" rot="89.0 114.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="542540096" name="ammo_rack" pos="0.06768 0.09 0.5909" rot="89.0 138.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1439323904" name="ammo_rack" pos="0.35217 0.09 0.73229" rot="89.0 162.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="261307984" name="ammo_rack" pos="0.66957 0.09 0.74574" rot="89.0 -174.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1038219136" name="ammo_rack" pos="0.965 0.09 0.62893" rot="89.0 -150.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="608014592" name="ammo_rack" pos="1.18738 0.09 0.40205" rot="89.0 -126.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1176443008" name="ammo_rack" pos="1.29826 0.09 0.10434" rot="89.0 -102.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="365123328" name="ammo_rack" pos="1.27846 0.09 -0.21273" rot="89.0 -78.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="618369920" name="ammo_rack" pos="1.1314 0.09 -0.49433" rot="89.0 -54.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="390028544" name="ammo_rack" pos="0.88253 0.09 -0.69178" rot="89.0 -30.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1011675456" name="ammo_rack" pos="0.57486 0.09 -0.77092" rot="89.0 -6.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="1877720960" name="ammo_rack" pos="0.2616 0.09 -0.71809" rot="89.0 18.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="2101081344" name="ammo_rack" pos="-0.00309 0.09 -0.54241" rot="89.0 42.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+											<vox id_="2117204224" name="ammo_rack" pos="-0.17345 0.09 -0.27426" rot="89.0 66.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+										</group>
+									</group>
+									<group id_="2092364544" name="ammo_stowage" prop0="tags=ammo_rack=0.1">
+										<vox id_="1113000320" name="ammo_rack" pos="0.58 0.7 -1.03" rot="0.0 346.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="392846752" name="ammo_rack" pos="0.59 1.0 -1.06" rot="0.0 346.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="212087440" name="ammo_rack" pos="-0.17 1.0 -1.19" rot="0.0 -348.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="454192192" name="ammo_rack" pos="-0.17 0.7 -1.16" rot="0.0 -348.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="1946406912" name="ammo_rack" pos="-0.17 0.89 -0.99" rot="0.0 -348.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+										<vox id_="1724488448" name="ammo_rack" pos="0.54 0.89 -0.87" rot="0.0 346.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+										<vox id_="2009128704" name="ammo_rack" pos="-0.83 0.9 -0.88" rot="0.0 -268.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="482112256" name="ammo_rack" pos="-0.83 0.62 -0.88" rot="0.0 -268.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="17761340" name="ammo_rack" pos="0.84 0.9 -0.37" rot="0.0 -89.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="594906560" name="ammo_rack" pos="0.84 0.62 -0.37" rot="0.0 -89.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="1558606720" name="ammo_rack" pos="0.84 0.9 1.25" rot="0.0 -89.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+										<vox id_="1867693440" name="ammo_rack" pos="0.8 0.3 1.5" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell"/>
+										<vox id_="2115369088" name="ammo_rack" pos="0.48 0.3 1.49" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell"/>
+										<vox id_="374823264" name="ammo_rack" pos="0.43 0.4 1.54" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+										<vox id_="933486208" name="ammo_rack" pos="0.75 0.4 1.54" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+										<vox id_="856148992" name="ammo_rack" pos="-0.5 0.9 1.55" rot="-90.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell"/>
+										<vox id_="17826880" name="ammo_rack" pos="-0.5 0.6 1.55" rot="-90.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell"/>
+										<vox id_="22283600" name="ammo_rack" pos="-0.55 0.65 1.45" rot="-90.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+										<vox id_="1038022528" name="ammo_rack" pos="-0.55 0.95 1.45" rot="-90.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_carosel"/>
+										<vox id_="1963578368" name="ammo_rack" pos="0.84 0.62 1.25" rot="0.0 -89.0 90.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ammo_shell_stowage"/>
+									</group>
+								</group>
+								<group id_="1826403200" name="engine_bay" pos="-0.0 0.0 0.1" prop0="tags=engine">
+									<vox id_="954000256" name="engine" pos="0.0 0.3 -1.9" file="MOD/avf/prefabs/t90/t90A.vox" object="engine"/>
+									<vox id_="1368934016" name="drive_train" pos="0.0 0.4 -2.9" file="MOD/avf/prefabs/t90/t90A.vox" object="drive_train"/>
+								</group>
+							</vox>
+							<vox id_="1857862400" open_="true" tags="RHA=250 component=turret turretGroup=mainTurret smokeLauncher=t90_smoke_turret group=smoke t90Turret_1 " pos="0.05 0.6 -0.15" rot="0.0 180 0" texture="7 0.4" density="1.2" strength="10" prop="true" file="MOD/avf/prefabs/t90/t90A.vox" object="t90turret">
+								<joint id_="1167726208" tags="component=turretJoint t90TurretMount_1" pos="0.0 0.0 -0.2" rot="90 0 0" type="hinge" size="0.15" rotstrength="0" rotspring="0" sound="true"/>
+								<vox id_="1256270720" open_="true" tags="mainCannon component=gun weaponType=customcannon group=primary t90Gun_1 coax=PKTM commander interact=mountedGun avf_barrel_coords_true" pos="-0.1 0.7 1.25" rot="0 0 0" texture="7 .5" density="0.3" strength="50" prop="true" file="MOD/avf/prefabs/t90/t90A.vox" object="2a46m_breech">
+									<joint id_="1066663488" name="gunJoint" tags="component=gunJoint" pos="0.3 0.2 -0.1" rot="0 90 0" type="hinge" size=".1" rotspring="0" limits="-14 5" sound="true"/>
+									<joint id_="760460608" name="gunJoint" pos="-0.2 0.2 -0.1" rot="0 90 0" type="hinge" size=".1" rotspring="0" limits="-14 5" sound="true"/>
+									<group id_="1507354496" open_="true" name="barrel_group" pos="-0.0 0.11 1.6" prop0="object=2a46m_barrel_allignment">
+										<group id_="1963381760" open_="true" pos="0.045 -0.14 2.11">
+											<group id_="447834816" open_="true" name="barrel_section" pos="-0.0 0.2 0.1" rot="0 0 40" prop0="object=2a46m_barrel">
+												<vox id_="3473620" tags="nocull" pos="0.0 0.1 0.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+												<vox id_="912382336" tags="nocull" pos="-0.01428 0.0566 0.0" rot="0.0 0.0 40.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+												<vox id_="1037825920" tags="nocull" pos="0.00268 0.01418 0.0" rot="0.0 0.0 80.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+												<vox id_="323570976" tags="nocull" pos="0.04293 -0.00741 0.0" rot="180.0 180.0 60.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+												<vox id_="465530624" tags="nocull" pos="0.08766 0.00192 0.0" rot="180.0 180.0 20.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+												<vox id_="331829024" tags="nocull" pos="0.11591 0.03781 0.0" rot="-180.0 -180.0 -20.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+												<vox id_="1754636928" tags="nocull" pos="0.11449 0.08347 0.0" rot="-180.0 -180.0 -60.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+												<vox id_="1382959488" tags="nocull" pos="0.08405 0.11754 0.0" rot="0.0 0.0 -80.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+												<vox id_="659332416" tags="nocull" pos="0.03883 0.12406 0.0" rot="0.0 0.0 -40.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											</group>
+										</group>
+										<group id_="682861248" name="wider_barrel_section" pos="0.0 -0.155 2.315" prop0="object=2a46barrel_wider_section">
+											<vox id_="732081792" tags="nocull" pos="0.05 0.3866 0.1" rot="0.0 0.0 -30.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="2818220" tags="nocull" pos="0.0991 0.37165 0.1" rot="0.0 0.0 -60.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="581929664" tags="nocull" pos="0.13415 0.33415 0.1" rot="0.0 0.0 -90.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="719760256" tags="nocull" pos="0.14575 0.28415 0.1" rot="180.0 180.0 -60.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="1617265024" tags="nocull" pos="0.1308 0.23505 0.1" rot="180.0 180.0 -30.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="1608023936" tags="nocull" pos="0.0933 0.2 0.1" rot="180.0 180.0 0.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="1557951360" tags="nocull" pos="0.0433 0.1884 0.1" rot="180.0 180.0 30.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="485585856" tags="nocull" pos="-0.0058 0.20335 0.1" rot="180.0 180.0 60.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="996797888" tags="nocull" pos="-0.04085 0.24085 0.1" rot="0.0 360.0 90.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="1780328576" tags="nocull" pos="-0.05245 0.29085 0.1" rot="0.0 0.0 60.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="1094386944" tags="nocull" pos="-0.0375 0.33995 0.1" rot="0.0 0.0 30.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+											<vox id_="1581873408" tags="nocull" pos="-0.0 0.375 0.1" rot="0.0 0.0 0.0" texture="7 .5" density="0.3" strength="50" prop="false" file="MOD/avf/prefabs/t90/t90A.vox"/>
+										</group>
+									</group>
+								</vox>
+								<group id_="451832768" open_="true" name="ERA" pos="0.0 0.7 1.4" prop0="tags=nocull component=ERA RHA=200">
+									<group id_="336613440" open_="true" name="kontakt-5" pos="-1.4 0.0 -0.2">
+										<group id_="264912688" open_="true" name="kontakt-5_side" pos="1.4 -0.7 -1.2">
+											<group id_="1495491712" name="kontakt-pair" pos="-1.3 0.8 1.4">
+												<vox id_="611684800" pos="0.08 0.24 0.07" rot="25.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_upper"/>
+												<vox id_="85136464" pos="0.09 0.03 0.05" rot="-15.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_lower"/>
+											</group>
+											<group id_="1638696576" open_="true" name="kontakt-pair" pos="-1.53 0.8 1.19">
+												<vox id_="200159168" pos="0.08 0.24 0.07" rot="25.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_upper"/>
+												<vox id_="1899021568" pos="0.09 0.03 0.05" rot="-15.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_lower"/>
+											</group>
+											<group id_="1497457920" name="kontakt-pair" pos="-1.76 0.8 0.98">
+												<vox id_="283984832" pos="0.08 0.24 0.07" rot="25.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_upper"/>
+												<vox id_="297354976" pos="0.09 0.03 0.05" rot="-15.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_lower"/>
+											</group>
+											<group id_="1270689536" open_="true" name="kontakt-pair" pos="-0.65357 0.8 2.09476" rot="0.0 33.0 0.0">
+												<vox id_="1150358144" pos="0.191 0.22 -0.156" rot="25.0 -32.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+												<vox id_="2037114240" pos="0.191 0.05 -0.156" rot="-25.0 -32.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+											</group>
+										</group>
+										<group id_="1066008128" open_="true" name="kontakt-5_side" pos="1.4 -0.7 -1.2" rot="0.0 96.0 0.0">
+											<group id_="842713344" name="kontakt-pair" pos="-1.36753 0.8 1.37279" rot="0.0 -11.0 0.0">
+												<vox id_="532250336" pos="0.08 0.24 0.07" rot="25.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_upper"/>
+												<vox id_="1228481792" pos="0.09 0.03 0.05" rot="-15.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_lower"/>
+											</group>
+											<group id_="1857403648" open_="true" name="kontakt-pair" pos="-1.55323 0.8 1.12276" rot="0.0 -11.0 0.0">
+												<vox id_="1887945216" pos="0.08 0.24 0.07" rot="25.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_upper"/>
+												<vox id_="1269575296" pos="0.09 0.03 0.05" rot="-15.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_lower"/>
+											</group>
+											<group id_="840878208" name="kontakt-pair" pos="-1.73893 0.8 0.87274" rot="0.0 -11.0 0.0">
+												<vox id_="169027664" pos="0.08 0.24 0.07" rot="25.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_upper"/>
+												<vox id_="1198857728" pos="0.09 0.03 0.05" rot="-15.0 -41.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="kontact-5_lower"/>
+											</group>
+											<group id_="708880640" open_="true" name="kontakt-pair" pos="-2.06357 0.8 0.13476" rot="0.0 -63.0 0.0">
+												<vox id_="183577536" pos="0.191 0.22 -0.15601" rot="25.0 -32.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick"/>
+												<vox id_="789691456" pos="0.191 0.05 -0.156" rot="-25.0 -32.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick"/>
+											</group>
+										</group>
+									</group>
+									<group id_="2135817472" name="ERA_bricks">
+										<vox id_="698263168" pos="-0.499 0.69 -0.886" rot="9.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick"/>
+										<vox id_="807977152" pos="-0.139 0.69 -0.886" rot="9.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+										<vox id_="725134592" pos="0.071 0.69 -0.886" rot="9.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+										<vox id_="1878114304" pos="0.491 0.69 -0.886" rot="9.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+										<vox id_="1392593920" pos="0.281 0.69 -0.886" rot="9.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+										<vox id_="1923402368" pos="0.231 0.76 -1.326" rot="9.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+										<vox id_="925883584" pos="0.001 0.76 -1.326" rot="9.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+										<vox id_="1720031744" pos="-0.229 0.76 -1.326" rot="9.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="ERA_brick_2"/>
+									</group>
+								</group>
+								<group id_="720350144" name="hatches">
+									<vox id_="58986000" name="commander_hatch" pos="-0.8 1.3 -0.2" prop="true" file="MOD/avf/prefabs/t90/t90A.vox" object="commmander_hatch">
+										<joint id_="283329408" pos="0.04 0.2 0.29" rot="0 -90 0" type="hinge" rotstrength="0.05" rotspring="0" collide="false" limits="-110 0"/>
+									</vox>
+									<vox id_="359355808" name="gunner_hatch" pos="0.8 1.3 -0.2" prop="true" file="MOD/avf/prefabs/t90/t90A.vox" object="gunner_hatch">
+										<joint id_="1148457472" pos="0.0 0.2 0.29" rot="0 -90 0" type="hinge" rotstrength="0.05" rotspring="0" collide="false" limits="-110 0"/>
+									</vox>
+									<vox id_="1446402304" name="spent_casing_hatch" pos="0.0 1.4 -0.8" prop="true" file="MOD/avf/prefabs/t90/t90A.vox" object="spent_casing_hatch">
+										<joint id_="857656448" tags="mainCannon_ejector_hatch" pos="0.2 0.11 0.02" rot="0  0" type="hinge" rotstrength="0.01" rotspring="0" collide="false" limits="-110 0"/>
+									</vox>
+								</group>
+								<group id_="34277420" name="projectors">
+									<group id_="323964224" name="projector" pos="-1.8 0.9 0.25" prop0="tags=nocull">
+										<vox id_="2053892480" pos="0.04 0.06 0.01" rot="0.0 -16.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_base"/>
+										<vox id_="187575488" pos="-0.03 0.28 0.08" rot="-45.0 -16.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_pipe"/>
+										<vox id_="1417957888" pos="-0.13 0.26 0.0" rot="-27.0 -17.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_pipe"/>
+										<vox id_="1579645056" pos="-0.14 0.09 -0.04" rot="-15.0 -38.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_pipe"/>
+										<vox id_="1479237760" pos="-0.03 0.1 0.01" rot="-5.0 -24.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_pipe"/>
+									</group>
+									<group id_="1935330688" name="projector" pos="1.7 0.9 0.21" prop0="tags=nocull">
+										<vox id_="1001713344" pos="0.01 0.06 0.04" rot="0.0 16.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_base"/>
+										<vox id_="1234183808" pos="-0.0449 0.28 0.10263" rot="-45.0 3.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_pipe"/>
+										<vox id_="1508665216" pos="0.09 0.26 0.09" rot="-27.0 16.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_pipe"/>
+										<vox id_="1862515712" pos="0.02 0.12 0.14" rot="-13.0 44.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_pipe"/>
+										<vox id_="1097598336" pos="0.12 0.1 0.07" rot="-13.0 45.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="smoke_projector_pipe"/>
+									</group>
+								</group>
+							</vox>
+							<wheel id_="1565226240" name="whrSprocketF" pos="0.8 0.45 -3.05" drive="1" steer="0.33" travel="-0.1 0">
+								<vox id_="71307520" pos="0.7 -0.3 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whrSprocketF"/>
+							</wheel>
+							<wheel id_="1819062656" name="whr1" pos="0.7 0.1 -2.3" drive="1" steer="0.66" travel="-0.1 0">
+								<vox id_="1290875904" pos="0.7 -0.375 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whr1"/>
+							</wheel>
+							<wheel id_="264453904" name="whr2" pos="0.7 0.1 -1.2" drive="1" steer="0.44" travel="-0.1 0">
+								<vox id_="1272459136" pos="0.7 -0.375 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whr2"/>
+							</wheel>
+							<wheel id_="887280512" name="whr3" pos="0.7 0.1 -0.2" drive="1" steer="0.33" travel="-0.1 0">
+								<vox id_="1629455488" pos="0.7 -0.375 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whr3"/>
+							</wheel>
+							<wheel id_="683713280" name="whr4" pos="0.7 0.1 0.8" drive="1" steer="-0.33" travel="-0.1 0">
+								<vox id_="629773888" pos="0.7 -0.375 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whr4"/>
+							</wheel>
+							<wheel id_="1243097216" name="whr5" pos="0.7 0.1 1.8" drive="1" steer="-0.33" travel="-0.1 0">
+								<vox id_="165619584" pos="0.7 -0.375 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whr5"/>
+							</wheel>
+							<wheel id_="127868544" name="whr6" pos="0.7 0.1 2.8" drive="1" steer="-0.33" travel="-0.1 0">
+								<vox id_="1187519232" pos="0.7 -0.375 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whr6"/>
+							</wheel>
+							<wheel id_="1359496192" name="whrSprocketR" pos="0.8 0.55 3.65" drive="1" steer="0.33" travel="-0.1 0">
+								<vox id_="1213014272" pos="0.7 -0.3 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whrSprocketR"/>
+							</wheel>
+							<wheel id_="417620896" name="whlSprocketF" pos="-0.8 0.45 -3.05" drive="1" steer="0.33" travel="-0.1 0">
+								<vox id_="1520134784" pos="-0.7 -0.3 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whlSprocketF"/>
+							</wheel>
+							<wheel id_="921492416" name="whl1" pos="-0.7 0.1 -2.3" drive="1" steer="0.66" travel="-0.1 0">
+								<vox id_="1237788416" pos="-.7 -0.375 0.025" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whl1"/>
+							</wheel>
+							<wheel id_="892916992" name="whl2" pos="-0.7 0.1 -1.2" drive="1" steer="0.44" travel="-0.1 0">
+								<vox id_="1955844736" pos="-0.7 -0.375 0.025" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whl2"/>
+							</wheel>
+							<wheel id_="677552512" name="whl3" pos="-0.7 0.1 -0.2" drive="1" steer="0.33" travel="-0.1 0">
+								<vox id_="311183936" pos="-0.7 -0.375 0.025" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whl3"/>
+							</wheel>
+							<wheel id_="1907607296" name="whl4" pos="-0.7 0.1 0.8" drive="1" steer="-0.33" travel="-0.1 0">
+								<vox id_="805355520" pos="-0.7 -0.375 0.025" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whl4"/>
+							</wheel>
+							<wheel id_="63442720" name="whl5" pos="-0.7 0.1 1.8" drive="1" steer="-0.33" travel="-0.1 0">
+								<vox id_="915200576" pos="-0.7 -0.375 0.025" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whl5"/>
+							</wheel>
+							<wheel id_="1163335040" name="whl6" pos="-0.7 0.1 2.8" drive="1" steer="-0.33" travel="-0.1 0">
+								<vox id_="1332034944" pos="-0.7 -0.375 0.025" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whl6"/>
+							</wheel>
+							<wheel id_="1256860544" name="whlSprocketR" pos="-0.8 0.55 3.65" drive="1" steer="0.33" travel="-0.1 0">
+								<vox id_="343560672" pos="-0.7 -0.3 0.025" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t90/t90A.vox" object="whlSprocketR"/>
+							</wheel>
+						</body>
+					</vehicle>
+				</group>
+				<location id_="668704640" name="mainCannon_emitter" tags="mainCannon_emitter flip_y_z" pos="6.395 2.06 0.261" rot="0.0 90.0 0.0"/>
+				<location id_="1881849984" name="mainCannon_coax_emitter" tags="mainCannon_coax_emitter" pos="0.78114 2.0 0.61192" rot="0.0 -90.0 0.0"/>
+				<location id_="1474060160" name="mainCannon_sight" tags="mainCannon_sight" pos="0.18073 2.6 -0.40491" rot="0.0 -90.0 0.0"/>
+				<location id_="543850944" name="mainCannon_shell_ejector" tags="mainCannon_shell_ejector" pos="-2.219 2.55 0.195" rot="130.0 -90.0 0.0"/>
+				<location id_="1384532480" name="mainCannon_shell_ejector_dir" tags="mainCannon_shell_ejector_dir" pos="-2.919 2.95 0.195" rot="130.0 -90.0 0.0"/>
+				<location id_="1389251328" name="cook_off" tags="cook_off" pos="-1.65 1.07 0.2" rot="0 90  0"/>
+			</script>
+		</script>
+	</group>
+</prefab>
+

@@ -1,0 +1,23 @@
+<prefab version="0.9.5">
+	<group id_="312625792" open_="true" pos="2.9 0.3 0.0">
+		<vox id_="1153897216" pos="-0.1 1.0 0.0" collide="true" prop="true" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="hedgehog metal">
+			<vox id_="844876160" pos="0.0 0.058 -1.0" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+			<vox id_="1353663104" pos="-0.03 0.028 -1.0" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+			<vox id_="1934806400" pos="0.0 0.058 1.1" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+			<vox id_="1398295936" pos="-0.03 0.028 1.1" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+			<vox id_="1015411200" open_="true" pos="0.1 0.1 0.1" rot="-90 0 -90" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="hedgehog metal">
+				<vox id_="1278029952" pos="0.0 0.058 -1.0" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+				<vox id_="1583511936" pos="-0.03 0.028 -1.0" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+				<vox id_="1782032640" pos="0.0 0.058 1.1" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+				<vox id_="763803136" pos="-0.03 0.028 1.1" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+			</vox>
+			<vox id_="960750848" open_="true" pos="0.0 0.1 0.1" rot="90 90 " file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="hedgehog metal">
+				<vox id_="1223369600" pos="0.0 0.058 -1.0" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+				<vox id_="987949952" pos="-0.03 0.028 -1.0" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+				<vox id_="1503618688" pos="0.0 0.058 1.1" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+				<vox id_="1496540416" pos="-0.03 0.028 1.1" rot="0 0 45" file="MOD/prop/Barricade/Czech Hedgehog Large.vox" object="detail"/>
+			</vox>
+		</vox>
+	</group>
+</prefab>
+

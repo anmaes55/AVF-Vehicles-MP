@@ -1,0 +1,1441 @@
+<scene version="1.3.0" shadowVolume="400 100 300 ">
+	<group name="showcase" pos="0.0 8.6 50.4" prop0="texture=6 0.66">
+		<group name="vehicles" pos="-15.9 0.0 -15.4">
+			<group name="land" pos="-145.60001 3.2 81.42">
+				<instance pos="-18.8 0.1 -70.0" rot="0.0 0.0 0.0" file="MOD/assets/vehicles/land/crane.xml"/>
+				<instance pos="0.3 0.1 2.7" rot="0.0 0.0 0.0" file="MOD/assets/vehicles/land/dumptruck.xml"/>
+				<instance pos="7.3 0.1 7.9" rot="0.0 30.0 0.0" file="MOD/assets/vehicles/land/excavator.xml"/>
+				<instance pos="-12.2 0.1 -182.20001" rot="0.0 -100.0 0.0" file="MOD/assets/vehicles/land/taskmaster-4wd.xml"/>
+				<instance pos="61.9 -2.1 -203.2" rot="0.0 -10.0 0.0" file="MOD/assets/vehicles/land/salooncar.xml"/>
+				<instance pos="111.9 -2.5 -187.10001" rot="0.0 0.0 0.0" file="MOD/assets/vehicles/land/stationwagon.xml"/>
+				<group name="instance=MOD/assets/vehicles/land/suv1.xml" pos="111.9 -2.5 -169.10001" rot="0.0 0.0 0.0">
+					<vehicle rot="0.0 0.0 0.0" driven="false" sound="suv3 0.9" spring="0.8" damping="2" topspeed="90" acceleration="4" strength="4" antispin="1" antiroll="0.1" steerassist="0.6">
+						<body pos="-0.05 0.5 -0.35" rot="0.0 0.0 0.0" dynamic="true">
+							<vox pos="0.05 -0.3 0.35" rot="0 180 0" strength="2" file="MOD/assets/vehicles/land/suv1.vox" object="body">
+								<light pos="0.8 0.85 -2.3" rot="180.0 0.0 180.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+								<light pos="0.75 0.75 -2.3" rot="180.0 0.0 180.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+								<light pos="-0.65 0.75 -2.3" rot="180.0 0.0 180.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+								<light pos="-0.7 0.85 -2.3" rot="180.0 0.0 180.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+								<light pos="0.8 0.55 2.1" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+								<light pos="-0.7 0.55 2.1" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+								<location tags="exhaust" pos="0.6 0.0 -2.4" rot="-180.0 360.0 -180.0"/>
+								<location tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+								<location tags="player" pos="0.35 1.25 -0.2" rot="0.0 0.0 0.0"/>
+							</vox>
+							<wheel name="bl" pos="-0.75 -0.15 1.7" drive="1" travel="-0.1 0.1">
+								<vox pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/assets/vehicles/land/suv1.vox" object="wheel_bl"/>
+							</wheel>
+							<wheel name="br" pos="0.75 -0.15 1.7" drive="1" travel="-0.1 0.1">
+								<vox pos="0.1 -0.35 -0.05" rot="0 180 0" file="MOD/assets/vehicles/land/suv1.vox" object="wheel_br"/>
+							</wheel>
+							<wheel name="fl" pos="-0.75 -0.15 -1.2" drive="1" steer="1" travel="-0.1 0.1">
+								<vox pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/assets/vehicles/land/suv1.vox" object="wheel_fl"/>
+							</wheel>
+							<wheel name="fr" pos="0.75 -0.15 -1.2" drive="1" steer="1" travel="-0.1 0.1">
+								<vox pos="0.1 -0.35 -0.05" rot="0 180 0" file="MOD/assets/vehicles/land/suv1.vox" object="wheel_fr"/>
+							</wheel>
+						</body>
+					</vehicle>
+				</group>
+				<instance pos="-7.4 0.1 -34.6" file="MOD/assets/vehicles/land/tractor.xml"/>
+				<instance pos="-9.0 0.1 -226.20001" rot="0.0 -80.0 0.0" file="MOD/assets/vehicles/land/tractor.xml"/>
+				<instance pos="-8.4 0.1 -222.90001" rot="0.0 -80.0 0.0" file="MOD/assets/vehicles/land/tractor.xml"/>
+				<instance pos="123.3 -2.4 -45.8" rot="0.0 0.0 0.0" file="MOD/assets/vehicles/land/van.xml"/>
+			</group>
+			<group name="sea" pos="189.89999 -6.1 -35.4" rot="0.0 80.0 0.0">
+				<instance pos="4.0 -1.4 5.1" rot="0.0 -90.0 0.0" file="MOD/assets/vehicles/sea/mediumboat.xml"/>
+				<instance pos="18.0 -1.7 4.9" rot="0.0 -90.0 0.0" file="MOD/assets/vehicles/sea/smallboat.xml"/>
+				<instance pos="32.0 -1.4 4.85" rot="0.0 -90.0 0.0" file="MOD/assets/vehicles/sea/speedboat.xml"/>
+				<instance pos="47.75 -1.4 5.0" rot="0.0 -90.0 0.0" file="MOD/assets/vehicles/sea/woodboat.xml"/>
+			</group>
+			<group name="targets" pos="81.9 -24.0 -42.2">
+				<group name="husks" pos="-19.7 23.2 -22.1">
+					<group pos="90.2 1.2 -75.9">
+						<group pos="1.1 1.4 3.8" rot="0.0 -70.0 0.0" prop0="texture=7 1.2">
+							<body tags="component=body" pos="-3.22743 -2.15923 -1.22691" rot="0.4 158.0 1.8" dynamic="true">
+								<vox tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" density="20" strength="10" file="LEVEL/t72.vox" object="body">
+									<location tags="exhaust" pos="2.2 	1.6 	-1.7" rot="0 60 0 "/>
+									<location tags="exhaust" pos="2.1 	1.6 	-1.8" rot="-20 60 0 "/>
+									<location tags="exhaust" pos="2.1  	1.6 	-1.5" rot="20 80 0 "/>
+									<location tags="exhaust" pos="2.2  	1.6 	-1.9" rot="-10 130 0 "/>
+									<location tags="exhaust" pos="2.2 1.6 -2.0" rot="10 160 0 "/>
+									<location tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+									<location tags="player" pos="-0.05 1.47 1.8" rot="0.0 0.0 0.0"/>
+								</vox>
+								<vox tags="component=turret turretGroup=mainTurret" pos="0.0 1.4 0.2" rot="0.0 -178.60001 0.0" density="1.2" strength="10" prop="true" file="LEVEL/t72.vox" object="altTurret">
+									<joint tags="component=turretJoint" pos="0.0  0 0" rot="90 0 0" type="hinge" size="0.5" rotstrength="14" rotspring="0" sound="true"/>
+									<vox tags="component=gun weaponType=M10HowitzerRL group=primary   interact=mountedGun" pos="-0.101 -0.236 3.727" rot="10.1 0.0 -0.1" density="1.2" strength="50" prop="true" file="LEVEL/t72.vox" object="altGun">
+										<joint tags="component=gunJoint" pos="0.0 0.2 -2.5" rot="0 90 0" type="hinge" size=".2" rotstrength=".5" rotspring="0" limits="-14 5" sound="true"/>
+									</vox>
+								</vox>
+								<wheel name="runner03" pos="1.1 0.6 -2.9" drive="1" steer="0.1" travel="-0.1 0">
+									<vox pos="0.45 -0.25 -0.05" rot="0.0 0 0.0" file="LEVEL/t72.vox" object="runner03"/>
+								</wheel>
+								<group name="wheels" pos="45.1 -0.4 -91.50001">
+									<wheel name="whr1" pos="-44.0 0.6 89.2" rot="0.0 0 0.0" drive="1" steer="0.66" travel="-0.1 0">
+										<vox pos="0.5 -0.5 -0.05" file="LEVEL/t72.vox" object="whr1"/>
+									</wheel>
+									<wheel name="whr2" pos="-44.0 0.67 90.15" rot="0.0 0 0.0" drive="1" steer="0.44" travel="-0.1 0.1">
+										<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr2"/>
+									</wheel>
+									<wheel name="whr3" pos="-44.0 0.67 91.2" drive="1" steer="0.33" travel="-0.1 0.1">
+										<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr3"/>
+									</wheel>
+									<wheel name="whr4" pos="-44.0 0.67 92.15" drive="1" steer="-0.33" travel="-0.1 0.1">
+										<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr4"/>
+									</wheel>
+									<wheel name="whr5" pos="-44.0 0.67 93.2" drive="1" steer="-0.33" travel="-0.1 0.1">
+										<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr5"/>
+									</wheel>
+									<wheel name="whr6" pos="-44.0 0.65 94.2" drive="1" steer="-0.66" travel="-0.1 0.1">
+										<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr6"/>
+									</wheel>
+									<wheel name="runner04" pos="-44.0 1.0 94.8" drive="1" steer="-0.1" travel="-0.1 0.1"/>
+									<wheel name="runner01" pos="-47.2 1.0 88.6" drive="1" steer="0.1" travel="-0.1 0">
+										<vox pos="0.5 -0.3 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="runner01"/>
+									</wheel>
+									<wheel name="whl1" pos="-47.2 0.6 89.2" drive="1" steer="0.66" travel="-0.1 0">
+										<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl1"/>
+									</wheel>
+									<wheel name="whl2" pos="-47.2 0.67 90.15" drive="1" steer="0.44" travel="-0.1 0.1">
+										<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl2"/>
+									</wheel>
+									<wheel name="whl3" pos="-47.2 0.67 91.2" drive="1" steer="0.33" travel="-0.1 0.1">
+										<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl3"/>
+									</wheel>
+									<wheel name="whl4" pos="-47.2 0.67 92.15" drive="1" steer="-0.33" travel="-0.1 0.1">
+										<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl4"/>
+									</wheel>
+									<wheel name="whl5" pos="-47.2 0.67 93.2" drive="1" steer="-0.33" travel="-0.1 0.1">
+										<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl5"/>
+									</wheel>
+									<wheel name="whl6" pos="-47.2 0.65 94.2" drive="1" steer="-0.66" travel="-0.1 0.1">
+										<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl6"/>
+									</wheel>
+									<wheel name="runner02" pos="-47.2 1.0 94.8" drive="1" steer="0.1" travel="-0.1 0">
+										<vox pos="0.5 -0.3 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="runner02"/>
+									</wheel>
+								</group>
+							</body>
+						</group>
+					</group>
+					<group pos="-45.30001 1.3 32.8" rot="0.0 100.0 0.0">
+						<instance pos="1.10001 2.1 3.69999" rot="0.0 -70.0 0.0" file="MOD/prefabs/targets/t72_target.xml"/>
+					</group>
+					<group pos="106.8 2.6 76.1" rot="0.0 -80.0 0.0">
+						<body tags="component=body" pos="0.45777 -0.11103 -0.77751" rot="-6.3 156.40001 -5.0" dynamic="true">
+							<vox tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" density="20" strength="10" file="LEVEL/t72.vox" object="body">
+								<location tags="exhaust" pos="2.2 	1.6 	-1.7" rot="0 60 0 "/>
+								<location tags="exhaust" pos="2.1 	1.6 	-1.8" rot="-20 60 0 "/>
+								<location tags="exhaust" pos="2.1  	1.6 	-1.5" rot="20 80 0 "/>
+								<location tags="exhaust" pos="2.2  	1.6 	-1.9" rot="-10 130 0 "/>
+								<location tags="exhaust" pos="2.2 1.6 -2.0" rot="10 160 0 "/>
+								<location tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+								<location tags="player" pos="-0.05 1.47 1.8" rot="0.0 0.0 0.0"/>
+							</vox>
+							<vox tags="component=turret turretGroup=mainTurret" pos="0.00009 1.39992 0.19998" rot="0.0 -174.8 -0.1" density="1.2" strength="10" prop="true" file="LEVEL/t72.vox" object="altTurret">
+								<joint tags="component=turretJoint" pos="0.0 0.0 0.0" rot="90 0 0" type="hinge" size="0.5" rotstrength="30" rotspring="0" sound="true"/>
+								<vox tags="component=gun weaponType=M10HowitzerRL group=primary   interact=mountedGun" pos="-0.10586 -0.11402 3.65298" rot="5.2 0.0 -0.2" density="1.2" strength="50" prop="true" file="LEVEL/t72.vox" object="altGun">
+									<joint tags="component=gunJoint" pos="0.0 0.2 -2.5" rot="0 90 0" type="hinge" size=".2" rotstrength="10" rotspring="0" limits="-14 5" sound="true"/>
+								</vox>
+							</vox>
+							<wheel name="runner03" pos="1.1 0.6 -2.9" drive="1" steer="0.1" travel="-0.1 0">
+								<vox pos="0.45 -0.25 -0.05" rot="0.0 0 0.0" file="LEVEL/t72.vox" object="runner03"/>
+							</wheel>
+							<group name="wheels" pos="45.1 -0.4 -91.50001">
+								<wheel name="whr1" pos="-44.0 0.6 89.2" rot="0.0 0 0.0" drive="1" steer="0.66" travel="-0.1 0">
+									<vox pos="0.5 -0.5 -0.05" file="LEVEL/t72.vox" object="whr1"/>
+								</wheel>
+								<wheel name="whr2" pos="-44.0 0.67 90.15" rot="0.0 0 0.0" drive="1" steer="0.44" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr2"/>
+								</wheel>
+								<wheel name="whr3" pos="-44.0 0.67 91.2" drive="1" steer="0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr3"/>
+								</wheel>
+								<wheel name="whr4" pos="-44.0 0.67 92.15" drive="1" steer="-0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr4"/>
+								</wheel>
+								<wheel name="whr5" pos="-44.0 0.67 93.2" drive="1" steer="-0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr5"/>
+								</wheel>
+								<wheel name="whr6" pos="-44.0 0.65 94.2" drive="1" steer="-0.66" travel="-0.1 0.1">
+									<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr6"/>
+								</wheel>
+								<wheel name="runner04" pos="-44.0 1.0 94.8" drive="1" steer="-0.1" travel="-0.1 0.1"/>
+								<wheel name="runner01" pos="-47.2 1.0 88.6" drive="1" steer="0.1" travel="-0.1 0">
+									<vox pos="0.5 -0.3 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="runner01"/>
+								</wheel>
+								<wheel name="whl1" pos="-47.2 0.6 89.2" drive="1" steer="0.66" travel="-0.1 0">
+									<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl1"/>
+								</wheel>
+								<wheel name="whl2" pos="-47.2 0.67 90.15" drive="1" steer="0.44" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl2"/>
+								</wheel>
+								<wheel name="whl3" pos="-47.2 0.67 91.2" drive="1" steer="0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl3"/>
+								</wheel>
+								<wheel name="whl4" pos="-47.2 0.67 92.15" drive="1" steer="-0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl4"/>
+								</wheel>
+								<wheel name="whl5" pos="-47.2 0.67 93.2" drive="1" steer="-0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl5"/>
+								</wheel>
+								<wheel name="whl6" pos="-47.2 0.65 94.2" drive="1" steer="-0.66" travel="-0.1 0.1">
+									<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl6"/>
+								</wheel>
+								<wheel name="runner02" pos="-47.2 1.0 94.8" drive="1" steer="0.1" travel="-0.1 0">
+									<vox pos="0.5 -0.3 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="runner02"/>
+								</wheel>
+							</group>
+						</body>
+					</group>
+					<group pos="19.7 -23.2 22.1">
+						<instance pos="-129.50002 26.7 -25.8" rot="0.0 -150.0 0.0" file="MOD/prefabs/targets/t72_target.xml"/>
+					</group>
+					<group name="t72_junk" pos="-194.0 3.8 155.10001">
+						<group pos="-21.2 -0.1 -9.9">
+							<instance pos="-0.00001 1.9 0.0" rot="0.0 110.0 0.0" file="MOD/target_tracks/t72_target.xml"/>
+						</group>
+						<group pos="0.1 0.0 -7.8">
+							<instance pos="-0.00001 1.9 0.1" rot="0.0 80.0 0.0" file="MOD/target_tracks/t72_target.xml"/>
+						</group>
+						<group pos="-0.1 1.0 7.7">
+							<instance pos="-0.00001 1.9 0.1" rot="0.0 80.0 -10.0" file="MOD/target_tracks/t72_target.xml"/>
+						</group>
+					</group>
+					<group pos="-111.80001 2.6 1.1" rot="0.0 -160.0 0.0">
+						<body tags="component=body" pos="0.58871 -1.41637 -0.91631" rot="1.6 156.39999 1.7" dynamic="true">
+							<vox tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" density="20" strength="10" file="LEVEL/t72.vox" object="body">
+								<location tags="exhaust" pos="2.2 	1.6 	-1.7" rot="0 60 0 "/>
+								<location tags="exhaust" pos="2.1 	1.6 	-1.8" rot="-20 60 0 "/>
+								<location tags="exhaust" pos="2.1  	1.6 	-1.5" rot="20 80 0 "/>
+								<location tags="exhaust" pos="2.2  	1.6 	-1.9" rot="-10 130 0 "/>
+								<location tags="exhaust" pos="2.2 1.6 -2.0" rot="10 160 0 "/>
+								<location tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+								<location tags="player" pos="-0.05 1.47 1.8" rot="0.0 0.0 0.0"/>
+							</vox>
+							<vox tags="component=turret turretGroup=mainTurret" pos="0.00032 1.39987 0.19989" rot="0.0 -175.39999 -0.1" density="1.2" strength="10" prop="true" file="LEVEL/t72.vox" object="altTurret">
+								<joint tags="component=turretJoint" pos="0.0 0.0 0.0" rot="90 0 0" type="hinge" size="0.5" rotstrength="30" rotspring="0" sound="true"/>
+								<vox tags="component=gun weaponType=M10HowitzerRL group=primary   interact=mountedGun" pos="-0.11037 -0.32487 3.60748" rot="10.1 0.0 -0.4" density="1.2" strength="50" prop="true" file="LEVEL/t72.vox" object="altGun">
+									<joint tags="component=gunJoint" pos="0.0 0.2 -2.5" rot="0 90 0" type="hinge" size=".2" rotstrength="10" rotspring="0" limits="-14 5" sound="true"/>
+								</vox>
+							</vox>
+							<wheel name="runner03" pos="1.1 0.6 -2.9" drive="1" steer="0.1" travel="-0.1 0">
+								<vox pos="0.45 -0.25 -0.05" rot="0.0 0 0.0" file="LEVEL/t72.vox" object="runner03"/>
+							</wheel>
+							<group name="wheels" pos="45.1 -0.4 -91.50001">
+								<wheel name="whr1" pos="-44.0 0.6 89.2" rot="0.0 0 0.0" drive="1" steer="0.66" travel="-0.1 0">
+									<vox pos="0.5 -0.5 -0.05" file="LEVEL/t72.vox" object="whr1"/>
+								</wheel>
+								<wheel name="whr2" pos="-44.0 0.67 90.15" rot="0.0 0 0.0" drive="1" steer="0.44" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr2"/>
+								</wheel>
+								<wheel name="whr3" pos="-44.0 0.67 91.2" drive="1" steer="0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr3"/>
+								</wheel>
+								<wheel name="whr4" pos="-44.0 0.67 92.15" drive="1" steer="-0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr4"/>
+								</wheel>
+								<wheel name="whr5" pos="-44.0 0.67 93.2" drive="1" steer="-0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr5"/>
+								</wheel>
+								<wheel name="whr6" pos="-44.0 0.65 94.2" drive="1" steer="-0.66" travel="-0.1 0.1">
+									<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr6"/>
+								</wheel>
+								<wheel name="runner04" pos="-44.0 1.0 94.8" drive="1" steer="-0.1" travel="-0.1 0.1"/>
+								<wheel name="runner01" pos="-47.2 1.0 88.6" drive="1" steer="0.1" travel="-0.1 0">
+									<vox pos="0.5 -0.3 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="runner01"/>
+								</wheel>
+								<wheel name="whl1" pos="-47.2 0.6 89.2" drive="1" steer="0.66" travel="-0.1 0">
+									<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl1"/>
+								</wheel>
+								<wheel name="whl2" pos="-47.2 0.67 90.15" drive="1" steer="0.44" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl2"/>
+								</wheel>
+								<wheel name="whl3" pos="-47.2 0.67 91.2" drive="1" steer="0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl3"/>
+								</wheel>
+								<wheel name="whl4" pos="-47.2 0.67 92.15" drive="1" steer="-0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl4"/>
+								</wheel>
+								<wheel name="whl5" pos="-47.2 0.67 93.2" drive="1" steer="-0.33" travel="-0.1 0.1">
+									<vox pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl5"/>
+								</wheel>
+								<wheel name="whl6" pos="-47.2 0.65 94.2" drive="1" steer="-0.66" travel="-0.1 0.1">
+									<vox pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl6"/>
+								</wheel>
+								<wheel name="runner02" pos="-47.2 1.0 94.8" drive="1" steer="0.1" travel="-0.1 0">
+									<vox pos="0.5 -0.3 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="runner02"/>
+								</wheel>
+							</group>
+						</body>
+					</group>
+				</group>
+			</group>
+		</group>
+	</group>
+	<group name="demo" pos="50.0 7.4 -100.0">
+		<group name="vehicles" pos="-80.5 -2.7 72.5">
+			<instance pos="-140.68002 7.1 21.3" rot="0.0 -90.0 0.0" file="MOD/assets/vehicles/land/van.xml"/>
+		</group>
+		<group name="base_area" pos="-209.7 4.2 34.7" rot="0.0 180.0 0.0" prop0="texture=6 0.66">
+			<group name="exterior">
+				<instance pos="20.7 0.2 2.4" rot="0.0 -88.0 0.0" file="MOD/assets/props/trashcan-big.xml"/>
+				<instance pos="12.5 0.2 -5.8" rot="0.0 -98.0 0.0" file="MOD/assets/props/container-red.xml"/>
+				<instance pos="16.00001 0.2 -162.10001" rot="0.0 -178.0 0.0" file="MOD/assets/props/container-red.xml"/>
+				<instance pos="16.0 0.2 -158.90001" rot="0.0 -178.0 0.0" file="MOD/assets/props/container-red.xml"/>
+				<instance pos="16.0 0.2 -152.60001" rot="0.0 -178.0 0.0" file="MOD/assets/props/container-red.xml"/>
+				<instance pos="16.00001 0.2 -155.8" rot="0.0 -178.0 0.0" file="MOD/assets/props/container-red.xml"/>
+				<instance pos="16.0 0.2 -146.10001" rot="0.0 -178.0 0.0" file="MOD/assets/props/container-red.xml"/>
+				<instance pos="16.00001 0.2 -149.3" rot="0.0 -178.0 0.0" file="MOD/assets/props/container-red.xml"/>
+			</group>
+			<group name="barricades">
+				<instance pos="19.79999 0.2 11.8" rot="0.0 -88.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="-9.0 0.2 30.6" rot="0.0 0.0 0.0" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="-6.9 0.2 30.6" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="-2.6 0.2 30.6" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="-4.7 0.2 30.6" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="-2.6 0.2 16.1" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="-4.7 0.2 16.1" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="-7.2 0.2 16.1" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="-9.3 0.2 16.1" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="1.5 0.2 19.8" rot="0.0 -60.0 0.0" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="0.45 0.2 17.98135" rot="0.0 -60.0 0.0" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="0.3 0.2 29.3" rot="0.0 -120.0 0.0" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+				<instance pos="1.35 0.2 27.48135" rot="0.0 -120.0 0.0" file="MOD/prop/Barricade/HescoBarrier.xml"/>
+			</group>
+			<group name="barricades" pos="-12.79998 0.0 -200.10001">
+				<instance pos="23.79999 0.0 23.6" rot="0.0 -88.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="29.59999 0.3 23.6" rot="0.0 -88.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="17.99999 0.0 23.6" rot="0.0 -88.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="1.39999 0.0 23.6" rot="0.0 -88.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="7.19999 0.0 23.6" rot="0.0 -88.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="-5.80001 0.0 16.5" rot="0.0 -148.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="-2.90001 0.0 21.52295" rot="0.0 -148.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="-7.80001 0.0 5.5" rot="0.0 -178.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="-7.80001 0.0 11.30001" rot="0.0 -178.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="-7.80001 1.1 -5.6" rot="0.0 -178.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="-7.80001 2.1 -10.7" rot="0.0 -178.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+				<instance pos="-7.80001 0.0 0.20001" rot="0.0 -178.0 0.0" file="MOD/prop/Barricade/Military Fence.xml"/>
+			</group>
+			<group name="turret_range">
+				<group name="back_wall">
+					<voxbox pos="-111.0 -2.4 36.69999" rot="0.0 90.0 0.0" size="112 54 8" brush="MOD/target_tracks/target_wooden.vox" object="back_wall_hard"/>
+					<voxbox pos="-107.6 -2.4 38.19999" rot="0.0 160.0 0.0" size="37 55 8" brush="MOD/target_tracks/target_wooden.vox" object="back_wall_hard"/>
+					<voxbox pos="-107.39999 -2.5 24.4" rot="0.0 -150.0 0.0" size="37 55 8" brush="MOD/target_tracks/target_wooden.vox" object="back_wall_hard"/>
+					<voxbox pos="-107.7 -1.7 59.79999" rot="0.0 90.0 0.0" size="227 50 8" brush="MOD/target_tracks/target_wooden.vox" object="back_wall_hard"/>
+				</group>
+				<group name="targets">
+					<vox pos="-97.10001 -2.2 54.19999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -2.9 51.89999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -2.9 49.49999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -2.9 44.39999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<group pos="-89.2 -3.3 28.3">
+						<vox pos="0.00001 0.0 -0.1" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_vehicle_profile"/>
+						<vox pos="-0.6 -0.3 0.4" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+						<vox pos="-0.6 -0.3 -0.9" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					</group>
+					<vox pos="-97.10001 -2.9 37.89999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -2.8 35.69999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -2.8 33.49999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -3.0 41.69999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -3.0 39.79999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -3.0 47.19999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -2.8 28.49999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+					<vox pos="-97.10001 -2.8 30.69999" rot="0.0 -90.0 0.0" file="MOD/target_tracks/target_wooden.vox" object="target_simple_human_profile"/>
+				</group>
+			</group>
+		</group>
+		<group name="environment" prop0="texture=7 0.5">
+			<group name="trees" pos="-38.8 -1.6 -51.2" rot="0.0 -90.0 0.0">
+				<vox pos="-3.4 5.3 7.2" rot="0.0 0.0 0.0" file="MOD/assets/nature/tree-large.vox"/>
+				<vox pos="11.7 0.6 -13.5" rot="0.0 50.0 0.0" file="MOD/assets/nature/tree-large.vox"/>
+				<vox pos="-10.2 4.1 -5.3" rot="0.0 -90.0 0.0" file="MOD/assets/nature/tree-large.vox"/>
+				<vox pos="-11.3 5.4 56.1" rot="0.0 -160.0 0.0" file="MOD/assets/nature/tree-large.vox"/>
+				<vox pos="3.7 3.3 7.3" rot="0.0 80.0 0.0" file="MOD/assets/nature/tree-medium.vox"/>
+				<vox pos="-1.5 4.8 58.6" rot="0.0 110.0 0.0" file="MOD/assets/nature/tree-medium.vox"/>
+				<vox pos="15.7 1.2 -4.1" rot="0.0 -10.0 0.0" file="MOD/assets/nature/tree-medium.vox"/>
+				<vox pos="-10.9 5.5 46.7" rot="0.0 80.0 0.0" file="MOD/assets/nature/tree-medium.vox"/>
+				<vox pos="-1.4 5.0 18.2" rot="0.0 0.0 0.0" file="MOD/assets/nature/tree-medium.vox"/>
+				<vox pos="-24.5 1.4 -15.8" rot="0.0 50.0 0.0" file="MOD/assets/nature/tree-medium.vox"/>
+				<vox pos="-5.5 5.0 41.1" rot="0.0 0.0 0.0" file="MOD/assets/nature/tree-medium.vox"/>
+				<vox pos="-0.1 4.9 1.2" rot="0.0 0.0 0.0" file="MOD/assets/nature/tree-small.vox"/>
+				<vox pos="8.6 0.0 -18.8" rot="0.0 40.0 0.0" file="MOD/assets/nature/tree-small.vox"/>
+				<vox pos="15.2 1.3 5.3" rot="0.0 -70.0 0.0" file="MOD/assets/nature/tree-small.vox"/>
+				<vox pos="20.7 0.3 0.2" rot="0.0 -70.0 0.0" file="MOD/assets/nature/tree-small.vox"/>
+				<vox pos="23.8 0.3 16.8" rot="0.0 -70.0 0.0" file="MOD/assets/nature/tree-small.vox"/>
+				<vox pos="-3.7 4.5 49.7" rot="0.0 -140.0 0.0" file="MOD/assets/nature/tree-small.vox"/>
+				<vox pos="3.4 3.8 14.2" rot="0.0 -90.0 0.0" file="MOD/assets/nature/tree-small.vox"/>
+				<vox pos="-3.4 4.4 -4.2" rot="0.0 40.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="6.1 4.3 24.0" rot="0.0 40.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="4.0 0.8 -16.5" rot="0.0 -20.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="0.4 4.5 11.6" rot="0.0 0.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="14.8 1.2 1.0" rot="0.0 40.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="-4.9 4.9 53.8" rot="0.0 60.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="-14.4 5.1 50.4" rot="0.0 70.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="17.8 0.7 10.7" rot="0.0 40.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="19.3 0.1 5.9" rot="0.0 40.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="20.0 -0.3 -5.7" rot="0.0 40.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+				<vox pos="-18.0 4.7 60.4" rot="0.0 90.0 0.0" file="MOD/assets/nature/tree-small-variant.vox"/>
+			</group>
+			<group name="bushes" pos="-62.3 0.9 61.2" rot="0.0 0.0 0.0">
+				<group pos="9.9 0.9 22.3">
+					<vox pos="-1.49575 0.00192 -8.11715" rot="0.0 48.4 -0.1" file="MOD/assets/nature/bushes.vox" object="large"/>
+					<vox pos="2.63038 -0.03348 -5.01035" rot="2.6 92.1 -0.3" file="MOD/assets/nature/bushes.vox" object="medium"/>
+					<vox pos="7.18335 -0.2 -2.54717" rot="0.0 -102.1 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="8.1666 -0.20002 0.44502" rot="0.0 51.0 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="7.90038 -0.10176 4.89186" rot="3.5 124.7 -0.7" file="MOD/assets/nature/bushes.vox" object="medium"/>
+					<vox pos="8.41035 -0.1 10.70204" rot="0.0 40.1 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="3.97674 0.00002 8.08063" rot="0.0 179.5 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="0.89267 0.0 3.40273" rot="0.0 158.60001 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="-3.61064 1.49999 6.35892" rot="-180.0 39.8 0.0" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="-10.33113 -0.41166 -4.84535" rot="4.6 -60.3 0.7" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="-6.21365 -0.14833 -5.85281" rot="4.1 -100.0 -0.7" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="-13.56885 0.45713 2.28272" rot="154.89999 156.10001 19.9" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="-7.71515 -0.3563 4.35229" rot="5.1 -98.6 -1.0" file="MOD/assets/nature/bushes.vox" object="large"/>
+					<vox pos="-3.4534 -0.1097 10.00242" rot="-5.6 144.10001 -3.8" file="MOD/assets/nature/bushes.vox" object="medium"/>
+				</group>
+				<group pos="88.3 0.7 0.4">
+					<vox pos="-1.4172 -0.51156 -11.9988" rot="0.8 -32.0 0.4" file="MOD/assets/nature/bushes.vox" object="large"/>
+					<vox pos="5.41959 -0.59919 -8.6156" rot="0.0 -72.4 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="7.10943 -0.60841 -5.45481" rot="3.3 101.3 0.5" file="MOD/assets/nature/bushes.vox" object="medium"/>
+					<vox pos="4.05471 -0.53364 -3.66772" rot="13.4 -65.3 -6.1" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="7.83675 -0.59742 -1.47819" rot="0.1 -131.8 -0.1" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="0.26009 -0.57952 2.12834" rot="3.4 -72.0 0.7" file="MOD/assets/nature/bushes.vox" object="large"/>
+					<vox pos="-1.56537 -0.6 -6.52314" rot="0.0 133.60001 0.0" file="MOD/assets/nature/bushes.vox" object="medium"/>
+					<vox pos="-2.82856 -0.60242 -1.83569" rot="-1.0 113.7 3.9" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="-6.53514 -0.76533 -6.54793" rot="12.1 164.60001 3.3" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="-7.79682 -0.64195 -11.14244" rot="-1.8 99.8 0.0" file="MOD/assets/nature/bushes.vox" object="medium"/>
+					<vox pos="-7.25833 -0.59978 -16.48294" rot="0.0 137.7 0.0" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="1.80634 -0.60784 8.80593" rot="-4.3 -163.0 -3.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="5.59517 -0.59845 11.41125" rot="0.0 129.10001 -0.1" file="MOD/assets/nature/bushes.vox" object="medium"/>
+					<vox pos="10.53753 -0.60001 12.47079" rot="0.0 -48.0 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="8.71987 -0.60401 15.86966" rot="-1.0 22.0 2.9" file="MOD/assets/nature/bushes.vox" object="medium"/>
+					<vox pos="8.93929 -0.59917 6.35345" rot="0.0 132.8 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+				</group>
+				<group pos="-14.8 0.3 100.4">
+					<vox pos="21.4 0.5 12.3" rot="0.0 99.0 0.0" file="MOD/assets/nature/bushes.vox" object="large"/>
+					<vox pos="9.58105 0.02727 -12.5853" rot="-1.9 -33.4 -2.4" file="MOD/assets/nature/bushes.vox" object="large"/>
+					<vox pos="17.1509 -0.05708 7.12698" rot="-0.4 100.4 -1.5" file="MOD/assets/nature/bushes.vox" object="medium"/>
+					<vox pos="7.36056 0.08136 -24.30386" rot="-2.9 -114.6 2.4" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="12.10723 -0.11191 -16.87311" rot="-0.1 -179.40001 4.4" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="11.01235 -0.01443 -6.54333" rot="1.7 166.2 4.1" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="4.62091 0.20482 -19.8517" rot="0.0 -132.10001 0.0" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="17.64132 -0.2 2.89846" rot="0.0 -88.6 0.0" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="20.94703 -0.01449 2.52591" rot="3.0 -157.10001 -4.7" file="MOD/assets/nature/bushes.vox" object="small-2"/>
+					<vox pos="15.995 -0.27291 -1.65524" rot="3.1 170.8 3.1" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="14.59297 -0.00002 10.45126" rot="0.0 117.5 0.0" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="23.25591 0.30282 18.65578" rot="-4.7 111.4 -2.3" file="MOD/assets/nature/bushes.vox" object="small-1"/>
+					<vox pos="18.02848 -0.23659 -7.00968" rot="-2.1 98.7 -0.2" file="MOD/assets/nature/bushes.vox" object="medium"/>
+				</group>
+			</group>
+		</group>
+		<group name="dock" pos="-195.79999 3.1 35.00001" rot="0.0 180.0 0.0" prop0="texture=8 0.5">
+			<group name="crates" pos="30.5 1.3 43.4" rot="0.0 90.0 0.0" prop0="texture=9 0.5">
+				<vox pos="-0.14503 0.00028 0.01189" rot="0.0 6.5 0.0" prop="true" file="MOD/assets/props/crates.vox" object="medium"/>
+				<vox pos="1.71338 0.00097 -0.29118" rot="-0.1 14.9 0.0" prop="true" file="MOD/assets/props/crates.vox" object="large"/>
+				<vox pos="1.12611 0.89996 2.11445" rot="90.0 90.5 0.0" prop="true" file="MOD/assets/props/crates.vox" object="large"/>
+				<vox pos="-0.32075 0.00019 1.26818" rot="0.0 3.9 0.0" prop="true" file="MOD/assets/props/crates.vox" object="medium"/>
+				<vox pos="-0.13738 1.00019 0.58458" rot="0.0 0.4 0.0" prop="true" file="MOD/assets/props/crates.vox" object="medium"/>
+				<vox pos="0.24367 1.00135 1.8534" rot="-0.1 -0.8 -0.5" prop="true" file="MOD/assets/props/crates.vox" object="medium"/>
+				<vox pos="-0.14661 2.50383 1.35073" rot="0.0 7.6 -90.0" prop="true" file="MOD/assets/props/crates.vox" object="small"/>
+				<vox pos="1.84309 1.73069 2.26076" rot="0.0 -0.7 3.9" prop="true" file="MOD/assets/props/crates.vox" object="small"/>
+				<vox pos="-0.12411 0.00005 2.56481" rot="0.0 0.1 0.0" prop="true" file="MOD/assets/props/crates.vox" object="medium"/>
+			</group>
+			<group name="barrels" pos="29.10004 1.3 12.3" rot="0.0 90.0 0.0" prop0="texture=9 0.5">
+				<vox pos="-0.15 0.0 0.01" rot="0.0 6.5 0.0" prop="true" file="MOD/assets/props/barrels.vox" object="barrel_blue"/>
+				<vox pos="1.15 0.0 0.01" rot="0.0 86.5 0.0" prop="true" file="MOD/assets/props/barrels.vox" object="barrel_green"/>
+				<vox pos="0.45 0.0 -1.09" rot="0.0 46.5 0.0" prop="true" file="MOD/assets/props/barrels.vox" object="barrel_brown"/>
+				<vox pos="0.45 1.3 -0.39" rot="0.0 -43.5 0.0" prop="true" file="MOD/assets/props/barrels.vox" object="barrel_yellow"/>
+			</group>
+			<vox pos="35.10001 1.3 42.5" rot="0.0 120.0 0.0" prop="true" file="MOD/assets/props/pallettruck.vox"/>
+			<vox pos="32.6 1.2 2.6" rot="0.0 -24.0 0.0" prop="true" file="MOD/assets/props/plasticcan.vox"/>
+			<vox tags="explosive=3" pos="28.3 1.2 -18.0" rot="0.0 -90.0 0.0" prop="true" file="MOD/assets/props/propane_huge.vox"/>
+		</group>
+		<group name="structures">
+			<vox pos="-223.39999 4.1 115.8" file="MOD/assets/structures/garage.vox"/>
+			<vox pos="-223.39999 4.1 73.2" file="MOD/assets/structures/garage.vox"/>
+			<vox pos="-229.89999 4.2 39.89999" file="MOD/assets/structures/cabin_blue.vox"/>
+			<vox pos="-227.29999 4.2 27.7" rot="0.0 -90.0 0.0" file="MOD/assets/structures/cabin.vox"/>
+			<instance pos="-225.7 3.8 1.8" rot="0.0 -90.0 0.0" file="MOD/assets/structures/prefab/base_01_Story01.xml"/>
+			<group name="instance=MOD/assets/structures/prefab/base_02_Story01.xml" pos="-225.09999 3.8 -20.3" rot="0.0 0.0 0.0">
+				<group name="first floor" pos="-6.288 0.7 -5.709">
+					<compound name="unbreakableFoundation" pos="0.0 -0.6 0.0">
+						<voxbox name="hole" pos="1.1 0.0 -0.0" rot="0.0 0.0 0.0" size="116 14 115" brush="MOD/assets/vox/hole.vox"/>
+						<voxbox name="concreteFloor" pos="1.1 0.6 0.0" rot="0.0 0.0 0.0" size="116 2 115" brush="MOD/assets/brush/fundaments.vox" object="concrete_medium"/>
+						<voxbox name="rockFoundationFloor" pos="1.1 -0.1 0.0" rot="0.0 0.0 0.0" size="116 7 115" brush="MOD/assets/brush/fundaments.vox" object="rock_light">
+							<voxbox name="woodenFloor" pos="0.4 0.9 0.4" rot="0.0 0.0 0.0" size="107 1 106" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+						</voxbox>
+						<voxbox pos="3.7 0.4 0.0" rot="0.0 180.0 0.0" size="16 2 10" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+							<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="16 2 7" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+								<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="16 2 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+							</voxbox>
+						</voxbox>
+						<voxbox pos="10.4 0.4 11.5" rot="0.0 0.0 0.0" size="16 2 10" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+							<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="16 2 7" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+								<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="16 2 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+							</voxbox>
+						</voxbox>
+						<voxbox name="skirting" pos="3.5 0.9 0.5" rot="0.0 0.0 0.0" size="19 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="5.9 0.9 0.5" rot="0.0 0.0 0.0" size="63 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="5.9 0.9 6.6" rot="0.0 0.0 0.0" size="63 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="12.1 0.9 6.6" rot="0.0 90.0 0.0" size="61 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="12.1 0.9 11.0" rot="0.0 90.0 0.0" size="38 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="12.1 0.9 11.0" rot="0.0 -180.0 0.0" size="3 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="11.8 0.9 11.0" rot="0.0 -180.0 0.0" size="12 1 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="10.6 0.9 11.0" rot="0.0 -180.0 0.0" size="90 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="1.7 0.9 0.6" rot="0.0 -90.0 0.0" size="104 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="5.4 0.9 0.6" rot="0.0 -90.0 0.0" size="35 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="5.4 0.9 5.3" rot="0.0 -90.0 0.0" size="20 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="5.4 0.9 7.2" rot="0.0 0.0 0.0" size="67 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="5.4 0.9 5.3" rot="0.0 0.0 0.0" size="20 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="5.4 0.9 4.1" rot="0.0 -90.0 0.0" size="12 1 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="6.0 0.9 0.5" rot="0.0 -90.0 0.0" size="36 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="6.0 0.9 5.3" rot="0.0 -90.0 0.0" size="14 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="6.0 0.9 4.1" rot="0.0 -90.0 0.0" size="12 1 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="1.6 0.9 0.5" rot="0.0 0.0 0.0" size="7 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+						<voxbox name="skirting" pos="2.3 0.9 0.5" rot="0.0 0.0 0.0" size="12 1 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+					</compound>
+					<compound name="wallPlastered" pos="0.0 0.2 0.0">
+						<voxbox name="brick" pos="1.1 0.0 0.0" rot="0.0 0.0 0.0" size="115 39 5" brush="MOD/assets/vox/brick.vox"/>
+						<voxbox name="plaster" pos="12.2 0.1 0.5" rot="0.0 180.0 0.0" size="106 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+						<voxbox name="plaster" pos="0.9 0.0 0.5" rot="0.0 90.0 0.0" size="5 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="blue_base"/>
+						<voxbox name="plaster" pos="1.1 0.0 -0.2" rot="0.0 0.0 0.0" size="116 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="blue_base">
+							<vox pos="8.3 1.3 0.5" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+						</voxbox>
+					</compound>
+					<compound name="wallPlastered" pos="1.1 0.2 12.7" rot="0.0 90.0 0.0">
+						<voxbox name="brick" pos="1.3 0.0 0.0" rot="0.0 0.0 0.0" size="113 39 5" brush="MOD/assets/vox/brick.vox"/>
+						<voxbox name="plaster" pos="1.2 0.0 -0.2" rot="0.0 0.0 0.0" size="115 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="blue_base"/>
+						<voxbox name="plaster" pos="12.2 0.1 0.5" rot="0.0 180.0 0.0" size="105 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+						<voxbox name="plaster" pos="12.9 0.0 0.0" rot="0.0 -90.0 0.0" size="5 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="blue_base"/>
+						<vox pos="10.2 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+						<vox pos="3.5 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+					</compound>
+					<compound name="wallPlastered" pos="13.8 0.2 11.5" rot="0.0 180.0 0.0">
+						<voxbox name="brick" pos="1.2 0.0 0.0" rot="0.0 0.0 0.0" size="114 39 5" brush="MOD/assets/vox/brick.vox"/>
+						<voxbox name="plaster" pos="1.1 0.0 -0.2" rot="0.0 0.0 0.0" size="116 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="blue_base"/>
+						<voxbox name="plaster" pos="12.2 0.1 0.5" rot="0.0 180.0 0.0" size="106 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+						<vox pos="10.2 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+					</compound>
+					<compound name="wallPlastered" pos="12.7 0.2 -1.1" rot="0.0 -90.0 0.0">
+						<voxbox name="brick" pos="1.2 0.0 0.0" rot="0.0 0.0 0.0" size="113 39 5" brush="MOD/assets/vox/brick.vox"/>
+						<voxbox name="plaster" pos="1.1 0.0 -0.2" rot="0.0 0.0 0.0" size="115 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="blue_base"/>
+						<voxbox name="plaster" pos="12.1 0.1 0.5" rot="0.0 -180.0 0.0" size="105 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+						<vox pos="4.3 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+						<vox pos="10.2 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+					</compound>
+					<compound name="wallPlastered" pos="5.9 0.2 0.3" rot="0.0 -90.0 0.0">
+						<voxbox name="brick" pos="0.1 -0.0 -0.0" rot="0.0 0.0 0.0" size="63 39 5" brush="MOD/assets/vox/brick.vox"/>
+						<voxbox name="plaster" pos="6.9 0.1 0.5" rot="0.0 180.0 0.0" size="68 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+						<voxbox name="plaster" pos="6.4 0.0 0.1" rot="0.0 180.0 0.0" size="63 39 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+					</compound>
+					<compound name="wallPlastered" pos="6.5 0.2 6.7" rot="0.0 0.0 0.0">
+						<voxbox name="brick" pos="-1.0 0.0 0.0" rot="0.0 0.0 0.0" size="69 39 5" brush="MOD/assets/vox/brick.vox"/>
+						<voxbox name="plaster" pos="5.8 0.1 0.5" rot="0.0 -180.0 0.0" size="69 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+						<voxbox name="plaster" pos="5.8 0.0 0.1" rot="0.0 180.0 0.0" size="64 39 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+					</compound>
+					<group name="Doors and Windows">
+						<instance pos="2.9 0.3 0.3" rot="0.0 180.0 0.0" file="MOD/assets/structures/prefab/woodDoor.xml"/>
+						<instance pos="5.7 0.3 4.7" rot="0.0 -90.0 0.0" file="MOD/assets/structures/prefab/woodDoor.xml"/>
+						<instance pos="11.2 0.3 11.2" rot="0.0 0.0 0.0" file="MOD/assets/structures/prefab/woodDoor.xml"/>
+					</group>
+					<compound name="awningWood" pos="9.2 0.0 -1.3">
+						<voxbox name="awningWood" pos="-7.20055 2.67907 0.2" rot="0.0 0.0 -3.0" size="19 1 12" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+					</compound>
+					<group name="stairPoles"/>
+					<compound name="fireplace" pos="6.9 0.3 7.7" rot="0.0 180.0 0.0">
+						<voxbox pos="-0.3 0.0 0.0" rot="0.0 0.0 0.0" size="13 1 5" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+						<voxbox pos="-0.2 0.1 0.1" rot="0.0 0.0 0.0" size="11 3 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+						<voxbox pos="0.0 0.4 0.4" rot="0.0 0.0 0.0" size="7 10 1" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+						<voxbox pos="0.0 0.6 0.2" rot="90.0 0.0 0.0" size="7 2 2" brush="MOD/assets/brush/fundaments.vox" object="log_6x6_rounded"/>
+						<voxbox pos="0.7 0.4 0.1" rot="0.0 0.0 0.0" size="2 10 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+						<voxbox pos="0.7 0.4 0.0" rot="0.0 0.0 0.0" size="1 10 2" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+						<voxbox pos="0.0 0.4 0.0" rot="0.0 0.0 0.0" size="7 1 2" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+						<voxbox pos="0.0 0.5 0.0" rot="0.0 0.0 0.0" size="7 1 1" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+						<voxbox pos="0.0 1.2 0.0" rot="0.0 0.0 0.0" size="7 1 1" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+						<voxbox pos="0.0 1.3 0.0" rot="0.0 0.0 0.0" size="7 1 2" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+						<voxbox pos="-0.1 0.4 -0.0" rot="0.0 0.0 0.0" size="1 10 2" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+						<voxbox pos="-0.2 1.4 0.1" rot="0.0 0.0 0.0" size="11 2 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+						<voxbox pos="-0.2 0.4 0.1" rot="0.0 0.0 0.0" size="2 10 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+						<voxagon name="fireplaceVoxagon" pos="0.0 1.6 0.1" rot="90 0 90" brush="MOD/assets/brush/fundaments.vox" object="concrete_light" extrude="4">
+							<vertex pos="0.0 0.0"/>
+							<vertex pos="0.9 0.1"/>
+							<vertex pos="0.0 0.0"/>
+							<vertex pos="0.9 0.1"/>
+							<vertex pos="0.9 0.6"/>
+							<vertex pos="0.0 0.7"/>
+						</voxagon>
+						<voxagon name="fireplaceVoxagon" pos="0.0 2.5 0.2" rot="90 0 90" brush="MOD/assets/brush/fundaments.vox" object="concrete_light" extrude="3">
+							<vertex pos="0.0 0.1"/>
+							<vertex pos="1.1 0.1"/>
+							<vertex pos="0.0 0.1"/>
+							<vertex pos="1.3 0.2"/>
+							<vertex pos="1.3 0.5"/>
+							<vertex pos="0.0 0.6"/>
+						</voxagon>
+					</compound>
+					<group name="props"/>
+				</group>
+				<group name="roof" pos="-23.78801 4.9 -5.70885">
+					<compound name="Floor">
+						<voxbox pos="26.8 -0.4 11.5" rot="0.0 90.0 0.0" size="118 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="24.7 -0.4 11.5" rot="0.0 90.0 0.0" size="118 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="22.7 -0.4 11.9" rot="0.0 90.0 0.0" size="122 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="21.4 -0.4 11.0" rot="0.0 90.0 0.0" size="113 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="20.4 -0.4 12.0" rot="0.0 90.0 0.0" size="123 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="19.5 -0.4 11.2" rot="0.0 90.0 0.0" size="78 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="19.1 -0.2 7.1" rot="0.0 0.0 0.0" size="106 1 39" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+						<voxbox pos="23.4 -0.2 0.5" rot="0.0 0.0 0.0" size="63 1 62" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+						<voxbox pos="19.1 -0.2 0.5" rot="0.0 0.0 0.0" size="38 1 66" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+						<voxbox name="roof" pos="23.4 -0.1 0.4" rot="0.0 0.0 0.0" size="64 2 30" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="27.5 -0.1 3.4" rot="0.0 0.0 0.0" size="23 2 78" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="19.1 -0.1 11.0" rot="0.0 90.0 0.0" size="47 2 17" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="20.8 -0.1 7.8" rot="0.0 0.0 0.0" size="27 2 33" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="20.8 -0.1 7.8" rot="0.0 90.0 0.0" size="15 2 27" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="23.4 -0.1 11.0" rot="0.0 90.0 0.0" size="16 2 27" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="22.8 -0.1 4.8" rot="0.0 0.0 0.0" size="18 2 15" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="23.4 -0.1 9.4" rot="0.0 90.0 0.0" size="30 2 27" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxagon pos="21.0 -0.1 4.9" rot="0.0 -50.0 0.0" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor" extrude="2">
+							<vertex pos="1.1 -1.4"/>
+							<vertex pos="2.3 -0.4"/>
+							<vertex pos="-0.2 2.4"/>
+							<vertex pos="-1.4 1.4"/>
+						</voxagon>
+						<voxagon pos="25.8 -0.1 4.9" rot="0.0 -50.0 0.0" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor" extrude="2">
+							<vertex pos="0.0 -2.4"/>
+							<vertex pos="0.1 -0.7"/>
+							<vertex pos="0.4 1.9"/>
+							<vertex pos="-1.0 0.8"/>
+							<vertex pos="-1.6 1.8"/>
+							<vertex pos="-2.7 0.8"/>
+						</voxagon>
+						<voxagon pos="25.8 -0.1 4.9" rot="0.0 0.0 0.0" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor" extrude="2">
+							<vertex pos="-0.3 1.5"/>
+							<vertex pos="-1.3 1.6"/>
+							<vertex pos="-0.5 0.7"/>
+							<vertex pos="1.7 -1.5"/>
+							<vertex pos="1.8 0.6"/>
+							<vertex pos="1.8 1.2"/>
+							<vertex pos="2.0 1.2"/>
+							<vertex pos="1.9 6.2"/>
+							<vertex pos="0.3 6.2"/>
+							<vertex pos="0.3 2.1"/>
+							<vertex pos="1.2 2.0"/>
+							<vertex pos="1.2 0.7"/>
+							<vertex pos="-0.1 0.6"/>
+						</voxagon>
+					</compound>
+					<compound name="wallPlastered" pos="22.9 -0.1 6.7" rot="0.0 90.0 0.0">
+						<voxbox name="brick" pos="2.0 0.0 0.2" rot="0.0 0.0 0.0" size="43 12 3" brush="MOD/assets/vox/brick.vox">
+							<voxbox name="plaster" pos="4.2 0.1 0.6" rot="0.0 180.0 0.0" size="43 12 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="0.1 1.0 -0.2" rot="0.0 0.0 0.0" size="40 2 3" brush="MOD/assets/structures/plaster_cracked_concrete_3.vox"/>
+						</voxbox>
+						<voxbox name="plaster" pos="6.3 1.5 0.5" rot="90.0 -180.0 0.0" size="44 3 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					</compound>
+					<compound name="wallPlastered" pos="25.4 0.6 0.6" rot="0.0 180.0 0.0">
+						<voxbox name="brick" pos="2.0 0.0 0.2" rot="0.0 0.0 0.0" size="46 5 3" brush="MOD/assets/vox/brick.vox">
+							<voxbox name="plaster" pos="4.8 0.1 0.6" rot="0.0 -180.0 0.0" size="49 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="-0.3 0.1 0.4" rot="0.0 90.0 0.0" size="5 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="0.1 0.3 -0.2" rot="0.0 0.0 0.0" size="42 2 3" brush="MOD/assets/structures/plaster_cracked_concrete_3.vox"/>
+						</voxbox>
+						<voxbox name="plaster" pos="6.8 0.8 0.5" rot="90.0 180.0 0.0" size="49 3 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					</compound>
+					<compound name="wallPlastered" pos="19.2 0.6 -1.8" rot="0.0 -90.0 0.0">
+						<voxbox name="brick" pos="2.0 0.0 0.2" rot="0.0 0.0 0.0" size="45 5 3" brush="MOD/assets/vox/brick.vox">
+							<voxbox name="plaster" pos="4.6 0.1 0.6" rot="0.0 180.0 0.0" size="47 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="4.8 0.1 -0.1" rot="0.0 -90.0 0.0" size="5 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="0.1 0.3 -0.2" rot="0.0 0.0 0.0" size="42 2 3" brush="MOD/assets/structures/plaster_cracked_concrete_3.vox"/>
+						</voxbox>
+						<voxbox name="plaster" pos="6.6 0.8 0.5" rot="90.0 -180.0 0.0" size="47 3 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					</compound>
+					<compound name="wallPlastered" pos="17.2 -0.1 4.2" rot="0.0 0.0 0.0">
+						<voxbox name="brick" pos="2.0 0.0 0.2" rot="0.0 0.0 0.0" size="42 12 3" brush="MOD/assets/vox/brick.vox">
+							<voxbox name="plaster" pos="4.2 0.1 0.6" rot="0.0 180.0 0.0" size="43 12 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="0.1 1.0 -0.2" rot="0.0 0.0 0.0" size="40 2 3" brush="MOD/assets/structures/plaster_cracked_concrete_3.vox"/>
+						</voxbox>
+						<voxbox name="plaster" pos="6.3 1.5 0.5" rot="90.0 -180.0 0.0" size="45 3 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					</compound>
+					<compound name="wallPlastered" pos="30.4 -0.1 0.5" rot="0.0 180.0 0.0">
+						<voxbox name="brick" pos="0.3 0.0 0.0" rot="0.0 0.0 0.0" size="114 8 5" brush="MOD/assets/vox/brick.vox">
+							<voxbox name="plaster" pos="-0.1 0.0 0.2" rot="0.0 0.0 0.0" size="116 8 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="0.4 0.2 -0.2" rot="0.0 0.0 0.0" size="62 6 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+						</voxbox>
+						<voxbox name="plaster" pos="6.9 1.1 0.5" rot="90.0 180.0 0.0" size="66 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					</compound>
+					<compound name="wallPlastered" pos="18.3 -0.1 11.0" rot="0.0 0.0 0.0">
+						<voxbox name="brick" pos="0.4 0.0 -0.0" rot="0.0 0.0 0.0" size="113 8 5" brush="MOD/assets/vox/brick.vox">
+							<voxbox name="plaster" pos="-0.1 0.0 0.2" rot="0.0 0.0 0.0" size="116 8 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="0.4 0.2 -0.2" rot="0.0 0.0 0.0" size="106 6 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+						</voxbox>
+						<voxbox name="plaster" pos="11.8 1.1 0.5" rot="90.0 -180.0 0.0" size="115 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+						<voxbox name="hole" pos="4.7 0.0 0.0" size="9 9 6" brush="MOD/assets/vox/hole.vox">
+							<voxbox size="9 1 5" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+						</voxbox>
+					</compound>
+					<compound name="wallPlastered" pos="19.1 -0.1 -0.4" rot="0.0 -90.0 0.0">
+						<voxbox name="brick" pos="0.4 0.0 -0.0" rot="0.0 0.0 0.0" size="113 8 5" brush="MOD/assets/vox/brick.vox">
+							<voxbox name="plaster" pos="-0.1 0.0 0.2" rot="0.0 0.0 0.0" size="116 8 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="4.8 0.2 -0.2" rot="0.0 0.0 0.0" size="62 6 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+						</voxbox>
+						<voxbox name="plaster" pos="11.8 1.1 0.5" rot="90.0 -180.0 0.0" size="66 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					</compound>
+					<compound name="wallPlastered" pos="29.7 -0.1 11.7" rot="0.0 90.0 0.0">
+						<voxbox name="brick" pos="0.3 0.0 0.0" rot="0.0 0.0 0.0" size="113 8 5" brush="MOD/assets/vox/brick.vox">
+							<voxbox name="plaster" pos="-0.1 0.0 0.2" rot="0.0 0.0 0.0" size="115 8 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+							<voxbox name="plaster" pos="0.2 0.2 -0.2" rot="0.0 0.0 0.0" size="107 6 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+						</voxbox>
+						<voxbox name="plaster" pos="11.7 1.1 0.5" rot="90.0 180.0 0.0" size="115 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					</compound>
+					<compound name="roofRaised">
+						<voxbox name="roof" pos="19.9 0.7 0.4" rot="0.0 0.0 0.0" size="33 2 41" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="19.0 0.7 0.6" rot="0.0 0.0 0.0" size="9 2 38" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+						<voxbox name="roof" pos="19.0 0.7 0.4" rot="0.0 0.0 0.0" size="9 2 2" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+					</compound>
+					<group name="roofSteps" pos="19.9 0.0 4.7">
+						<voxbox pos="0.1 0.1 0.1" rot="0.0 0.0 0.0" size="2 13 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="0.3 1.0 0.1" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="0.3 0.7 0.4" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="2.6 0.1 0.1" rot="0.0 0.0 0.0" size="2 13 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="0.3 0.4 0.7" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="0.3 0.2 1.0" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+						<voxbox pos="0.3 0.1 1.3" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+						<voxagon pos="2.6 0.0 0.0" rot="90.0 90.0 30.0" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4" extrude="1">
+							<vertex pos="-1.5 -0.9"/>
+							<vertex pos="-1.3 -1.1"/>
+							<vertex pos="-0.8 -1.1"/>
+							<vertex pos="0.4 -1.2"/>
+							<vertex pos="0.1 -0.7"/>
+							<vertex pos="-1.1 -0.7"/>
+						</voxagon>
+						<voxagon pos="0.2 0.0 0.0" rot="90.0 90.0 30.0" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4" extrude="1">
+							<vertex pos="-1.5 -0.9"/>
+							<vertex pos="-1.3 -1.1"/>
+							<vertex pos="-0.8 -1.1"/>
+							<vertex pos="0.4 -1.2"/>
+							<vertex pos="0.1 -0.7"/>
+							<vertex pos="-1.1 -0.7"/>
+						</voxagon>
+					</group>
+				</group>
+				<group name="features" pos="-6.28801 0.7 -5.70885">
+					<group name="chimney" pos="-6.4 4.1 5.8">
+						<compound name="chimney" pos="12.9 0.0 1.5">
+							<voxbox name="chimney" pos="-0.1 0.0 -0.1" rot="0.0 0.0 0.0" size="3 10 3" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+								<voxbox name="hole" pos="0.1 0.8 0.1" rot="0.0 0.0 0.0" size="2 1 1" brush="MOD/assets/vox/hole.vox"/>
+								<voxbox name="hole" pos="0.1 -2.4 0.1" rot="0.0 0.0 0.0" size="1 33 1" brush="MOD/assets/vox/hole.vox"/>
+							</voxbox>
+						</compound>
+						<voxbox name="hole" pos="12.85 0.8134 1.4" rot="0.0 0.0 30.0" size="4 4 3" brush="MOD/assets/vox/hole.vox">
+							<voxbox name="chimney" pos="-0.1 0.0 -0.1" rot="0.0 0.0 0.0" size="6 1 5" brush="MOD/assets/vox/wood_planks_beige.vox" object="plank wall"/>
+						</voxbox>
+					</group>
+					<compound/>
+					<instance pos="5.9 0.2 12.0" rot="0.0 0.0 0.0" file="MOD/assets/structures/prefab/ladder1.xml"/>
+					<group name="lights">
+						<instance pos="12.1 2.5 11.9" rot="0.0 0.0 0.0" file="MOD/assets/structures/prefab/externalLamp.xml"/>
+						<instance pos="1.7 2.5 -0.4" rot="0.0 -180.0 0.0" file="MOD/assets/structures/prefab/externalLamp.xml"/>
+					</group>
+					<group name="instance=MOD/assets/structures/prefab/ladderHole1.xml" pos="8.8 0.6 6.1" rot="0.0 0.0 0.0">
+						<compound name="ladder" pos="0.5 -0.1 0.6" rot="0.0 -180.0 0.0">
+							<voxbox name="hole" pos="-0.2 3.1 0.0" rot="0.0 0.0 0.0" size="13 8 12" brush="MOD/assets/vox/hole.vox"/>
+							<voxbox pos="0.1 -0.2 0.8" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 0.2 0.7" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 0.6 0.6" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 1.0 0.5" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 1.4 0.4" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 1.8 0.3" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 2.2 0.2" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 2.6 0.1" rot="0.0 0.0 0.0" size="7 6 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 3.1 -0.0" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.1 3.4 -0.1" rot="0.0 0.0 0.0" size="7 4 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+							<voxbox pos="0.7 2.4 -0.1" rot="0.0 0.0 0.0" size="1 1 3" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+							<voxbox pos="0.7 0.5 -0.1" rot="0.0 0.0 0.0" size="1 1 8" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+							<voxbox pos="0.1 0.5 -0.1" rot="0.0 0.0 0.0" size="1 1 9" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+							<voxbox pos="0.1 1.5 -0.1" rot="0.0 0.0 0.0" size="1 1 5" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+							<voxbox pos="0.7 1.5 -0.1" rot="0.0 0.0 0.0" size="1 1 5" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+							<voxbox pos="0.1 2.4 -0.1" rot="0.0 0.0 0.0" size="1 1 3" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+						</compound>
+					</group>
+				</group>
+			</group>
+			<instance pos="-208.90001 3.8 -31.9" rot="0.0 180.0 0.0" file="MOD/assets/structures/prefab/base_03_Story01.xml"/>
+			<instance pos="-225.8 3.8 14.5" rot="0.0 -90.0 0.0" file="MOD/assets/structures/prefab/base_00_Story01.xml"/>
+		</group>
+	</group>
+	<group name="heightmap" pos="200.00002 3.6 -150.0" rot="0.0 0.0 0.0">
+		<voxscript pos="0.0 -3.8 0.0" rot="0.0 -90.0 0.0" texture="1" file="MOD/voxscript/ground.lua">
+			<parameters file="MOD/images/coastal_tank_range.png" scale="255"/>
+		</voxscript>
+	</group>
+	<water pos="0.0 1.6 57.2" rot="0.0 0.0 0.0"/>
+	<environment template="winter_day" pos="0.0 5.0 11.7" fogParams="330 400 0.9 20" wind="0 0 0 "/>
+	<spawnpoint pos="-156.04999 11.85 86.0" rot="0.0 -180.0 0.0"/>
+	<group name="scripts">
+		<script file="main.lua"/>
+		<script file="sandbox.lua"/>
+	</group>
+	<group name="AVF" pos="-158.5 11.7 -25.5">
+		<group name="turrets">
+			<instance pos="7.7 -0.1 57.7" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/ZSU_23_2.xml"/>
+			<instance pos="6.9 -0.1 -63.39999" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/D_30.xml"/>
+			<instance pos="8.1 -0.1 -45.7" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/MILAN.xml"/>
+			<instance pos="8.5 -0.1 -41.9" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/SPG_9.xml"/>
+			<instance pos="6.9 -0.1 -87.3" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/L111A1_short.xml"/>
+			<instance pos="6.9 -0.1 -89.90001" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/L111A1_tall.xml"/>
+			<instance pos="6.9 -0.1 -76.4" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/GMG_short.xml"/>
+			<instance pos="6.9 -0.1 -84.2" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/GPMG_tall.xml"/>
+			<instance pos="6.9 -0.1 -79.0" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/GMG_tall.xml"/>
+			<instance pos="6.9 -0.1 -81.6" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/turrets/GPMG_short.xml"/>
+		</group>
+		<group name="tanks">
+			<instance pos="-14.9 -0.1 49.2" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t72_woodland/T72A.xml"/>
+			<instance pos="-16.7 0.0 100.7" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/cromwell/cromwell_v.xml"/>
+			<instance pos="-2.2 0.7 155.39999" rot="0.0 20.0 -5.0" file="MOD/avf/prefabs/AML90/aml90.xml"/>
+			<instance pos="-11.3 0.0 128.59999" rot="0.0 -60.0 0.0" file="MOD/avf/prefabs/bmp2/bmp.xml"/>
+			<instance pos="-14.9 -0.1 40.8" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t72_woodland/T72B.xml"/>
+			<instance pos="-14.9 -0.1 31.9" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t72_woodland/T72M1.xml"/>
+			<instance pos="-14.9 -0.1 6.7" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t72_woodland/T72B3_obj_1989.xml"/>
+			<instance pos="-14.9 -0.1 -1.8" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t72_woodland/T72B3_obj_2013.xml"/>
+			<instance pos="-14.9 -0.1 -10.9" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/t72_woodland/T72B3M_UBH.xml"/>
+		</group>
+		<group name="vehicles">
+			<instance pos="-14.9 0.0 97.2" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad.xml"/>
+			<instance pos="-8.0 0.0 121.2" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical_BM_14.xml"/>
+			<instance pos="-8.0 0.0 117.5" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical_type_63.xml"/>
+			<instance pos="-8.0 0.1 114.1" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/katyusha/katyusha.xml"/>
+			<instance pos="-14.9 0.1 93.8" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical_unarmed.xml"/>
+			<instance pos="-14.9 0.1 90.0" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical_DSHK.xml"/>
+			<instance pos="-14.9 0.1 86.7" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical_SPG9.xml"/>
+			<group pos="14.6 0.1 150.90001" rot="0.0 -130.0 0.0">
+				<script pos="-0.1 0.0 0.0" file="MOD/avf/scripts/Immersive_Tank.lua">
+					<script pos="0.1 0.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical_armed.lua">
+						<vehicle name="MGTechnical" tags="cfg=vehicle technicalVehicle" pos="0.1 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="suv2" spring="0.8" damping="0.8" topspeed="60" acceleration="2" strength="5" antispin="0" antiroll="0.2" difflock="0.5" steerassist="0.0">
+							<body tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+								<vox tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" density="2" strength="7" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="bodyturret">
+									<group name="immersive_elements" prop0="strength=15">
+										<vox name="engine" tags="engine" pos="-0.0 0.4 1.7" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="engine"/>
+										<vox name="fuel_tank" tags="fuel_tank" pos="0.2 0.3 -0.50001" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="fuel_tank"/>
+										<group name="ammo_rack" pos="-0.2 0.4 -0.4" prop0="tags=ammo_rack=0">
+											<vox name="ammo_rack" pos="0.10343 0.2 -0.69646" rot="0.0 -180.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="spg9_ammo"/>
+											<vox name="ammo_rack" pos="0.6 0.2 -0.676" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="spg9-ammo-2"/>
+										</group>
+									</group>
+									<group name="hinged_eleements" prop0="strength=5">
+										<vox pos="1.0 0.2 0.4" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="door_l">
+											<joint pos="0.0 0.2 0.6" rot="90 0 0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+											<joint pos="0.0 0.7 0.6" rotspring="0" collide="true"/>
+										</vox>
+										<vox pos="-1.0 0.2 0.4" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="door_r">
+											<joint pos="0.1 0.2 0.59999" rot="-90.0 90.0 0.0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+											<joint pos="0.1 0.7 0.59999" rotspring="0" collide="true"/>
+										</vox>
+										<vox pos="-0.00001 0.4 -2.70003" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="boot">
+											<joint pos="0.5 0.0 -0.1" rot="0.0 270.0 90.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 100"/>
+											<joint pos="-0.50001 0.0 -0.09998" rotspring="0" collide="true"/>
+										</vox>
+										<vox pos="0.0 0.9 1.7" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="bonnet">
+											<joint pos="0.7 0.2 -0.6" rot="0.0 -90.0 0.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 140"/>
+											<joint pos="-0.60001 0.2 -0.59998" rotspring="0" collide="true"/>
+										</vox>
+									</group>
+									<vox tags="component=turret" pos="0.0 0.6 -1.81" rot="0.0 0 0.0" density="1.2" strength="2" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="turret_thick_mount">
+										<joint tags="component=turretJoint" pos="0.05 0.0 -0.05" rot="90 0 0.0" type="hinge" size="0.2" rotspring="0" sound="false"/>
+										<vox tags="igla" pos="0.1 1.13 -0.31" rot="0.0 0 0.0" strength="2" prop="true" file="MOD/avf/prefabs/turrets/turrets_02.vox" object="IGLA">
+											<joint tags="component=gunJoint" pos="-0.04 0.02 0.03999" rot="0.0 90.0 0.0" type="hinge" rotspring="0" limits="-16 8"/>
+										</vox>
+									</vox>
+									<group name="base_vehicle_parts" pos="0.0 -0.07 -0.2">
+										<location tags="player" pos="0.41 1.35 0.34" rot="0.0 0.0 0.0"/>
+										<light pos="0.75 0.82 -2.48" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+										<light pos="-0.65 0.82 -2.48" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+										<light pos="0.75 0.75 2.55001" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+										<light pos="-0.63 0.75 2.54999" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+										<location tags="exhaust" pos="0.5 0.15 -2.45" rot="-180.0 360.0 -180.0"/>
+										<location tags="vital" pos="0.05 0.65 1.6" rot="-180.0 360.0 -180.0"/>
+									</group>
+								</vox>
+								<wheel name="bl" pos="-0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+									<vox pos="-0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="wheel_bl"/>
+								</wheel>
+								<wheel name="br" pos="0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+									<vox pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="wheel_br"/>
+								</wheel>
+								<wheel name="fl" pos="-0.75 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+									<vox pos="0.0 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="wheel_fl"/>
+								</wheel>
+								<wheel name="fr" pos="0.65 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+									<vox pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="wheel_fr"/>
+								</wheel>
+							</body>
+						</vehicle>
+						<location name="igla_emitter" tags="igla_emitter flip_y_z" pos="0.045 2.47 0.521" rot="0.0 90.0 0.0"/>
+						<location name="igla_backblast" tags="igla_emitter flip_y_z" pos="0.065 2.38 3.671" rot="0.0 90.0 0.0"/>
+						<location name="igla_sight" tags="igla_sight" pos="-0.161 2.695 1.265"/>
+						<location name="cook_off" tags="cook_off upward_force=5" pos="-0.1 1.0 0.9"/>
+					</script>
+				</script>
+			</group>
+			<instance pos="-14.9 0.1 82.8" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical_ZU_23.xml"/>
+			<instance pos="-14.9 0.1 79.49998" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical_UB16_turret.xml"/>
+			<instance pos="-14.9 0.0 73.9" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad_GMG.xml"/>
+			<instance pos="-14.9 0.0 76.7" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad_GPMG.xml"/>
+			<instance pos="-14.9 0.0 71.2" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad_m2.xml"/>
+			<group name="instance=MOD/avf/prefabs/technicals_woodland/offroad_m2.xml" pos="-10.8 0.0 145.7" rot="0.0 -90.0 0.0">
+				<script pos="-0.1 0.0 0.0" file="MOD/avf/scripts/Immersive_Tank.lua">
+					<script pos="0.1 0.1 0.2" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/technicals_woodland/Offroad_armed.lua">
+						<location name="mainCannon_shell_ejector" tags="mainCannon_shell_ejector" pos="0.47101 2.98 -0.23498" rot="130.0 90.0 0.0"/>
+						<location name="mainCannon_emitter" tags="mainCannon_emitter flip_y_z" pos="0.05702 2.83 -1.93102" rot="0.0 -90.0 0.0"/>
+						<location name="mainCannon_shell_ejector_dir" tags="mainCannon_shell_ejector_dir" pos="2.32101 1.17 -0.78499" rot="130.0 90.0 0.0"/>
+						<location name="mainCannon_sight" tags="mainCannon_sight" pos="0.057 3.19 0.84" rot="0.0 180.0 0.0"/>
+						<vehicle name="offroad" tags="cfg=vehicle" pos="0.1 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="suv2 0.9" spring="0.8" damping="0.8" topspeed="60" acceleration="2" strength="5" antispin="0" antiroll="0.5" difflock="0.5" steerassist="0.0">
+							<group pos="-0.1 0.0 0.0" prop0="texture=1 .6">
+								<body pos="0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+									<vox tags="RHA=10" pos="-0.24999 2.2 0.25" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="RWS_Mount"/>
+									<vox tags="RHA=10" pos="-0.14999 2.9 -0.25" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="KORD"/>
+									<vox tags="RHA=10" pos="1.05001 0.4 -0.65" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="door_r"/>
+									<vox tags="RHA=10" pos="-1.45 0.4 -0.65" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="door_l"/>
+									<vox tags="RHA=10" pos="-0.14999 1.1 -2.15" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="bonnet"/>
+									<vox tags="RHA=10" pos="-0.14999 1.4 0.65" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="hatch"/>
+									<vox tags="RHA=10" pos="0.35001 0.7 2.55" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="wheel"/>
+									<wheel pos="-1.15 0.2 1.4" rot="0.0 0.0 0.0">
+										<vox tags="RHA=10" pos="0.0 -0.5 0.05" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="wheel_bl"/>
+									</wheel>
+									<vox tags="RHA=10" pos="0.85001 -0.3 1.45" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="wheel_br"/>
+									<wheel name="wheel_fl" pos="-1.15 0.2 -2.05" rot="0.0 0.0 0.0">
+										<vox tags="RHA=10" pos="0.0 -0.5 0.0" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="wheel_fl"/>
+									</wheel>
+									<vox tags="RHA=10" pos="0.85001 -0.3 -2.05" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="wheel_fr"/>
+									<vox tags="RHA=10" pos="-0.14999 0.1 -0.35" rot="0.0 0.0 0.0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/gaz_tigr/gaz2975 N.vox" object="body"/>
+								</body>
+							</group>
+						</vehicle>
+					</script>
+				</script>
+			</group>
+			<instance pos="-14.9 -0.1 67.8" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad_WMIK_GMG.xml"/>
+			<instance pos="-14.9 0.0 64.8" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad_WMIK_hmg.xml"/>
+			<instance pos="-14.9 0.0 61.6" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad_WMIK_MILAN.xml"/>
+		</group>
+	</group>
+	<group name="map_targets">
+		<group name="moving" pos="-50.3 8.8 -1.3">
+			<group name="front" pos="0.0 0.0 -2.5">
+				<group name="track_02" pos="0.1 -0.2 -50.2" rot="0.0 180.0 0.0">
+					<voxbox name="tracks" pos="-0.90001 0.0 49.80001" rot="0.0 90.0 0.0" size="996 8 18" brush="MOD/target_tracks/tracks.vox" object="track"/>
+					<vox pos="0.3 0.6 43.8" rot="0.0 -90.0 0.0" file="MOD/target_tracks/tracks.vox" object="cart">
+						<vox pos="0.0 0.9 0.0" rot="0.0 180.0 0.0" file="MOD/target_tracks/tracks.vox" object="rotatingSupport">
+							<vox pos="1.2 0.2 -0.1" rot="0.0 0.0 0.0" file="MOD/target_tracks/tracks.vox" object="tank_side_profile"/>
+							<vox pos="1.2 0.2 0.1" rot="0.0 0.0 0.0" file="MOD/target_tracks/tracks.vox" object="tank_side_profile"/>
+						</vox>
+					</vox>
+				</group>
+				<group name="track_01" pos="0.09998 0.0 110.8">
+					<voxbox name="tracks" pos="-0.90001 0.0 3.60001" rot="0.0 90.0 0.0" size="40 8 18" brush="MOD/target_tracks/tracks.vox" object="track"/>
+					<vox pos="0.0 0.6 1.2" rot="0.0 -90.0 0.0" file="MOD/target_tracks/tracks.vox" object="cart">
+						<vox pos="0.0 0.9 0.0" rot="0.0 180.0 0.0" file="MOD/target_tracks/tracks.vox" object="rotatingSupport">
+							<vox pos="1.2 0.2 -0.1" rot="0.0 0.0 0.0" file="MOD/target_tracks/tracks.vox" object="tank_side_profile"/>
+							<vox pos="1.2 0.2 0.1" rot="0.0 0.0 0.0" file="MOD/target_tracks/tracks.vox" object="tank_side_profile"/>
+						</vox>
+					</vox>
+				</group>
+				<group name="track_01" pos="99.49998 -2.1 52.5">
+					<voxbox name="tracks" pos="-0.90001 0.0 3.60001" rot="0.0 90.0 0.0" size="40 8 18" brush="MOD/target_tracks/tracks.vox" object="track"/>
+					<vox pos="0.0 0.6 1.2" rot="0.0 -90.0 0.0" file="MOD/target_tracks/tracks.vox" object="cart">
+						<vox pos="0.0 0.9 0.0" rot="0.0 180.0 0.0" file="MOD/target_tracks/tracks.vox" object="rotatingSupport">
+							<vox pos="1.2 0.2 -0.1" rot="0.0 0.0 0.0" file="MOD/target_tracks/tracks.vox" object="tank_side_profile"/>
+							<vox pos="1.2 0.2 0.1" rot="0.0 0.0 0.0" file="MOD/target_tracks/tracks.vox" object="tank_side_profile"/>
+						</vox>
+					</vox>
+				</group>
+				<group name="track_01" pos="99.49998 -2.1 -38.3" rot="0.0 180.0 0.0">
+					<voxbox name="tracks" pos="-0.90001 0.0 3.60001" rot="0.0 90.0 0.0" size="40 8 18" brush="MOD/target_tracks/tracks.vox" object="track"/>
+					<vox pos="0.0 0.6 1.2" rot="0.0 -90.0 0.0" file="MOD/target_tracks/tracks.vox" object="cart">
+						<vox pos="0.0 0.9 0.0" rot="0.0 180.0 0.0" file="MOD/target_tracks/tracks.vox" object="rotatingSupport">
+							<vox pos="1.2 0.2 -0.1" rot="0.0 0.0 0.0" file="MOD/target_tracks/tracks.vox" object="tank_side_profile"/>
+							<vox pos="1.2 0.2 0.1" rot="0.0 0.0 0.0" file="MOD/target_tracks/tracks.vox" object="tank_side_profile"/>
+						</vox>
+					</vox>
+				</group>
+			</group>
+		</group>
+	</group>
+	<group name="misc_struct" pos="78.4 10.5 3.3" prop0="texture=6 1" prop1="blendtexture= 4 0.8">
+		<group name="simple_struct">
+			<compound name="base" pos="0.0 -2.2 0.0">
+				<voxbox pos="0.0 -0.2 0.0" size="90 4 80" brush="MOD/assets/brush/fundaments.vox" object="rock_dark"/>
+				<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="90 1 80" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+			</compound>
+			<group name="wall" pos="1.0 -1.9 1.0">
+				<voxagon pos="0.0 1.1 -0.5" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 0.9"/>
+					<vertex pos="7.2 0.4"/>
+					<vertex pos="6.6 0.0"/>
+					<vertex pos="6.0 -0.2"/>
+					<vertex pos="5.6 -0.8"/>
+					<vertex pos="4.8 -0.4"/>
+					<vertex pos="4.4 -0.4"/>
+					<vertex pos="4.0 -0.7"/>
+					<vertex pos="2.7 0.1"/>
+					<vertex pos="2.4 0.6"/>
+					<vertex pos="1.0 1.0"/>
+					<vertex pos="0.4 1.0"/>
+					<vertex pos="0.0 1.1"/>
+					<vertex pos="-0.4 1.4"/>
+					<vertex pos="-0.9 1.4"/>
+				</voxagon>
+				<voxagon pos="0.0 1.1 7.0" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 2.4"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.6"/>
+					<vertex pos="5.9 1.3"/>
+					<vertex pos="4.9 1.4"/>
+					<vertex pos="4.2 1.6"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.5 1.1"/>
+					<vertex pos="3.5 0.6"/>
+					<vertex pos="3.1 0.4"/>
+					<vertex pos="2.7 0.1"/>
+					<vertex pos="2.0 0.3"/>
+					<vertex pos="1.4 -0.2"/>
+					<vertex pos="1.1 0.6"/>
+					<vertex pos="0.7 0.8"/>
+					<vertex pos="0.2 0.7"/>
+					<vertex pos="-0.2 0.9"/>
+					<vertex pos="-0.4 1.5"/>
+					<vertex pos="-0.9 1.7"/>
+				</voxagon>
+				<voxagon pos="-1.0 1.1 -1.2" rot="-90.0 -90.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="0.2 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 2.4"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.8"/>
+					<vertex pos="5.9 2.2"/>
+					<vertex pos="5.1 1.9"/>
+					<vertex pos="4.6 1.5"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.1 1.3"/>
+					<vertex pos="3.3 0.8"/>
+					<vertex pos="2.9 0.7"/>
+					<vertex pos="2.6 1.3"/>
+					<vertex pos="2.0 1.2"/>
+					<vertex pos="1.9 0.8"/>
+					<vertex pos="1.5 1.0"/>
+					<vertex pos="1.2 1.6"/>
+					<vertex pos="1.0 1.6"/>
+					<vertex pos="0.6 1.5"/>
+					<vertex pos="0.5 1.2"/>
+					<vertex pos="0.2 1.0"/>
+				</voxagon>
+				<voxbox pos="7.5 0.0 0.6" rot="0.0 90.0 0.0" size="15 36 5" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain"/>
+				<voxbox pos="7.5 0.0 7.0" rot="0.0 90.0 0.0" size="21 35 5" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain"/>
+				<vox pos="7.6 0.0 3.0" rot="0.0 -90.0 0.0" file="MOD/assets/structures/grey_brick_components.vox" object="arch-brick-50x45x7"/>
+			</group>
+		</group>
+		<group name="simple_struct_2" pos="22.9 -1.1 19.0" rot="0.0 90.0 0.0">
+			<compound name="base" pos="0.0 -2.2 0.0">
+				<voxbox pos="0.0 -0.2 0.0" size="90 4 147" brush="MOD/assets/brush/fundaments.vox" object="rock_dark"/>
+				<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="90 1 148" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+			</compound>
+			<group name="wall" pos="1.0 -1.9 1.0">
+				<voxagon pos="0.0 1.1 -0.5" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 0.9"/>
+					<vertex pos="7.2 0.4"/>
+					<vertex pos="6.6 0.0"/>
+					<vertex pos="6.0 -0.2"/>
+					<vertex pos="5.6 -0.8"/>
+					<vertex pos="4.8 -0.4"/>
+					<vertex pos="4.4 -0.4"/>
+					<vertex pos="4.0 -0.7"/>
+					<vertex pos="2.7 0.1"/>
+					<vertex pos="2.4 0.6"/>
+					<vertex pos="1.0 1.0"/>
+					<vertex pos="0.4 1.0"/>
+					<vertex pos="0.0 1.1"/>
+					<vertex pos="-0.4 1.4"/>
+					<vertex pos="-0.9 1.4"/>
+				</voxagon>
+				<voxagon pos="0.0 1.1 7.0" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 2.4"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.6"/>
+					<vertex pos="5.9 1.3"/>
+					<vertex pos="4.9 1.4"/>
+					<vertex pos="4.2 1.6"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.5 1.1"/>
+					<vertex pos="3.5 0.6"/>
+					<vertex pos="3.1 0.4"/>
+					<vertex pos="2.7 0.1"/>
+					<vertex pos="2.0 0.3"/>
+					<vertex pos="1.4 -0.2"/>
+					<vertex pos="1.1 0.6"/>
+					<vertex pos="0.7 0.8"/>
+					<vertex pos="0.2 0.7"/>
+					<vertex pos="-0.2 0.9"/>
+					<vertex pos="-0.4 1.5"/>
+					<vertex pos="-0.9 1.7"/>
+				</voxagon>
+				<voxagon pos="0.0 1.1 13.8" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 2.4"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.6"/>
+					<vertex pos="5.9 1.3"/>
+					<vertex pos="4.9 1.4"/>
+					<vertex pos="4.2 1.6"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.5 1.1"/>
+					<vertex pos="1.9 1.2"/>
+					<vertex pos="1.3 1.6"/>
+					<vertex pos="0.7 1.8"/>
+					<vertex pos="0.0 1.8"/>
+					<vertex pos="-0.2 0.9"/>
+					<vertex pos="-0.3 2.0"/>
+					<vertex pos="-0.9 2.3"/>
+				</voxagon>
+				<voxagon pos="-1.0 1.1 -1.2" rot="-90.0 -90.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="0.2 -1.1"/>
+					<vertex pos="14.9 -1.0"/>
+					<vertex pos="15.0 2.2"/>
+					<vertex pos="12.5 2.2"/>
+					<vertex pos="11.3 1.5"/>
+					<vertex pos="9.2 1.7"/>
+					<vertex pos="8.1 1.6"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.8"/>
+					<vertex pos="5.9 2.2"/>
+					<vertex pos="5.1 1.9"/>
+					<vertex pos="4.6 1.5"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.1 1.3"/>
+					<vertex pos="3.3 0.8"/>
+					<vertex pos="2.9 0.7"/>
+					<vertex pos="2.6 1.3"/>
+					<vertex pos="2.0 1.2"/>
+					<vertex pos="1.9 0.8"/>
+					<vertex pos="1.5 1.0"/>
+					<vertex pos="1.2 1.6"/>
+					<vertex pos="1.0 1.6"/>
+					<vertex pos="0.6 1.5"/>
+					<vertex pos="0.5 1.2"/>
+					<vertex pos="0.2 1.0"/>
+				</voxagon>
+				<voxagon pos="7.6 1.1 -1.2" rot="-90.0 -90.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="0.2 -1.1"/>
+					<vertex pos="3.4 -1.4"/>
+					<vertex pos="3.6 0.9"/>
+					<vertex pos="5.1 0.9"/>
+					<vertex pos="4.8 -1.2"/>
+					<vertex pos="9.9 -1.2"/>
+					<vertex pos="9.9 0.7"/>
+					<vertex pos="11.3 0.7"/>
+					<vertex pos="11.3 -1.2"/>
+					<vertex pos="15.0 -1.2"/>
+					<vertex pos="15.0 2.2"/>
+					<vertex pos="12.5 2.2"/>
+					<vertex pos="11.3 1.5"/>
+					<vertex pos="9.2 1.7"/>
+					<vertex pos="8.1 1.6"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.8"/>
+					<vertex pos="5.9 2.2"/>
+					<vertex pos="5.1 1.9"/>
+					<vertex pos="4.6 1.5"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.1 1.3"/>
+					<vertex pos="3.3 0.8"/>
+					<vertex pos="2.9 0.7"/>
+					<vertex pos="2.6 1.3"/>
+					<vertex pos="2.0 1.2"/>
+					<vertex pos="1.9 0.8"/>
+					<vertex pos="1.5 1.0"/>
+					<vertex pos="1.2 1.6"/>
+					<vertex pos="1.0 1.6"/>
+					<vertex pos="0.6 1.5"/>
+					<vertex pos="0.5 1.2"/>
+					<vertex pos="0.2 1.0"/>
+				</voxagon>
+			</group>
+		</group>
+		<group name="simple_struct_2" pos="42.8 -1.1 -21.5" rot="0.0 -110.0 0.0">
+			<compound name="base" pos="0.0 -2.2 0.0">
+				<voxbox pos="0.0 -0.2 0.0" size="90 4 147" brush="MOD/assets/brush/fundaments.vox" object="rock_dark"/>
+				<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="90 1 148" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+			</compound>
+			<group name="wall" pos="1.0 -1.9 1.0">
+				<voxagon pos="0.0 1.1 -0.5" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 0.9"/>
+					<vertex pos="7.2 0.4"/>
+					<vertex pos="6.6 0.0"/>
+					<vertex pos="6.0 -0.2"/>
+					<vertex pos="5.6 -0.8"/>
+					<vertex pos="4.8 -0.4"/>
+					<vertex pos="4.4 -0.4"/>
+					<vertex pos="4.0 -0.7"/>
+					<vertex pos="2.7 0.1"/>
+					<vertex pos="2.4 0.6"/>
+					<vertex pos="1.0 1.0"/>
+					<vertex pos="0.4 1.0"/>
+					<vertex pos="0.0 1.1"/>
+					<vertex pos="-0.4 1.4"/>
+					<vertex pos="-0.9 1.4"/>
+				</voxagon>
+				<voxagon pos="0.0 1.1 7.0" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="4.1 -1.1"/>
+					<vertex pos="4.0 1.2"/>
+					<vertex pos="5.5 1.1"/>
+					<vertex pos="5.7 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 2.4"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.6"/>
+					<vertex pos="5.9 1.3"/>
+					<vertex pos="4.9 1.4"/>
+					<vertex pos="4.2 1.6"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="2.4 1.7"/>
+					<vertex pos="2.7 0.1"/>
+					<vertex pos="2.0 0.3"/>
+					<vertex pos="1.4 -0.2"/>
+					<vertex pos="1.1 0.6"/>
+					<vertex pos="0.7 0.8"/>
+					<vertex pos="0.2 0.7"/>
+					<vertex pos="-0.2 0.9"/>
+					<vertex pos="-0.4 1.5"/>
+					<vertex pos="-0.9 1.7"/>
+				</voxagon>
+				<voxagon pos="0.0 1.1 13.8" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 2.4"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.6"/>
+					<vertex pos="5.9 1.3"/>
+					<vertex pos="4.9 1.4"/>
+					<vertex pos="4.2 1.6"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.5 1.1"/>
+					<vertex pos="1.9 1.2"/>
+					<vertex pos="1.3 1.6"/>
+					<vertex pos="0.7 1.8"/>
+					<vertex pos="0.0 1.8"/>
+					<vertex pos="-0.2 0.9"/>
+					<vertex pos="-0.3 2.0"/>
+					<vertex pos="-0.9 2.3"/>
+				</voxagon>
+				<voxagon pos="-1.0 1.1 -1.2" rot="-90.0 -90.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="0.2 -1.1"/>
+					<vertex pos="15.0 -1.1"/>
+					<vertex pos="15.0 2.2"/>
+					<vertex pos="12.5 2.2"/>
+					<vertex pos="11.3 1.5"/>
+					<vertex pos="9.2 1.7"/>
+					<vertex pos="8.1 1.6"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.8"/>
+					<vertex pos="5.9 2.2"/>
+					<vertex pos="5.1 1.9"/>
+					<vertex pos="4.6 1.5"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.1 1.3"/>
+					<vertex pos="3.3 0.8"/>
+					<vertex pos="2.9 0.7"/>
+					<vertex pos="2.6 1.3"/>
+					<vertex pos="2.0 1.2"/>
+					<vertex pos="1.9 0.8"/>
+					<vertex pos="1.5 1.0"/>
+					<vertex pos="1.2 1.6"/>
+					<vertex pos="1.0 1.6"/>
+					<vertex pos="0.6 1.5"/>
+					<vertex pos="0.5 1.2"/>
+					<vertex pos="0.2 1.0"/>
+				</voxagon>
+				<voxagon pos="7.6 1.1 -1.2" rot="-90.0 -90.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="0.2 -1.1"/>
+					<vertex pos="3.4 -1.4"/>
+					<vertex pos="3.3 -0.2"/>
+					<vertex pos="3.3 0.9"/>
+					<vertex pos="3.6 0.9"/>
+					<vertex pos="5.1 0.9"/>
+					<vertex pos="4.9 0.3"/>
+					<vertex pos="4.8 -1.2"/>
+					<vertex pos="9.9 -1.2"/>
+					<vertex pos="9.9 0.7"/>
+					<vertex pos="11.3 0.7"/>
+					<vertex pos="11.3 -1.2"/>
+					<vertex pos="15.0 -1.2"/>
+					<vertex pos="15.0 2.2"/>
+					<vertex pos="12.5 2.2"/>
+					<vertex pos="11.3 1.5"/>
+					<vertex pos="9.2 1.7"/>
+					<vertex pos="8.1 1.6"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.8"/>
+					<vertex pos="5.9 2.2"/>
+					<vertex pos="5.1 1.9"/>
+					<vertex pos="4.6 1.5"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.1 1.3"/>
+					<vertex pos="2.6 1.3"/>
+					<vertex pos="2.0 1.2"/>
+					<vertex pos="1.9 0.8"/>
+					<vertex pos="1.5 1.0"/>
+					<vertex pos="1.2 1.6"/>
+					<vertex pos="1.0 1.6"/>
+					<vertex pos="0.6 1.5"/>
+					<vertex pos="0.5 1.2"/>
+					<vertex pos="0.2 1.0"/>
+				</voxagon>
+			</group>
+		</group>
+		<group name="simple_struct_2" pos="0.3 0.2 -19.5" rot="0.0 0.0 0.0">
+			<compound name="base" pos="0.0 -2.2 0.0">
+				<voxbox pos="0.0 -0.2 0.0" size="90 4 147" brush="MOD/assets/brush/fundaments.vox" object="rock_dark"/>
+				<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="90 1 148" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+			</compound>
+			<group name="wall" pos="1.0 -1.9 1.0">
+				<voxagon pos="0.0 1.1 -0.5" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 0.9"/>
+					<vertex pos="7.2 0.4"/>
+					<vertex pos="6.6 0.0"/>
+					<vertex pos="6.0 -0.2"/>
+					<vertex pos="5.6 -0.8"/>
+					<vertex pos="4.8 -0.4"/>
+					<vertex pos="4.4 -0.4"/>
+					<vertex pos="4.0 -0.7"/>
+					<vertex pos="2.7 0.1"/>
+					<vertex pos="2.4 0.6"/>
+					<vertex pos="1.0 1.0"/>
+					<vertex pos="0.4 1.0"/>
+					<vertex pos="0.0 1.1"/>
+					<vertex pos="-0.4 1.4"/>
+					<vertex pos="-0.9 1.4"/>
+				</voxagon>
+				<voxagon pos="0.0 1.1 7.0" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="4.1 -1.1"/>
+					<vertex pos="4.0 1.2"/>
+					<vertex pos="5.5 1.1"/>
+					<vertex pos="5.7 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 2.4"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.6"/>
+					<vertex pos="5.9 1.3"/>
+					<vertex pos="4.9 1.4"/>
+					<vertex pos="4.2 1.6"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="2.4 1.7"/>
+					<vertex pos="2.7 0.1"/>
+					<vertex pos="2.0 0.3"/>
+					<vertex pos="1.4 -0.2"/>
+					<vertex pos="1.1 0.6"/>
+					<vertex pos="0.7 0.8"/>
+					<vertex pos="0.2 0.7"/>
+					<vertex pos="-0.2 0.9"/>
+					<vertex pos="-0.4 1.5"/>
+					<vertex pos="-0.9 1.7"/>
+				</voxagon>
+				<voxagon pos="0.0 1.1 13.8" rot="-90.0 0.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="-0.9 -1.1"/>
+					<vertex pos="7.9 -1.2"/>
+					<vertex pos="7.9 2.4"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.6"/>
+					<vertex pos="5.9 1.3"/>
+					<vertex pos="4.9 1.4"/>
+					<vertex pos="4.2 1.6"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.5 1.1"/>
+					<vertex pos="1.9 1.2"/>
+					<vertex pos="1.3 1.6"/>
+					<vertex pos="0.7 1.8"/>
+					<vertex pos="0.0 1.8"/>
+					<vertex pos="-0.2 0.9"/>
+					<vertex pos="-0.3 2.0"/>
+					<vertex pos="-0.9 2.3"/>
+				</voxagon>
+				<voxagon pos="-1.0 1.1 -1.2" rot="-90.0 -90.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="0.2 -1.1"/>
+					<vertex pos="14.9 -1.1"/>
+					<vertex pos="15.0 2.2"/>
+					<vertex pos="12.5 2.2"/>
+					<vertex pos="11.3 1.5"/>
+					<vertex pos="9.2 1.7"/>
+					<vertex pos="8.1 1.6"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.8"/>
+					<vertex pos="5.9 2.2"/>
+					<vertex pos="5.1 1.9"/>
+					<vertex pos="4.6 1.5"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.1 1.3"/>
+					<vertex pos="3.3 0.8"/>
+					<vertex pos="2.9 0.7"/>
+					<vertex pos="2.6 1.3"/>
+					<vertex pos="2.0 1.2"/>
+					<vertex pos="1.9 0.8"/>
+					<vertex pos="1.5 1.0"/>
+					<vertex pos="1.2 1.6"/>
+					<vertex pos="1.0 1.6"/>
+					<vertex pos="0.6 1.5"/>
+					<vertex pos="0.5 1.2"/>
+					<vertex pos="0.2 1.0"/>
+				</voxagon>
+				<voxagon pos="7.6 1.1 -1.2" rot="-90.0 -90.0 0.0" brush="MOD/assets/structures/grey_brick_components.vox" object="wall-brick-plain" axis="y" extrude="5">
+					<vertex pos="0.2 -1.1"/>
+					<vertex pos="3.4 -1.4"/>
+					<vertex pos="3.3 -0.2"/>
+					<vertex pos="3.3 0.9"/>
+					<vertex pos="3.6 0.9"/>
+					<vertex pos="5.1 0.9"/>
+					<vertex pos="4.9 0.3"/>
+					<vertex pos="4.8 -1.2"/>
+					<vertex pos="9.9 -1.2"/>
+					<vertex pos="9.9 0.7"/>
+					<vertex pos="11.3 0.7"/>
+					<vertex pos="11.3 -1.2"/>
+					<vertex pos="15.0 -1.2"/>
+					<vertex pos="15.0 2.2"/>
+					<vertex pos="12.5 2.2"/>
+					<vertex pos="11.3 1.5"/>
+					<vertex pos="9.2 1.7"/>
+					<vertex pos="8.1 1.6"/>
+					<vertex pos="6.9 2.2"/>
+					<vertex pos="6.4 1.8"/>
+					<vertex pos="5.9 2.2"/>
+					<vertex pos="5.1 1.9"/>
+					<vertex pos="4.6 1.5"/>
+					<vertex pos="3.8 1.5"/>
+					<vertex pos="3.1 1.3"/>
+					<vertex pos="2.6 1.3"/>
+					<vertex pos="2.0 1.2"/>
+					<vertex pos="1.9 0.8"/>
+					<vertex pos="1.5 1.0"/>
+					<vertex pos="1.2 1.6"/>
+					<vertex pos="1.0 1.6"/>
+					<vertex pos="0.6 1.5"/>
+					<vertex pos="0.5 1.2"/>
+					<vertex pos="0.2 1.0"/>
+				</voxagon>
+			</group>
+		</group>
+	</group>
+</scene>
+

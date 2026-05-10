@@ -1,0 +1,32 @@
+<prefab version="0.9.6">
+	<group pos="6.9 -0.1 46.6" rot="0.0 -90.0 0.0">
+		<script pos="0.1 0.1 0.2" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/turrets/GMG.lua">
+			<location name="mainCannon_shell_ejector" tags="mainCannon_shell_ejector" pos="0.31101 0.95 -1.185" rot="130.0 90.0 0.0"/>
+			<location name="mainCannon_emitter" tags="mainCannon_emitter flip_y_z" pos="-0.05298 1.0 -2.18103" rot="0.0 -90.0 0.0"/>
+			<location name="mainCannon_shell_ejector_dir" tags="mainCannon_shell_ejector_dir" pos="1.18101 0.76 -1.23499" rot="130.0 90.0 0.0"/>
+			<location name="mainCannon_sight" tags="mainCannon_sight" pos="-0.04798 1.36 -0.11002" rot="0.0 180.0 0.0"/>
+			<vehicle name="GMG" tags="cfg=vehicle turret passive" pos="0.0 -0.3 -0.2" rot="0.0 0.0 0.0" driven="false" sound="none" spring="0.8" damping="0.8" topspeed="5" acceleration="1" strength="3" antispin="0" antiroll="2" difflock="1" steerassist="0.0" friction="0.1">
+				<body tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+					<vox tags="component=chassis" pos="0.05 -0.2 -0.55" rot="0 180 0" density="10" strength="5" file="MOD/avf/prefabs/turrets/turrets_02.vox" object="tripod_simple_02">
+						<location tags="player" pos="0.41 1.28 -0.77" rot="0.0 0.0 0.0"/>
+						<group name="turret" pos="0.2 0.3 0.55" rot="0.0 -180.0 0.0" prop0="strength=5">
+							<vox tags="component=turret turretGroup=mainTurret" pos="0.2 0.1 0.5" rot="0.0 -180.0 0.0" strength="5" prop="true" file="MOD/avf/prefabs/turrets/turrets_02.vox" object="pintle_05">
+								<joint name="turretJoint" tags="component=turretJoint" pos="0.05 0.0 -0.05" rot="90 0 0.0" type="hinge" size="0.1" rotspring="0" sound="false"/>
+								<vox tags="mainCannon component=gun weaponType=customcannon commander avf_barrel_coords_true
+
+
+
+				 group=primary interact=mountedGun" pos="0.3 0.05 0.2" rot="0.0 0 0" density=".05" strength="5" prop="true" file="MOD/avf/prefabs/turrets/turrets_02.vox" object="GMG">
+									<joint name="gunJoint" tags="component=gunJoint" pos="-0.2 0.14 -0.27" rot="0 90  0.0" type="hinge" size="0.1" rotspring="0" limits="-45 5"/>
+									<joint name="gunJoint2" pos="-0.4 0.14 -0.27" rot="0 90  0.0" type="hinge" size="0.1" rotspring="0" limits="-45 5"/>
+								</vox>
+							</vox>
+						</group>
+					</vox>
+				</body>
+			</vehicle>
+		</script>
+		<script pos="-0.1 0.0 0.0" file="MOD/avf/scripts/Immersive_Tank.lua"/>
+	</group>
+</prefab>
+

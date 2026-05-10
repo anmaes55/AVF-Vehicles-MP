@@ -1,0 +1,34 @@
+<prefab version="0.9.3">
+	<group id_="283591584" open_="true" pos="-10.1 -0.1 5.6">
+		<vox id_="1485595136" pos="0.4 0.1 0.4" texture="20 0.4" blendtexture="5" strength="1000" collide="true" prop="true" file="MOD/prop/Barricade/AxisPillbox.vox" object="main">
+			<vox id_="780450304" pos="-0.7 2.5 0.0" texture="20 0.4" file="MOD/prop/Barricade/AxisPillbox.vox" object="roof"/>
+			<vox id_="1924647680" pos="-3.4 0.0 -2.8" rot="0 45" texture="20 0.4" file="MOD/prop/Barricade/AxisPillbox.vox" object="support"/>
+			<vox id_="1463770368" pos="-3.8 0.05 -3.2" rot="30 45" texture="20 0.4" file="MOD/prop/Barricade/AxisPillbox.vox" object="supportramp"/>
+			<vox id_="1633715584" pos="1.75 1.3 -1.1" texture="15 0.5" file="MOD/prop/Barricade/AxisPillbox.vox" object="sign"/>
+			<vox id_="666345152" pos="-2.45 0.4 -1.9" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="882954880" pos="-2.45 0.6 -1.9" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1449744768" pos="-2.45 0.8 -1.9" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="823641152" pos="-2.15 0.4 -2.0" rot="0 90" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1357792128" pos="-1.75 0.4 -2.0" rot="0 90" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="815317632" pos="-2.35 0.6 -2.0" rot="0 90" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="1873526400" pos="-2.15 0.4 -1.8" rot="0 -40" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1885716864" pos="-2.45 0.8 -0.6" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="2025972480" pos="-2.55 0.8 -1.4" rot="0 -20" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="1388399360" pos="-2.55 0.8 -0.2" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1804775040" pos="-2.55 0.8 -1.0" rot="0 10" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1653443072" pos="-2.55 0.8 0.2" rot="0 -10" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="1782819072" pos="-2.55 1.0 0.3" rot="0 -10" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1677299712" pos="-2.45 1.0 -0.5" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1180375424" pos="-2.55 1.0 -1.3" rot="0 -20" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1830270080" pos="-2.55 1.0 -0.1" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="434792352" pos="-2.55 1.0 -0.9" rot="0 10" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="1896989824" pos="-2.55 1.2 0.4" rot="0 -10" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="1694274560" pos="-2.45 1.2 -0.4" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="1690931968" pos="-2.55 1.2 -1.2" rot="0 -20" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="1Sandbag main"/>
+			<vox id_="136585360" pos="-2.55 1.2 0.0" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="1433884160" pos="-2.55 1.2 -0.8" rot="0 10" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+			<vox id_="888198080" pos="-2.55 0.8 0.5" texture="15 0.5" file="MOD/prop/Barricade/sandbagsingle.vox" object="2Sandbag main"/>
+		</vox>
+	</group>
+</prefab>
+

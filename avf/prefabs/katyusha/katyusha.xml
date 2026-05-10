@@ -1,0 +1,130 @@
+<prefab version="0.9.5">
+	<group id_="791919808" open_="true" name="instance=MOD/avf/prefabs/katyusha/katyusha.xml" pos="-167.28 8.6 -22.99" rot="0.0 0.0 0.0">
+		<script id_="1633387904" open_="true" pos="-0.2 -0.1 -0.1" file="MOD/avf/scripts/Immersive_Tank.lua">
+			<script id_="2112944000" open_="true" pos="0.155 0.0 0.035" file="MOD/avf/prefabs/katyusha/katyusha.lua">
+				<vehicle id_="852544320" open_="true" name="Kayusha" tags="base_vehicle" pos="0.1 0.1 0.0" driven="false" sound="dumptruck" spring="1.2" damping="0.8" topspeed="25" acceleration="1" strength="3" antispin="0" antiroll="0.4" difflock="1" steerassist="0">
+					<body id_="1533767040" open_="true" pos="-0.05 0.5 0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="944234752" open_="true" tags="component=chassis" pos="0.05 -0.1 -0.15" rot="0.0 -179.99998 0.0" density="5" strength="3" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="zis-5">
+							<light id_="731885184" pos="0.7 0.9 2.8" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="10" angle="120" penumbra="40" size="0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1241065472" pos="-0.6 0.9 2.8" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="10" angle="120" penumbra="15" size="0.1" unshadowed="0.2" glare="0.2"/>
+							<location id_="54332660" tags="exhaust" pos="0.5 0.2 1.0" rot="0.0 129.99998 -0.0"/>
+							<location id_="1647675648" tags="vital" pos="0.0 0.7 2.2" rot="0.0 0.0 0.0"/>
+							<location id_="233650096" tags="camera" pos="0.5 1.6 0.7" rot="0.0 0.0 0.0"/>
+							<location id_="907335744" tags="player" pos="0.55 1.7 1.9" rot="0.0 0.0 0.0"/>
+							<light id_="1813688448" pos="0.05 0.55 -3.0" rot="0.0 180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.3" glare="0.2"/>
+						</vox>
+						<wheel id_="1833481472" open_="true" name="bl" pos="-0.55 0.05 0.8" rot="0.0 0.0 0.0" drive="1" travel="-0.2 0.1">
+							<vox id_="872009728" pos="-0.3 -0.55 -0.05" rot="0.0 -179.99998 0.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="wheel_bl1"/>
+						</wheel>
+						<wheel id_="627217792" open_="true" name="bl" pos="-0.55 0.05 2.1" rot="0.0 0.0 0.0" drive="1" travel="-0.2 0.1">
+							<vox id_="1411207296" pos="-0.3 -0.55 -0.05" rot="0.0 -179.99998 0.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="wheel_bl2"/>
+						</wheel>
+						<wheel id_="79434480" open_="true" name="br" pos="0.55 0.05 0.8" rot="0.0 0.0 0.0" drive="1" travel="-0.2 0.1">
+							<vox id_="727821696" pos="0.4 -0.55 -0.05" rot="0.0 -179.99998 0.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="wheel_br1"/>
+						</wheel>
+						<wheel id_="18351200" open_="true" name="br" pos="0.55 0.05 2.1" rot="0.0 0.0 0.0" drive="1" travel="-0.2 0.1">
+							<vox id_="158148016" pos="0.4 -0.55 -0.05" rot="0.0 -179.99998 0.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="wheel_br2"/>
+						</wheel>
+						<wheel id_="1621983872" open_="true" name="fl" pos="-0.85 0.05 -2.0" rot="0.0 0.0 0.0" steer="1" travel="-0.2 0.1">
+							<vox id_="606572672" pos="-0.1 -0.55 -0.05" rot="0.0 -179.99998 0.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1883357440" open_="true" name="fr" pos="0.85 0.05 -2.0" rot="0.0 0.0 0.0" steer="1" travel="-0.2 0.1">
+							<vox id_="834914048" pos="0.2 -0.55 -0.05" rot="0.0 -179.99998 0.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+					<body id_="2139487744" pos="-0.1 1.1 0.6" dynamic="true"/>
+				</vehicle>
+				<group id_="2126838528" open_="true" pos="0.2 1.4 1.5" rot="0.0 -90.0 0.0">
+					<vehicle id_="1935789440" open_="true" name="bm-14" tags="cfg=vehicle turret artillery passive " pos="-0.9 -0.6 0.2" rot="0.0 0.0 0.0" driven="false" sound="none" spring="0.8" damping="0.8" topspeed="5" acceleration="1" strength="3" antispin="0" antiroll="2" difflock="1" steerassist="0.0" friction="0.1">
+						<body id_="583568192" open_="true" tags="component=body" pos="1.3 0.65 -0.19998" rot="0.0 0.0 0.0" dynamic="true">
+							<vox id_="595955200" open_="true" pos="-0.28 -0.25 0.1" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="artillary_body">
+								<vox id_="274481536" open_="true" tags="component=turret  turretGroup=mainTurret" pos="-0.01 0.2 -0.05" rot="0.0 0.0 0.0" density="1" strength="2" prop="true" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="turret">
+									<joint id_="1759617920" tags="component=turretJoint" pos="0.05 0.0 -0.5" rot="90.0 0.0 0.0" type="hinge" size="0.2" rotstrength="0" rotspring="0" limits="-15 15" sound="false"/>
+									<vox id_="2108487296" open_="true" tags="mainCannon component=gun weaponType=customcannon group=primary  commander avf_barrel_coords_true " pos="-0.0 0.22 1.3" rot="0.0 00.0 0.0" density="0.1" strength="2" prop="true" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="launcher">
+										<joint id_="838191040" tags="component=gunJoint" pos="0.3 0.11 -1.8" rot="0 -90  0.0" type="hinge" size="0.1" rotspring="0" limits="-20 80" sound="false"/>
+										<joint id_="336285728" pos="-0.19 0.11 -1.8" rot="0 -90  0.0" type="hinge" size="0.1" rotstrength="0" rotspring="0" limits="-20 60" sound="false"/>
+										<group id_="1356284800" open_="true" name="ammmo_racks" pos="0.0 1.1 -2.0" prop0="tags=ammo_rack=0.8 explosive_force=2.5" prop1="density=0.1">
+											<group id_="2045372288" open_="true" name="upper" pos="0.0 0.4 0.0">
+												<vox id_="1099630080" pos="-0.9 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="1237722880" pos="-0.6 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="1232741888" pos="0.0 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="404643968" pos="-0.3 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="740208768" pos="1.2 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="1248340352" pos="0.9 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="1949815040" pos="0.6 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="270418048" pos="0.3 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+											</group>
+											<group id_="251345904" name="lower" pos="0.0 0.0 0.0">
+												<vox id_="81662840" pos="-0.9 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="367286176" pos="-0.6 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="158410176" pos="0.0 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="2128280448" pos="-0.3 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="581274240" pos="1.2 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="246102704" pos="0.9 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="1510696960" pos="0.6 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+												<vox id_="1216815616" pos="0.3 0.1 0.1" rot="0.0 0.0 24.0" file="MOD/avf/prefabs/katyusha/katyusha.vox" object="ammo_rack"/>
+											</group>
+										</group>
+									</vox>
+								</vox>
+								<group id_="739881088" open_="true" name="structual_joints" pos="0.0 -0.1 -0.1" prop0="collide=true">
+									<joint id_="987884416" pos="-0.15 0.1 -0.7"/>
+									<joint id_="1243228288" pos="-0.15 0.1 -0.1"/>
+									<joint id_="1835054464" pos="-0.15 0.1 0.4"/>
+									<joint id_="600084224" pos="-0.15 0.1 1.0"/>
+									<joint id_="1109592192" pos="0.25 0.1 1.0"/>
+									<joint id_="498956032" pos="0.8 0.3 0.9"/>
+									<joint id_="1350910464" pos="-0.7 0.3 0.9"/>
+									<joint id_="1197677952" pos="0.25 0.1 0.4"/>
+									<joint id_="1719900672" pos="0.25 0.1 -0.1"/>
+									<joint id_="769439616" pos="0.25 0.1 -0.7"/>
+								</group>
+								<location id_="854838208" tags="player" pos="0.15 0.62 -0.69001" rot="0.0 0.0 0.0"/>
+							</vox>
+						</body>
+					</vehicle>
+				</group>
+				<group id_="839305216" open_="true" name="main_cannon_setup" pos="-0.28 2.69 1.91002">
+					<group id_="756724864" open_="true" name="emitters" pos="0.3 0.7 -4.17" prop0="tags=mainCannon_emitter flip_y_z">
+						<location id_="707373248" name="mainCannon_emitter" pos="-0.895 0.17 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="2118121728" name="mainCannon_emitter" pos="-0.595 0.17 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="2104686080" name="mainCannon_emitter" pos="-0.295 0.17 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1320631040" name="mainCannon_emitter" pos="-0.095 0.17 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="117513224" name="mainCannon_emitter" pos="0.105 0.17 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="167847936" name="mainCannon_emitter" pos="0.405 0.17 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1484677632" name="mainCannon_emitter" pos="0.705 0.17 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="878629248" name="mainCannon_emitter" pos="1.005 0.17 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="38013200" name="mainCannon_emitter" pos="-0.895 -0.33 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1573156608" name="mainCannon_emitter" pos="-0.595 -0.33 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1379551488" name="mainCannon_emitter" pos="-0.295 -0.33 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1842526080" name="mainCannon_emitter" pos="-0.095 -0.33 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1474453376" name="mainCannon_emitter" pos="0.105 -0.33 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="2017779968" name="mainCannon_emitter" pos="0.405 -0.33 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1252797056" name="mainCannon_emitter" pos="0.705 -0.33 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1167791744" name="mainCannon_emitter" pos="1.005 -0.33 0.04095" rot="0.0 90.0 0.0"/>
+					</group>
+					<group id_="1786817024" open_="true" name="backblast" pos="0.35 0.2 0.95" prop0="tags=mainCannon_backblast flip_y_z">
+						<location id_="1678741504" name="mainCannon_emitter" pos="-0.995 0.57 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1724881664" name="mainCannon_emitter" pos="-0.695 0.57 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1430738176" name="mainCannon_emitter" pos="-0.395 0.57 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1101792896" name="mainCannon_emitter" pos="-0.195 0.57 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1095042304" name="mainCannon_emitter" pos="0.005 0.57 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1871822464" name="mainCannon_emitter" pos="0.305 0.57 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="722775104" name="mainCannon_emitter" pos="0.605 0.57 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="2084434176" name="mainCannon_emitter" pos="0.905 0.57 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="953606976" name="mainCannon_emitter" pos="-0.995 0.07 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="21366040" name="mainCannon_emitter" pos="-0.695 0.07 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1106118528" name="mainCannon_emitter" pos="-0.395 0.07 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="872534016" name="mainCannon_emitter" pos="-0.195 0.07 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="2078076800" name="mainCannon_emitter" pos="0.005 0.07 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1535012352" name="mainCannon_emitter" pos="0.305 0.07 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="582650624" name="mainCannon_emitter" pos="0.605 0.07 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="931913280" name="mainCannon_emitter" pos="0.905 0.07 0.04095" rot="0.0 90.0 0.0"/>
+					</group>
+					<location id_="961406272" name="mainCannon_sight" tags="mainCannon_sight" pos="-1.07099 0.295 -0.15501"/>
+				</group>
+			</script>
+		</script>
+	</group>
+</prefab>
+

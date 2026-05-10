@@ -1,0 +1,11 @@
+<prefab version="0.9.3">
+	<group id_="342577568" pos="0.0 -0.1 4.2">
+		<vox id_="318131168" pos="0.0 0.1 0.1" texture="20 0.5" collide="true" prop="true" file="MOD/prop/Barricade/Dragonstooth.vox" object="dragon main">
+			<vox id_="1416974848" pos="0.1 0.2 -0.6" rot="-30 180" texture="20 0.5" file="MOD/prop/Barricade/Dragonstooth.vox" object="dragon side"/>
+			<vox id_="1691194112" pos="0.0 0.2 0.5" rot="-30" texture="20 0.5" file="MOD/prop/Barricade/Dragonstooth.vox" object="dragon side"/>
+			<vox id_="267665360" pos="0.6 0.2 0.0" rot="-30 90" texture="20 0.5" file="MOD/prop/Barricade/Dragonstooth.vox" object="dragon side"/>
+			<vox id_="1411993728" pos="-0.5 0.2 -0.1" rot="-30 -90" texture="20 0.5" file="MOD/prop/Barricade/Dragonstooth.vox" object="dragon side"/>
+		</vox>
+	</group>
+</prefab>
+

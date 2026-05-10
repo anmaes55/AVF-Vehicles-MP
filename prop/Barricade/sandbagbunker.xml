@@ -1,0 +1,40 @@
+<prefab version="0.9.3">
+	<group id_="789888064" pos="-8.8 -0.1 -0.1">
+		<vox id_="577735104" pos="1.7 0.1 0.1" texture="20 0.5" collide="true" prop="true" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam">
+			<vox id_="1253911296" pos="0.1 0.2 0.0" rot="0 0 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam2"/>
+			<vox id_="1923795584" pos="0.1 0.4 0.0" rot="0 0 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam"/>
+			<vox id_="1138495360" pos="0.1 0.6 0.0" rot="0 0 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam2"/>
+			<vox id_="639342720" pos="0.0 0.0 2.0" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood up beam"/>
+			<vox id_="281035520" pos="0.0 0.0 -2.0" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood up beam"/>
+			<vox id_="1320762112" pos="-2.0 0.0 -2.0" rot="0 90 0" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam"/>
+			<vox id_="294471232" pos="-2.0 0.6 -2.1" rot="0 90 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam2"/>
+			<vox id_="1070792512" pos="-2.0 0.2 -2.1" rot="0 90 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam2"/>
+			<vox id_="369776672" pos="-2.0 0.4 -2.1" rot="0 90 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam"/>
+			<vox id_="1278619904" pos="-4.0 0.0 -2.0" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood up beam"/>
+			<vox id_="1652328960" pos="-2.0 0.0 2.0" rot="0 90 0" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam"/>
+			<vox id_="687907840" pos="-2.0 0.6 1.9" rot="0 90 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam2"/>
+			<vox id_="1044379904" pos="-2.0 0.2 1.9" rot="0 90 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam2"/>
+			<vox id_="1074266112" pos="-2.0 0.4 1.9" rot="0 90 45" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood beam"/>
+			<vox id_="1112607104" pos="-4.0 0.0 2.0" texture="20 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood up beam"/>
+			<vox id_="393240" pos="0.7 0.0 0.0" rot="0 0 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="142680576" pos="0.7 0.0 1.9" rot="0 0 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="1167398528" pos="0.7 0.0 -1.8" rot="0 0 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="1085997824" pos="-0.1 0.0 -2.7" rot="0 90 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="422405312" pos="-2.0 0.0 -2.7" rot="0 90 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="81138520" pos="-3.8 0.0 -2.7" rot="0 90 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="456092864" pos="-3.9 0.0 2.6" rot="0 -90 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="1206525824" pos="-0.2 0.0 2.6" rot="0 -90 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="1298675072" pos="-2.1 0.0 2.6" rot="0 -90 45" file="MOD/prop/Barricade/sandbagbunker.vox" object="wood small beam"/>
+			<vox id_="82449320" pos="-0.2 0.0 0.0" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="baggs"/>
+			<vox id_="1348944256" pos="-2.0 0.0 1.8" rot="0 90" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="baggs"/>
+			<vox id_="1687851648" pos="-2.0 0.0 -1.8" rot="0 90" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="baggs"/>
+			<vox id_="1615692032" pos="-0.2 0.5 -1.0" rot="40" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="1Sandbag main"/>
+			<vox id_="1605402368" pos="-0.2 0.6 -1.7" rot="30" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="1Sandbag main"/>
+			<vox id_="239679776" pos="-0.2 0.5 0.0" rot="40" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="2Sandbag main"/>
+			<vox id_="698459776" pos="-0.4 0.0 -1.5" rot="0 20" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="2Sandbag main"/>
+			<vox id_="205205744" pos="-0.4 0.0 -0.5" rot="0 -30" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="2Sandbag main"/>
+			<vox id_="1430017280" pos="-0.4 0.0 -0.2" rot="0 0" texture="10 0.5" file="MOD/prop/Barricade/sandbagbunker.vox" object="1Sandbag main"/>
+		</vox>
+	</group>
+</prefab>
+

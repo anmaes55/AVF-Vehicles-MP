@@ -1,0 +1,101 @@
+The content of this file has been replaced when making a local copy
+#List spawnable instances here in this format (path is relative to the mod folder):
+
+# Tanks:
+avf\prefabs\bmp2\bmp.xml : AVF_tanks/BMP2
+avf\prefabs\cromwell\cromwell_V.xml : AVF_tanks/Cromwell V
+avf\prefabs\cromwell\cromwell_v_ai_blufor.xml : AVF_tanks/Cromwell V bluefor_ai
+avf\prefabs\t90\t90A.xml : AVF_tanks/T-90a
+avf\prefabs\t72\t72A.xml : AVF_tanks/T-72A
+avf\prefabs\t72\t72M1.xml : AVF_tanks/T-72M1
+avf\prefabs\t72\t72B.xml : AVF_tanks/T-72B
+avf\prefabs\t72\t72BA.xml : AVF_tanks/T-72BA
+avf\prefabs\t72\t72BV.xml : AVF_tanks/T-72BV
+avf\prefabs\t72\T72B3_obj_1989.xml : AVF_tanks/T-72B3 obj.1989
+avf\prefabs\t72\T72B3_obj_2013.xml : AVF_tanks/T-72B3 obj.2013
+avf\prefabs\t72\t72B3M.xml : AVF_tanks/T-72B3M
+avf\prefabs\t72\t72B3M_UBH.xml : AVF_tanks/T-72B3M UBH
+avf\prefabs\t72\TOS_1.xml : AVF_tanks/TOS-1
+
+
+avf\prefabs\t72_woodland\t72A.xml : AVF_tanks/T-72A (Woodland)
+avf\prefabs\t72_woodland\t72M1.xml : AVF_tanks/T-72M1 (Woodland)
+avf\prefabs\t72_woodland\t72B.xml : AVF_tanks/T-72B (Woodland)
+avf\prefabs\t72_woodland\t72BA.xml : AVF_tanks/T-72BA (Woodland)
+avf\prefabs\t72_woodland\t72BV.xml : AVF_tanks/T-72BV (Woodland)
+avf\prefabs\t72_woodland\T72B3_obj_1989.xml : AVF_tanks/T-72B3 obj.1989 (Woodland)
+avf\prefabs\t72_woodland\T72B3_obj_2013.xml : AVF_tanks/T-72B3 obj.2013 (Woodland)
+avf\prefabs\t72_woodland\t72B3M.xml : AVF_tanks/T-72B3M (Woodland)
+avf\prefabs\t72_woodland\t72B3M_UBH.xml : AVF_tanks/T-72B3M UBH (Woodland)
+avf\prefabs\t72_woodland\TOS_1.xml : AVF_tanks/TOS-1 (Woodland)
+
+avf\prefabs\t72_desert\t72A.xml : AVF_tanks/T-72A (Desert)
+avf\prefabs\t72_desert\t72M1.xml : AVF_tanks/T-72M1 (Desert)
+avf\prefabs\t72_desert\t72B.xml : AVF_tanks/T-72B (Desert)
+avf\prefabs\t72_desert\t72BA.xml : AVF_tanks/T-72BA (Desert)
+avf\prefabs\t72_desert\t72BV.xml : AVF_tanks/T-72BV (Desert)
+avf\prefabs\t72_desert\T72B3_obj_1989.xml : AVF_tanks/T-72B3 obj.1989 (Desert)
+avf\prefabs\t72_desert\T72B3_obj_2013.xml : AVF_tanks/T-72B3 obj.2013 (Desert)
+avf\prefabs\t72_desert\t72B3M.xml : AVF_tanks/T-72B3M (Desert)
+avf\prefabs\t72_desert\t72B3M_UBH.xml : AVF_tanks/T-72B3M UBH (Desert)
+avf\prefabs\t72_desert\TOS_1.xml : AVF_tanks/TOS-1 (Desert)
+
+avf\prefabs\ZSU_23_4\ZSU_23_4.xml : AVF_tanks/ZSU-23-4
+
+
+#Cars: 
+#avf\prefabs\technicals\ : AVF_cars/
+avf\prefabs\technicals\technical_unarmed.xml : AVF_cars/Technical (Unarmed)
+avf\prefabs\technicals\technical_DSHK.xml : AVF_cars/Technical (DSHK)
+avf\prefabs\technicals_woodland\technical_igla.xml : AVF_cars_Woodland/Technical (IGLA)
+avf\prefabs\technicals\technical_SPG9.xml : AVF_cars/Technical (SPG-9)
+avf\prefabs\technicals\technical_UB16_turret.xml : AVF_cars/Technical (UB-16 Turret)
+avf\prefabs\technicals\technical_UB16_forwards.xml : AVF_cars/Technical (UB-16 Fixed)
+avf\prefabs\technicals\technical_type_63.xml : AVF_cars/Technical (Type 63)
+avf\prefabs\technicals\technical_BM_14.xml  : AVF_cars/Technical (BM 14 GRAD)
+avf\prefabs\technicals\technical_ZU_23.xml  : AVF_cars/Technical ZU-23
+avf\prefabs\technicals\offroad_WMIK_MILAN.xml  : AVF_cars/Offroad WMIK-Milan 
+avf\prefabs\technicals\offroad_WMIK_hmg.xml  : AVF_cars/Offroad WMIK-HMG
+avf\prefabs\technicals\offroad_WMIK_GPMG.xml  : AVF_cars/Offroad WMIK-GPMG 
+avf\prefabs\technicals\offroad_WMIK_GMG.xml  : AVF_cars/Offroad WMIK-GMG 
+avf\prefabs\technicals\offroad_NSV.xml  : AVF_cars/Offroad NSV
+avf\prefabs\technicals\offroad_m2.xml  : AVF_cars/Offroad M2
+avf\prefabs\technicals\offroad_GPMG.xml  : AVF_cars/Offroad - GPMG
+avf\prefabs\technicals\offroad_GMG.xml  : AVF_cars/Offroad - GMG
+avf\prefabs\technicals\offroad.xml  : AVF_cars/Offroad - Unarmed
+
+avf\prefabs\technicals_woodland\technical_unarmed.xml : AVF_cars_Woodland/Technical (Unarmed)
+avf\prefabs\technicals_woodland\technical_DSHK.xml : AVF_cars_Woodland/Technical (DSHK)
+avf\prefabs\technicals_woodland\technical_SPG9.xml : AVF_cars_Woodland/Technical (SPG-9)
+avf\prefabs\technicals_woodland\technical_UB16_turret.xml : AVF_cars_Woodland/Technical (UB-16 Turret)
+avf\prefabs\technicals_woodland\technical_UB16_forwards.xml : AVF_cars_Woodland/Technical (UB-16 Fixed)
+avf\prefabs\technicals_woodland\technical_type_63.xml : AVF_cars_Woodland/Technical (Type 63)
+avf\prefabs\technicals_woodland\technical_BM_14.xml  : AVF_cars_Woodland/Technical (BM 14 GRAD)
+avf\prefabs\technicals_woodland\technical_ZU_23.xml  : AVF_cars_Woodland/Technical ZU-23
+avf\prefabs\technicals_woodland\offroad_WMIK_MILAN.xml  : AVF_cars_Woodland/Offroad WMIK-Milan 
+avf\prefabs\technicals_woodland\offroad_WMIK_hmg.xml  : AVF_cars_Woodland/Offroad WMIK-HMG
+avf\prefabs\technicals_woodland\offroad_WMIK_GPMG.xml  : AVF_cars_Woodland/Offroad WMIK-GPMG 
+avf\prefabs\technicals_woodland\offroad_WMIK_GMG.xml  : AVF_cars_Woodland/Offroad WMIK-GMG 
+avf\prefabs\technicals_woodland\offroad_NSV.xml  : AVF_cars_Woodland/Offroad NSV
+avf\prefabs\technicals_woodland\offroad_m2.xml  : AVF_cars_Woodland/Offroad M2
+avf\prefabs\technicals_woodland\offroad_CROWS.xml  : AVF_cars_Woodland/Offroad CROWS
+avf\prefabs\technicals_woodland\offroad_GPMG.xml  : AVF_cars_Woodland/Offroad - GPMG
+avf\prefabs\technicals_woodland\offroad_GMG.xml  : AVF_cars_Woodland/Offroad - GMG
+avf\prefabs\technicals_woodland\offroad.xml  : AVF_cars_Woodland/Offroad - Unarmed
+
+avf\prefabs\katyusha\katyusha.xml : AVF_cars/Katyusha Rocket Launcher 
+
+
+#Turrets:
+avf\prefabs\turrets/ags30.xml : AVF_turrets/AGS-30
+avf\prefabs\turrets/Kornet.xml : AVF_turrets/Kornet
+avf\prefabs\turrets/D_30.xml : AVF_turrets/D-30
+avf\prefabs\turrets/GMG_short.xml : AVF_turrets/GMG short
+avf\prefabs\turrets/GMG_tall.xml : AVF_turrets/GMG Tall
+avf\prefabs\turrets/GPMG_short.xml : AVF_turrets/GPMG Short
+avf\prefabs\turrets/GPMG_tall.xml : AVF_turrets/GPMG Tall
+avf\prefabs\turrets/L111A1_short.xml : AVF_turrets/L111A1 Short
+avf\prefabs\turrets/L111A1_tall.xml : AVF_turrets/L111A1 Tall
+avf\prefabs\turrets/MILAN.xml : AVF_turrets/MILAN
+avf\prefabs\turrets/SPG_9.xml : AVF_turrets/SPG-9
+avf\prefabs\turrets/ZSU_23_2.xml : AVF_turrets/ZSU-23-2

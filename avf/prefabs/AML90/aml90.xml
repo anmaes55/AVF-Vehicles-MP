@@ -1,0 +1,44 @@
+<prefab version="0.7.0">
+	<group id_="1940901504" open_="true" name="instance=MOD/avf/prefabs/AML90/aml90.xml" pos="0.2 0.0 -21.4" rot="0.0 90.0 0.0">
+		<vehicle id_="559580544" open_="true" name="AML_90" tags="cfg=vehicle name=t90" pos="-0.7 0.4 0.0" rot="0.0 -90.0 0.0" driven="false" sound="dumptruck" spring="1" damping="0.8" topspeed="75" acceleration="4" strength="50" antispin="1" antiroll="0.5" difflock="1" steerassist="2" friction="2">
+			<body id_="921164672" open_="true" tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="409493920" open_="true" tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" texture="8 .4" density="20" strength="10" file="MOD/avf/prefabs/AML90/aml90.vox" object="body">
+					<light id_="2078076800" pos="0.85 0.65 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.2" unshadowed="0.2" glare="0.35"/>
+					<light id_="777107776" pos="-0.85 0.65 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.2" unshadowed="0.2" glare="0.35"/>
+					<location id_="426730944" name="exhaust" tags="exhaust" pos="1.0 0.8 -2.1" rot="80 180 0"/>
+					<location id_="28378820" name="exhaust" tags="exhaust" pos="1.0 0.8 -2.1" rot="70 180 0"/>
+					<location id_="1106118528" name="exhaust" tags="exhaust" pos="-1.0 0.8 -2.1" rot="80 180 0"/>
+					<location id_="1236805376" name="exhaust" tags="exhaust" pos="-1.0 0.8 -2.1" rot="70 180 0"/>
+					<location id_="1590524672" name="vital" tags="vital" pos="0.05 0.55 0.9" rot="-180.0 360.0 -180.0"/>
+					<location id_="588155968" name="player" tags="player" pos="-0.05 0.57 1.0" rot="0.0 0.0 0.0"/>
+				</vox>
+				<vox id_="271859904" open_="true" tags="component=turret turretGroup=mainTurret smokeLauncher=t90_smoke_turret group=smoke t90Turret_1" pos="0.0 1.0 0.6" rot="0.0 180 0" texture="7 0.4" density="1.2" strength="10" prop="true" file="MOD/avf/prefabs/AML90/aml90.vox" object="turret">
+					<joint id_="1651739136" tags="component=turretJoint t90TurretMount_1" pos="0.0 0.0 0.0" rot="90 0 0" type="hinge" size="0.3" rotstrength="5" rotspring="0" sound="true"/>
+					<vox id_="140190064" open_="true" tags="component=gun weaponType=D921 group=primary t90Gun_1 
+							interact=mountedGun" pos="0.0 0.1 2.7" rot="0.0 0 0" texture="7 .5" density="0.5" strength="50" prop="true" file="MOD/avf/prefabs/AML90/aml90.vox" object="gun">
+						<joint id_="1134956160" name="gunJoint" tags="component=gunJoint" pos="0.3 0.24 -1.5" rot="0 90 0" type="hinge" size=".1" rotstrength="1" rotspring="0" limits="-14 5" sound="true"/>
+					</vox>
+					<vox id_="1756144256" open_="true" pos="0.8 0.7 0.1" prop="true" file="MOD/avf/prefabs/AML90/aml90.vox" object="hatchLeft">
+						<joint id_="1000402560" pos="0.0 0.0 -0.3" rot="0 90  0" type="hinge" rotstrength="0.5" rotspring="0" collide="true" limits="-130 0"/>
+					</vox>
+					<vox id_="1385646720" open_="true" pos="-0.7 0.6 0.1" prop="true" file="MOD/avf/prefabs/AML90/aml90.vox" object="hatchRight">
+						<joint id_="340218144" pos="0.0 0.1 -0.3" rot="0 90  0" type="hinge" rotstrength="0.5" rotspring="0" collide="true" limits="-130 0"/>
+					</vox>
+				</vox>
+				<wheel id_="1989335680" open_="true" name="WheelFR" pos="1.05 -0.15 -1.4" drive="0" steer="1" travel="-0.1 0">
+					<vox id_="1904920064" pos="0.0 -0.55 0.05" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/AML90/aml90.vox" object="wheelFL"/>
+				</wheel>
+				<wheel id_="1105921920" open_="true" name="WheelFL" pos="-0.95 -0.15 -1.4" drive="0" steer="1" travel="-0.1 0">
+					<vox id_="881578560" pos="0.0 -0.55 -0.05" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/AML90/aml90.vox" object="wheelFL"/>
+				</wheel>
+				<wheel id_="1581021440" open_="true" name="WheelBL" pos="-1.05 -0.15 1.6" drive="1" steer="0" travel="-0.1 0">
+					<vox id_="1460100096" pos="0.0 -0.55 -0.05" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/AML90/aml90.vox" object="wheelFL"/>
+				</wheel>
+				<wheel id_="548111040" open_="true" name="WheelBR" pos="1.15 -0.15 1.6" drive="1" steer="0" travel="-0.1 0">
+					<vox id_="1817686400" pos="0.0 -0.55 0.05" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/AML90/aml90.vox" object="wheelFL"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

@@ -1,0 +1,427 @@
+<prefab version="0.9.3">
+	<group id_="1486250624" open_="true" pos="-2.9 -0.4 -7.6">
+		<vox id_="1683132800" pos="0.5 0.6 0.1" rot="0 0 45" collide="true" prop="true" file="MOD/prop/Barricade/Barbed Wire.vox" object="main">
+			<group id_="195243664" pos="0.0 -0.1 2.0">
+				<group id_="781433408" pos="-0.3 0.0 0.1">
+					<vox id_="650353408" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1965282432" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="280117952" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1838265984" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1250962048" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1993202432" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="421028960" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="358045024" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1367033344" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1667075456" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="268648448" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="60165720" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="452357088" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="254688448" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="296896192" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1300968960" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1959187200" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1073545216" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1745854464" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="761705856" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="7143860" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="2034951424" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="269631552" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1066335808" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="767735552" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="614371968" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="357258528" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<vox id_="1683722624" pos="0.0 -0.1 0.0" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="226768400" pos="0.0 -0.1 2.3" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="1883947264" pos="0.0 -0.1 -2.3" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="1992874752" pos="0.0 1.3 -2.3" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="1408126848" pos="0.0 1.3 0.0" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="1507026816" pos="0.0 1.3 2.3" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="2067983616" pos="0.7 0.6 2.3" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="850643648" pos="0.7 0.6 -2.3" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="364664576" pos="0.7 0.6 0.0" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="1424642944" pos="-0.7 0.6 2.3" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="2071784960" pos="-0.7 0.6 -2.3" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<vox id_="1151537792" pos="-0.7 0.6 0.0" file="MOD/prop/Barricade/Barbed Wire.vox" object="sharp"/>
+			<group id_="1932512384" pos="0.0 -0.1 1.64">
+				<group id_="399400768" pos="-0.3 0.0 0.1">
+					<vox id_="1794812928" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2064051200" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="136781984" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1528654976" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="479949408" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1824043776" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="864734784" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="449604416" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1313093888" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1658751872" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="402677760" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1609793536" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1367492096" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1649838464" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="2051270912" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="577735104" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="746762752" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1328233600" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="176105984" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2093413120" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1318206080" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="1594391552" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1560507392" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1378502784" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1843378048" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="267534288" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1443977344" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="2044258176" pos="0.0 -0.1 1.24">
+				<group id_="670539712" pos="-0.3 0.0 0.1">
+					<vox id_="1227957504" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1122569088" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1561162752" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1516988800" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="434268032" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="603099072" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="516324128" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="1274359808" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1902167424" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="678273472" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1120406272" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1423725440" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1546023040" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="719694720" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="2033837312" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1698403584" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1211441408" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1718852096" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1101399680" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="737652672" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1613529216" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="1967510784" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1061879104" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="704030656" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="565085888" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="494958080" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="579701312" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="2019352960" pos="0.0 -0.1 0.84">
+				<group id_="85267544" pos="-0.3 0.0 0.1">
+					<vox id_="596938304" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1799924992" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="386686016" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="97589064" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="859294912" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="236140624" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="600346432" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="1098843648" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="382425888" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1791732480" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="361322016" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2042881792" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1437292160" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1181555072" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="1277702272" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1118243456" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1493918720" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="896062912" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1511811200" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="894031168" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="601722752" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="66719720" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="461991456" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="987163456" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1106642944" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2025382656" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1048508928" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="1341931520" pos="0.0 -0.1 0.44">
+				<group id_="247937824" pos="-0.3 0.0 0.1">
+					<vox id_="613061184" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="519863296" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="635672448" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1915340928" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1600224640" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="47450960" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1939066496" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="2058939136" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1494967424" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="581733056" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="389700832" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="124919240" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1209213056" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="562398720" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="363222688" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="8651280" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1343897728" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1057094656" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1858386688" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1773840128" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="454454368" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="494302688" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="459304320" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2033575168" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1693553664" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="776059136" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="405954752" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="153363600" pos="0.0 -0.1 0.04">
+				<group id_="842123456" pos="-0.3 0.0 0.1">
+					<vox id_="827966848" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1747427456" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2103899520" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1298347392" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="942530752" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="162801360" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="953672512" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="1945423872" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="235091984" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="786152320" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1269509760" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1374373760" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1494770816" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="636721088" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="1201741440" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2072571392" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1073348608" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="291652992" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1130171776" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1937493504" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="652909504" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="1064172992" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="584944512" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1632994688" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1552577024" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="877580608" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1229399296" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="675914048" pos="0.0 -0.1 -0.36">
+				<group id_="91100600" pos="-0.3 0.0 0.1">
+					<vox id_="1566799232" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1267543552" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="309152192" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1868676480" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1387416320" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1299199488" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1973016192" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="1621328512" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="786676608" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="674472128" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="427386336" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1370965760" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1505715968" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1889452672" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="462581312" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="380132000" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="292636096" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2099967104" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="87823600" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="754758656" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1354777344" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="1134694016" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="49023920" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="635803520" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1616937344" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="888132544" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="548700864" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="1213997440" pos="0.0 -0.1 -0.76">
+				<group id_="1746509952" pos="-0.3 0.0 0.1">
+					<vox id_="948167168" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1300837888" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2082140288" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1715050752" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1247488384" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1789373056" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1193024640" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="1331772800" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="479752800" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="101324840" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="215233360" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1271344896" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2129591168" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="397893344" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="1879687168" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="313674432" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="751809344" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="156771680" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="529301056" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="338907328" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="543523200" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="1301165568" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1615823104" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1796451456" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="212087440" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="25363980" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2023154304" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="1451710976" pos="0.0 -0.1 -1.16">
+				<group id_="1075576960" pos="-0.3 0.0 0.1">
+					<vox id_="1219371648" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1966724352" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="440822048" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1925303040" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2068966784" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="819118912" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1395346560" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="1379879168" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1453218432" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1759552384" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="661560768" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1366312448" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="290407744" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="188165344" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="1465605504" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1376733184" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1586133504" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="897766912" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="616928000" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2116548736" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="829998592" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="2052057344" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1406750592" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1439389440" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1681297664" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2086728064" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="689218624" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="187641024" pos="0.0 -0.1 -1.56">
+				<group id_="2126248704" pos="-0.3 0.0 0.1">
+					<vox id_="717400832" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1508009856" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="491615552" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1633781120" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="672309312" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="560563648" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="2056251904" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="1465015680" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="560301440" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="390421792" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="431777536" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="79696640" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1349271936" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1534553600" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="1940377216" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="886035264" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1930873984" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="372660448" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="694789568" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1992022784" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1140461568" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="517176128" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1609531264" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="458386752" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1375356928" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="79565560" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1958073088" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="2083451008" pos="0.0 -0.1 -1.96">
+				<group id_="1507944320" pos="-0.3 0.0 0.1">
+					<vox id_="380852928" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="111483544" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="184429568" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1796844672" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="105781560" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="961602880" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="751678272" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="494564832" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1476091904" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2031281280" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="24380880" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1292514304" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="83956744" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1915013248" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="2081484928" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2030101504" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1174738944" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="397106848" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="738504704" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2025906944" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="1143672960" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="541622592" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="390159616" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="2098000896" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1702794752" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="820757440" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="163915536" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+			<group id_="1682346240" pos="0.0 -0.1 -2.36">
+				<group id_="1705744000" pos="-0.3 0.0 0.1">
+					<vox id_="1121586048" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1080623488" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="484143968" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="181283648" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1862319104" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1350844928" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="2032329856" pos="-0.3 1.47 0.23" rot="0 180 180">
+					<vox id_="1903674880" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1691980672" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="482439936" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="155591968" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1739169408" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="2124937856" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="158279104" pos="0.4 1.47 -0.07" rot="0 0 180">
+					<vox id_="120986840" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1261120640" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1080361344" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1923926656" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1717934464" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1782294784" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+				<group id_="94901920" pos="0.75 0.36 -0.15" rot="0 0 90">
+					<vox id_="851364608" pos="0.3 0.1 0.2" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="281494304" pos="0.1 0.15 0.08" rot="0 -15 -20" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1551921664" pos="-0.05 0.25 0.15" rot="0 -15 -40" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1187977984" pos="-0.15 0.38 0.03" rot="0 -15 -60" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+					<vox id_="1655540352" pos="-0.23 0.53 0.12" rot="0 -15 -70" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment2"/>
+					<vox id_="1965282432" pos="-0.25 0.64 0.02" rot="0 -15 -90" file="MOD/prop/Barricade/Barbed Wire.vox" object="wire segment"/>
+				</group>
+			</group>
+		</vox>
+	</group>
+</prefab>
+

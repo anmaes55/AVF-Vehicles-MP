@@ -1,0 +1,57 @@
+<prefab version="0.9.5">
+	<group id_="378362432" open_="true" name="instance=MOD/avf/prefabs/technicals/technical_unarmed.xml" pos="-142.88 8.1 -45.61" rot="0.0 -88.0 0.0">
+		<script id_="370497632" open_="true" pos="-0.1 0.0 0.0" file="MOD/avf/scripts/Immersive_Tank.lua">
+			<vehicle id_="1909704576" open_="true" name="Technical_unarmed" tags="cfg=vehicle technicalVehicle" pos="0.2 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="suv2" spring="0.8" damping="0.8" topspeed="60" acceleration="2" strength="5" antispin="0" antiroll="0.2" difflock="0.5" steerassist="0.0">
+				<body id_="23397780" open_="true" tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="140124528" open_="true" tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" density="2" strength="5" file="MOD/avf/prefabs/technicals/technical.vox" object="bodyturret">
+						<group id_="878629248" open_="true" name="base_vehicle_parts" pos="0.0 -0.07 -0.2">
+							<location id_="132063104" tags="player" pos="0.41 1.35 0.34" rot="0.0 0.0 0.0"/>
+							<light id_="2015551616" pos="0.75 0.82 -2.48" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1387744000" pos="-0.65 0.82 -2.48" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1037563712" pos="0.75 0.75 2.55001" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+							<light id_="1426347008" pos="-0.63 0.75 2.54999" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+							<location id_="1782950144" tags="exhaust" pos="0.5 0.15 -2.45" rot="-180.0 360.0 -180.0"/>
+							<location id_="753185664" tags="vital" pos="0.05 0.65 1.6" rot="-180.0 360.0 -180.0"/>
+						</group>
+						<group id_="551453568" open_="true" name="immersive_elements" prop0="strength=12">
+							<vox id_="195374736" name="engine" tags="engine" pos="-0.0 0.4 1.7" file="MOD/avf/prefabs/technicals/technical.vox" object="engine"/>
+							<vox id_="1874247424" name="fuel_tank" tags="fuel_tank" pos="0.2 0.3 -0.50001" file="MOD/avf/prefabs/technicals/technical.vox" object="fuel_tank"/>
+						</group>
+						<group id_="913824192" open_="true" name="hinged_eleements" prop0="strength=1.1">
+							<vox id_="1455905536" open_="true" pos="1.0 0.2 0.4" prop="true" file="MOD/avf/prefabs/technicals/technical.vox" object="door_l">
+								<joint id_="225523136" pos="0.0 0.2 0.6" rot="90 0 0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+								<joint id_="131800944" pos="0.0 0.7 0.6" rotspring="0" collide="true"/>
+							</vox>
+							<vox id_="1305622400" pos="-1.0 0.2 0.4" prop="true" file="MOD/avf/prefabs/technicals/technical.vox" object="door_r">
+								<joint id_="1795468288" pos="0.1 0.2 0.59999" rot="-90.0 90.0 0.0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+								<joint id_="1512073344" pos="0.1 0.7 0.59999" rotspring="0" collide="true"/>
+							</vox>
+							<vox id_="1021506432" open_="true" pos="-0.00001 0.4 -2.70003" prop="true" file="MOD/avf/prefabs/technicals/technical.vox" object="boot">
+								<joint id_="935714560" pos="0.5 0.0 -0.1" rot="0.0 270.0 90.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 100"/>
+								<joint id_="54791440" pos="-0.50001 0.0 -0.09998" rotspring="0" collide="true"/>
+							</vox>
+							<vox id_="994176256" open_="true" pos="0.0 0.9 1.7" prop="true" file="MOD/avf/prefabs/technicals/technical.vox" object="bonnet">
+								<joint id_="386554912" pos="0.7 0.2 -0.6" rot="0.0 -90.0 0.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 140"/>
+								<joint id_="1055193984" pos="-0.60001 0.2 -0.59998" rotspring="0" collide="true"/>
+							</vox>
+						</group>
+					</vox>
+					<wheel id_="40569260" name="bl" pos="-0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+						<vox id_="8585740" pos="-0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/avf/prefabs/technicals/technical.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="2120415616" name="br" pos="0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+						<vox id_="1707906816" pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals/technical.vox" object="wheel_br"/>
+					</wheel>
+					<wheel id_="1882112128" name="fl" pos="-0.75 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+						<vox id_="605524032" pos="0.0 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals/technical.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="274547072" name="fr" pos="0.65 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+						<vox id_="1877983104" pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals/technical.vox" object="wheel_fr"/>
+					</wheel>
+				</body>
+			</vehicle>
+			<location id_="1737858688" name="cook_off" tags="cook_off upward_force=5" pos="0.0 1.0 0.9" rot="0.0 0.0 0.0"/>
+		</script>
+	</group>
+</prefab>
+

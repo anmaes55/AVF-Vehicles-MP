@@ -1,0 +1,472 @@
+<prefab version="1.0.0">
+	<group name="instance=MOD/prop/Barricade/Military Fence.xml" pos="23.79999 0.0 23.6" rot="0.0 -88.0 0.0">
+		<vox pos="0.0 0.1 0.1" texture="10 0.4" density="2" collide="true" file="MOD/prop/Barricade/Military Fence.vox" object="frame">
+			<group pos="0.0 0.0 -0.1">
+				<vox pos="0.0 3.7 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 0.1 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 0.4 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 0.7 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 1.0 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 1.3 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 1.6 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 1.9 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 2.2 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 2.5 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 2.8 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 3.1 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+				<vox pos="0.0 3.4 0.1" rot="0 0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence"/>
+			</group>
+			<group pos="-0.1 -0.1 -0.1">
+				<vox pos="0.1 0.1 2.7" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 2.4" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 2.1" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 1.8" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 1.5" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 1.2" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 0.9" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 0.6" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 0.3" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -2.5" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -0.1" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -0.4" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -0.7" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -1.0" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -1.3" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -1.6" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -1.9" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+				<vox pos="0.1 0.1 -2.2" rot="0 45" file="MOD/prop/Barricade/Military Fence.vox" object="fence2"/>
+			</group>
+			<vox pos="-0.5 3.9 0.0" rot="0 0 -45" file="MOD/prop/Barricade/Military Fence.vox" object="support"/>
+			<group pos="-0.1 3.4 1.4">
+				<group pos="0.0 0.0 1.2">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 0.8">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 0.4">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 -0.0">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 -0.4">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 -0.8">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 -1.2">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+			</group>
+			<group pos="-0.1 3.4 -1.5">
+				<group pos="0.0 0.0 1.2">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 0.8">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 0.4">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 -0.0">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 -0.4">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 -0.8">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+				<group pos="0.0 0.0 -1.2">
+					<group pos="-0.3 0.0 0.1">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="-0.55 0.96 0.04" rot="0 0 -90">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.38 1.19 -0.04" rot="0 0 -180">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+					<group pos="0.62 0.29 -0.12" rot="0 0 -270">
+						<vox pos="-0.22 0.48 -0.075" rot="0 -10 -80" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.3 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="0.1 0.06 0.08" rot="0 -10 -35" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+						<vox pos="-0.04 0.18 -0.04" rot="0 -10 -45" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment"/>
+						<vox pos="-0.16 0.31 0.04" rot="0 -10 -55" file="MOD/prop/Barricade/Military Fence.vox" object="wire segment2"/>
+					</group>
+				</group>
+			</group>
+			<vox pos="-0.4 0.0 0.0" file="MOD/prop/Barricade/Military Fence.vox" object="stands"/>
+			<vox pos="-0.15 0.7 -2.9" rot="70 -90" file="MOD/prop/Barricade/Military Fence.vox" object="stands2"/>
+			<vox pos="-0.25 0.7 2.8" rot=" 110 90" file="MOD/prop/Barricade/Military Fence.vox" object="stands2"/>
+			<vox pos="-0.25 0.7 -0.1" rot=" 110 90" file="MOD/prop/Barricade/Military Fence.vox" object="stands2"/>
+			<vox pos="-0.15 0.7 0.0" rot="70 -90" file="MOD/prop/Barricade/Military Fence.vox" object="stands2"/>
+		</vox>
+	</group>
+</prefab>
+

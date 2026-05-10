@@ -1,0 +1,101 @@
+<prefab version="1.0.0">
+	<group name="instance=MOD/prop/Barricade/HescoBarrier.xml" pos="-9.0 0.2 30.6" rot="0.0 0.0 0.0">
+		<group pos="0.0 0.0 0.1" prop0="density=2">
+			<vox pos="0.0 0.1 0.0" texture="10 0.5" collide="true" prop="true" file="MOD/prop/Barricade/HescoBarrier.vox" object="Hesco Barrier">
+				<vox pos="0.05 1.8 -0.95" file="MOD/prop/Barricade/HescoBarrier.vox" object="lip"/>
+				<vox pos="0.05 1.8 0.95" file="MOD/prop/Barricade/HescoBarrier.vox" object="lip"/>
+				<vox pos="-0.85 1.8 -0.05" rot="0 90" file="MOD/prop/Barricade/HescoBarrier.vox" object="lip"/>
+				<vox pos="1.05 1.8 -0.05" rot="0 90" file="MOD/prop/Barricade/HescoBarrier.vox" object="lip"/>
+				<group pos="0.0 -0.1 -1.0">
+					<vox pos="0.9 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.7 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.5 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.3 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.05 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.2 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.4 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.6 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.8 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+				</group>
+				<group pos="0.0 -0.1 0.8">
+					<vox pos="0.9 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.7 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.5 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.3 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.05 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.2 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.4 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.6 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.8 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+				</group>
+				<group pos="0.9 -0.1 0.0" rot="0 90">
+					<vox pos="0.9 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.7 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.5 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.3 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.05 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.2 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.4 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.6 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.8 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+				</group>
+				<group pos="-0.9 -0.1 0.0" rot="0 90">
+					<vox pos="0.9 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.7 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.5 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.3 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="0.05 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.2 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.4 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.6 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+					<vox pos="-0.8 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal"/>
+				</group>
+				<group pos="1.1 0.8 -1.0" rot="0 0 90">
+					<vox pos="0.9 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.7 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.5 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.3 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.05 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.2 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.4 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.6 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.8 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+				</group>
+				<group pos="1.1 0.8 0.8" rot="0 0 90">
+					<vox pos="0.9 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.7 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.5 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.3 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.05 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.2 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.4 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.6 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.8 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+				</group>
+				<group pos="0.9 0.8 -1.1" rot="0 90 90">
+					<vox pos="0.9 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.7 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.5 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.3 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.05 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.2 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.4 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.6 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.8 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+				</group>
+				<group pos="-0.9 0.8 -1.1" rot="0 90 90">
+					<vox pos="0.9 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.7 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.5 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.3 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="0.05 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.2 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.4 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.6 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+					<vox pos="-0.8 0.1 0.12" rot="0 45" file="MOD/prop/Barricade/HescoBarrier.vox" object="hesco metal 2"/>
+				</group>
+			</vox>
+		</group>
+	</group>
+</prefab>
+

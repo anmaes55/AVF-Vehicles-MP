@@ -1,0 +1,13 @@
+<prefab version="0.9.3">
+	<group id_="1007808576" pos="-3.1 -0.1 -2.5">
+		<vox id_="1486447232" open_="true" pos="0.0 0.1 0.1" texture="10 0.5" collide="true" prop="true" file="MOD/prop/Barricade/YellowBarrier.vox" object="main">
+			<vox id_="1353138816" pos="0.04 0.8 0.9" rot="0 0 45" texture="10 0.5" file="MOD/prop/Barricade/YellowBarrier.vox" object="small side"/>
+			<vox id_="1618510336" pos="0.06 0.8 0.9" rot="0 0 -45" texture="10 0.5" file="MOD/prop/Barricade/YellowBarrier.vox" object="small side"/>
+			<vox id_="1127615744" pos="0.06 0.8 -0.9" rot="0 0 -45" texture="10 0.5" file="MOD/prop/Barricade/YellowBarrier.vox" object="small side"/>
+			<vox id_="1633715584" pos="0.04 0.8 -0.9" rot="0 0 45" texture="10 0.5" file="MOD/prop/Barricade/YellowBarrier.vox" object="small side"/>
+			<vox id_="1558868864" pos="0.1 0.75 0.25" rot="0 90 -20" texture="10 0.5" file="MOD/prop/Barricade/YellowBarrier.vox" object="micro edge"/>
+			<vox id_="745976256" pos="0.1 0.71 -0.25" rot="0 90 20" texture="10 0.5" file="MOD/prop/Barricade/YellowBarrier.vox" object="micro edge"/>
+		</vox>
+	</group>
+</prefab>
+

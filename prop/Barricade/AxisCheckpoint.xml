@@ -1,0 +1,22 @@
+<prefab version="0.9.3">
+	<group id_="1412911360" open_="true" pos="-6.0 -0.1 -8.7">
+		<vox id_="378296896" open_="true" pos="0.0 0.1 0.1" rot="0.0 0.0 0.0" texture="22" blendtexture="0.1" collide="true" prop="true" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="main">
+			<vox id_="2068507904" pos="0.55 0.0 0.0" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="inside1"/>
+			<vox id_="316558208" pos="-0.55 0.0 0.0" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="inside 2"/>
+			<vox id_="1148129664" pos="0.0 0.1 0.55" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="inside3"/>
+			<vox id_="1457478528" pos="0.0 0.1 -0.55" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="inside3"/>
+			<vox id_="314657536" pos="0.1 0.1 -0.5" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="1699779968" pos="0.1 0.1 0.5" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="1272131456" pos="0.6 0.1 -0.005" rot="0 90" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="776583488" pos="0.1 1.0 -0.5" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="1910622080" pos="0.1 1.0 0.5" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="1907148416" pos="0.6 1.0 -0.005" rot="0 90" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="1215111552" pos="0.1 1.9 -0.5" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="1988286976" pos="0.1 1.9 0.5" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="489059488" pos="0.6 1.9 -0.005" rot="0 90" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="support"/>
+			<vox id_="310135296" pos="0.05 2.1 -0.405" rot="-40 " texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="roof"/>
+			<vox id_="49155000" pos="0.05 2.1 0.295" rot="-40 180#" texture="22" blendtexture="0.1" file="MOD/prop/Barricade/AxisCheckpoint.vox" object="roof"/>
+		</vox>
+	</group>
+</prefab>
+

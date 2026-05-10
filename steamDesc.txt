@@ -1,0 +1,156 @@
+[h1]Armed Vehicle Framework (AVF) Vehicle Pack[/h1]
+
+The [b]Armed Vehicle Framework Vehicle pack [/b] provides a wide range of devestating and explosive vehicles to the teardown game. With highly detailed interiors, immersive tank behaviors, and devestating cookoffs. All spawnwable and ready for fun!
+
+
+[h2]Vehicles are found in the spawn menu.  [/h2] 
+
+[h2]IF VEHICLES DON'T SHOOT THEN YOU LIKELY DON'T HAVE AVF ENABLED. THIS IS PAIRED WITH A MESSAGE SAYING SO JUST ABOVE THE BASE VEHICLE CONTROLS  [/h2] 
+
+[h1]Current Vehicles: [/h1]
+
+some vehicles have multiple Camo types (such as desert / woodland)
+
+[h2]Tanks: [/h2]
+[list]
+	[*] BMP-2
+	[*] T72-A
+	[*] T-72M1
+	[*] T-72B
+	[*] T-72BA
+	[*] T-72BV 
+	[*] T-72B3 obj.1989
+	[*] T-72B3 obj.2013
+	[*] T-72B3M
+	[*] T-72B3M UBH
+	[*] T-90
+	[*] TOS-1
+	[*] ZSU-23-4
+	[*] Cromwell V
+
+[/list]
+
+
+[h2]Cars: [/h2]
+Many in desert and woodland camo.
+[list] 
+	[*] Technical (Unarmed)
+	[*] Technical (DSHK)
+	[*] Technical (SPG-9)
+	[*] Technical (UB-16 - turret)
+	[*] Technical (UB-16 - fixed)
+	[*] Technical (Type-63)
+	[*] Technical (BM-14 GRAD)
+	[*] Technical (ZSU-23-2)
+	[*] Offroad (Unarmed)
+	[*] Offroad (GMG)
+	[*] Offroad (GPMG)
+	[*] Offroad (M2)
+	[*] Offroad (NSV)
+	[*] Offroad WMIK (GMG)
+	[*] Offroad WMIK (GPMG)
+	[*] Offroad WMIK (HMG)
+	[*] Offroad WMIK (MILAN)
+	[*] Katyusha Rocket Launcher 
+
+[/list]
+
+
+
+[h2]Turrets: [/h2]
+Many new turrets in tall and short form
+[list]
+	[*] AGS-30
+	[*] Kornet ATGM
+	[*] ZSU-23-2
+	[*] MILAN
+	[*] SPG-9
+	[*] D-30
+	[*] GMG - L134A1
+	[*] GPMG - L7A2
+	[*] HMG - L111A1
+
+
+[/list]
+
+
+
+[h1] OTHER AVF COMPATIBLE VEHICLES / VEHICLE PACKS [/h1]
+
+I appreciate all of the suggestions, however, I always need to share the love and ensure that other fantastic creators get their vehicles seen. Here's a list of every creator who has made AVF vehicles and their theme / type, which won't be included here. 
+
+
+[h2] AVF COMPATIBLE [/H2]
+
+[H3]MODERN VEHICLES[/H3]
+
+[list]
+	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2725241210] M1A2 ABRAHMS by hookens  [/url]  
+
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2503228872]Russian BTR-90 by Akora [/url]
+
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2780652635]US military vehicle spawn pack(AVF Update) by Sarge {Plowg} [/url]
+
+
+[/list]
+
+[H3]COLD WAR[/H3]
+[list]
+	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2775602908] M-51 SUPER SHERMAN by  dedula barboskin & Jacob Mario [/url]  
+
+[/list]
+
+[H3]WW2[/H3]
+
+[list]
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2748947426] US Tank Expansion by Jacob Mario [/url]
+
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2682955515] Panzers Of The Reich! by Jacob Mario [/url]
+
+[/list]
+
+[h2] NON AVF BUT AMAZING VEHICLE PACKS [/h2]
+
+[list]
+
+	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2419943706] Vehicles by TTFH3500[/url]
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/] by GLaDOS[/url]
+
+
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2775314856] m923a2 5Ton by  FoxyPlayzYT[/url]
+
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2625143193]Saggy Vehicle Pack by saggy7771 [/url]
+
+
+[/list]
+
+[h2] Great packs to use with this: [/h2]
+
+[list]
+
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2755308994]Shuggy's Barricade Pack by shuggy badgers [/url]
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2781891636] WW2 Ragdolls by Darren[/url]
+	[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2782336916][SW's] ADVANCED GORE MOD 2 [/url]
+
+
+[/list]
+
+
+[h1]Notes [/h1]
+
+
+If the weapons don't work, then you need to ensure you have enabled the AVF Base mod from the main mod menu.
+
+If the tanks / vehicles vanish then it's likely because you have the performance mod or similar running, it is suggested to disable these mods if such isseus occur. 
+
+
+[h1]Thanks[/h1]
+
+
+Many  thanks to the following users during development 
+
+[list]
+
+    [*] Spexta - For their fantastic work in modelling several of the vehicles in this pack
+
+

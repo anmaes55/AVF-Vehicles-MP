@@ -1,0 +1,131 @@
+<prefab version="0.9.5">
+	<group id_="89986424" open_="true" name="instance=MOD/avf/prefabs/technicals_woodland/technical_BM_14.xml" pos="-161.8 8.1 -50.77" rot="0.0 -88.0 0.0">
+		<script id_="713009664" open_="true" pos="0.0 0.0 1.5" file="MOD/avf/prefabs/technicals_woodland/technical_bm_14.lua">
+			<script id_="1247029632" open_="true" pos="-0.1 0.0 -1.5" file="MOD/avf/scripts/Immersive_Tank.lua">
+				<vehicle id_="1934413056" open_="true" name="MGTechnical" tags="base_vehicle technicalVehicle" pos="0.2 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="suv2" spring="0.8" damping="0.8" topspeed="60" acceleration="2" strength="5" antispin="0" antiroll="0.2" difflock="0.5" steerassist="0.0">
+					<body id_="1182538240" open_="true" tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1817620864" open_="true" tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" density="2" strength="5" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="bodyturret">
+							<group id_="1064566208" open_="true" name="immersive_elements">
+								<vox id_="1330134272" name="engine" tags="engine" pos="-0.0 0.4 1.7" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="engine"/>
+								<vox id_="1052244672" name="fuel_tank" tags="fuel_tank" pos="0.2 0.3 -0.50001" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="fuel_tank"/>
+								<group id_="609325376" open_="true" name="ammo_rack" pos="-0.2 0.4 -0.4" prop0="tags=ammo_rack=0.8">
+									<vox id_="1706268416" name="ammo_rack" pos="0.10343 0.2 -0.69646" rot="0.0 -180.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="spg9_ammo"/>
+									<vox id_="1630635264" name="ammo_rack" pos="0.6 0.2 -0.676" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="spg9-ammo-2"/>
+									<vox id_="1160713344" name="ammo_rack" pos="0.7 0.7 -0.176" rot="0.0 -89.0 -90.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="spg9-ammo-2"/>
+									<vox id_="1102120704" name="ammo_rack" pos="0.3 0.7 -0.176" rot="0.0 -89.0 -90.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="spg9-ammo-2"/>
+									<vox id_="759477504" name="ammo_rack" pos="-0.226 0.1 0.926" rot="0.0 1.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="spg9-ammo-2"/>
+									<vox id_="1427067904" name="ammo_rack" pos="0.19748 0.2 -1.47053" rot="0.0 171.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="spg9-ammo-2"/>
+								</group>
+							</group>
+							<group id_="579897920" open_="true" name="hinged_eleements" prop0="strength=5">
+								<vox id_="1889256064" pos="1.0 0.2 0.4" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="door_l">
+									<joint id_="322456800" pos="0.0 0.2 0.6" rot="90 0 0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+									<joint id_="870109056" pos="0.0 0.7 0.6" rotspring="0" collide="true"/>
+								</vox>
+								<vox id_="1818931584" pos="-1.0 0.2 0.4" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="door_r">
+									<joint id_="394419712" pos="0.1 0.2 0.59999" rot="-90.0 90.0 0.0" type="hinge" rotstrength=".1" rotspring="0" collide="true" limits="0 100"/>
+									<joint id_="1802415488" pos="0.1 0.7 0.59999" rotspring="0" collide="true"/>
+								</vox>
+								<vox id_="901371648" pos="-0.00001 0.4 -2.70003" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="boot">
+									<joint id_="1939590784" pos="0.5 0.0 -0.1" rot="0.0 270.0 90.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 100"/>
+									<joint id_="1457478528" pos="-0.50001 0.0 -0.09998" rotspring="0" collide="true"/>
+								</vox>
+								<vox id_="1020130112" pos="0.0 0.9 1.7" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="bonnet">
+									<joint id_="1753129472" pos="0.7 0.2 -0.6" rot="0.0 -90.0 0.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 140"/>
+									<joint id_="1726389120" pos="-0.60001 0.2 -0.59998" rotspring="0" collide="true"/>
+								</vox>
+							</group>
+							<group id_="1501062656" open_="true" name="base_vehicle_parts" pos="0.0 -0.07 -0.2">
+								<location id_="567117632" tags="player" pos="0.41 1.35 0.34" rot="0.0 0.0 0.0"/>
+								<light id_="1817555328" pos="0.75 0.82 -2.48" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+								<light id_="1461214336" pos="-0.65 0.82 -2.48" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+								<light id_="1492935680" pos="0.75 0.75 2.55001" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+								<light id_="1765385472" pos="-0.63 0.75 2.54999" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+								<location id_="561087936" tags="exhaust" pos="0.5 0.15 -2.45" rot="-180.0 360.0 -180.0"/>
+								<location id_="2112419712" tags="vital" pos="0.05 0.65 1.6" rot="-180.0 360.0 -180.0"/>
+							</group>
+						</vox>
+						<wheel id_="1498375424" name="bl" pos="-0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+							<vox id_="875483328" pos="-0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1577220096" name="br" pos="0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+							<vox id_="1814278272" pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="774027392" name="fl" pos="-0.75 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+							<vox id_="896325056" pos="0.0 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1079968128" name="fr" pos="0.65 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+							<vox id_="1661373440" pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+				<group id_="1976555264" open_="true" pos="0.2 1.39 1.57" rot="0.0 -90.0 0.0">
+					<vehicle id_="1904723456" open_="true" name="bm-14" tags="cfg=vehicle turret artillery passive " pos="-0.97 -0.84 -0.1" rot="0.0 0.0 0.0" driven="false" sound="none" spring="0.8" damping="0.8" topspeed="5" acceleration="1" strength="3" antispin="0" antiroll="2" difflock="1" steerassist="0.0" friction="0.1">
+						<body id_="1558934400" open_="true" tags="component=body" pos="1.3 0.65 0.00002" rot="0.0 0.0 0.0" dynamic="true">
+							<vox id_="1011151104" open_="true" pos="-0.08 -0.21 0.09999" rot="0.0 -89.0 0.0" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="frame_work_turret_mount">
+								<vox id_="1108478080" open_="true" tags="component=turret  turretGroup=mainTurret" pos="0.09 0.5 -0.05" rot="0.0 180.0 0.0" density="1" strength="2" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="gradMount">
+									<joint id_="1808576256" tags="component=turretJoint" pos="0.05 -0.02 0.0" rot="90 0 0.0" type="hinge" size="0.1" rotstrength="0" rotspring="0" sound="true"/>
+									<vox id_="153625760" open_="true" tags="mainCannon component=gun weaponType=customcannon group=primary  commander avf_barrel_coords_true " pos="0.09999 0.62 -0.65" rot="0.0 180.0 0.0" density="0.1" strength="2" prop="true" file="MOD/avf/prefabs/technicals_woodland/technical.vox" object="gradLauncher">
+										<joint id_="1034352256" tags="component=gunJoint" pos="0.29999 0.21 -0.70001" rot="0 -90  0.0" type="hinge" size="0.1" rotspring="0" limits="-20 80" sound="true"/>
+										<joint id_="635344768" pos="-0.19001 0.21 -0.70001" rot="0 -90  0.0" type="hinge" size="0.1" rotstrength="0" rotspring="0" limits="-20 80" sound="true"/>
+									</vox>
+								</vox>
+								<group id_="432826176" open_="true" name="structual_joints" pos="0.0 -0.1 -0.1" prop0="collide=true">
+									<joint id_="1060437184" pos="0.59725 0.2 -0.29107"/>
+									<joint id_="1989794432" pos="0.70727 0.41 -0.30108"/>
+									<joint id_="402939936" pos="0.70726 0.41 0.29892"/>
+									<joint id_="1638172288" pos="-0.50275 0.2 -0.29108"/>
+									<joint id_="755807296" pos="0.12725 0.1 -0.29109" rot="0.0 90.0 0.0"/>
+									<joint id_="2083909888" pos="-0.06275 0.1 -0.29109" rot="0.0 90.0 0.0"/>
+									<joint id_="1007087616" pos="-0.30275 0.1 0.33887" rot="0.0 90.0 0.0"/>
+									<joint id_="1885454720" pos="0.34725 0.11 0.35892" rot="0.0 90.0 0.0"/>
+									<joint id_="1154880384" pos="0.59725 0.2 0.35893"/>
+									<joint id_="1276784768" pos="-0.55275 0.2 0.35891"/>
+									<joint id_="1557558144" pos="-0.61274 0.41 0.29888"/>
+									<joint id_="1505257216" pos="-0.61273 0.41 -0.30112"/>
+								</group>
+								<location id_="767735552" tags="player" pos="0.15 0.62 -0.69001" rot="0.0 0.0 0.0"/>
+							</vox>
+						</body>
+					</vehicle>
+				</group>
+				<group id_="163456768" open_="true" name="main_cannon_setup" pos="-0.28 2.69 1.91002">
+					<group id_="81662840" open_="true" name="emitters" pos="0.3 0.2 -2.27" prop0="tags=mainCannon_emitter flip_y_z">
+						<location id_="1609990144" name="mainCannon_emitter" pos="-0.495 -0.03 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="100145120" name="mainCannon_emitter" pos="-0.495 -0.23 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1434473984" name="mainCannon_emitter" pos="-0.295 -0.23 0.04094" rot="0.0 90.0 0.0"/>
+						<location id_="758297792" name="mainCannon_emitter" pos="-0.295 -0.03 0.04094" rot="0.0 90.0 0.0"/>
+						<location id_="1791732480" name="mainCannon_emitter" pos="-0.095 -0.03 0.04098" rot="0.0 90.0 0.0"/>
+						<location id_="539656384" name="mainCannon_emitter" pos="-0.095 -0.23 0.04098" rot="0.0 90.0 0.0"/>
+						<location id_="141500864" name="mainCannon_emitter" pos="0.105 -0.23 0.04097" rot="0.0 90.0 0.0"/>
+						<location id_="1112017152" name="mainCannon_emitter" pos="0.105 -0.03 0.04097" rot="0.0 90.0 0.0"/>
+						<location id_="1646758016" name="mainCannon_emitter" pos="0.305 -0.03 0.04096" rot="0.0 90.0 0.0"/>
+						<location id_="1126108288" name="mainCannon_emitter" pos="0.305 -0.23 0.04096" rot="0.0 90.0 0.0"/>
+						<location id_="1935396224" name="mainCannon_emitter" pos="0.505 -0.23 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1099695616" name="mainCannon_emitter" pos="0.505 -0.03 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1524263808" name="mainCannon_emitter" pos="0.705 -0.23 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="620860416" name="mainCannon_emitter" pos="0.705 -0.03 0.04095" rot="0.0 90.0 0.0"/>
+					</group>
+					<group id_="1346519296" open_="true" name="backblast" pos="0.35 0.2 0.95" prop0="tags=mainCannon_backblast flip_y_z">
+						<location id_="441936224" name="mainCannon_emitter" pos="-0.495 -0.03 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="2066279552" name="mainCannon_emitter" pos="-0.495 -0.23 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1073676288" name="mainCannon_emitter" pos="-0.295 -0.23 0.04094" rot="0.0 90.0 0.0"/>
+						<location id_="571836480" name="mainCannon_emitter" pos="-0.295 -0.03 0.04094" rot="0.0 90.0 0.0"/>
+						<location id_="1991170688" name="mainCannon_emitter" pos="-0.095 -0.03 0.04098" rot="0.0 90.0 0.0"/>
+						<location id_="574392576" name="mainCannon_emitter" pos="-0.095 -0.23 0.04098" rot="0.0 90.0 0.0"/>
+						<location id_="364599008" name="mainCannon_emitter" pos="0.105 -0.23 0.04097" rot="0.0 90.0 0.0"/>
+						<location id_="1110247552" name="mainCannon_emitter" pos="0.105 -0.03 0.04097" rot="0.0 90.0 0.0"/>
+						<location id_="734113536" name="mainCannon_emitter" pos="0.305 -0.03 0.04096" rot="0.0 90.0 0.0"/>
+						<location id_="1463442688" name="mainCannon_emitter" pos="0.305 -0.23 0.04096" rot="0.0 90.0 0.0"/>
+						<location id_="1029502336" name="mainCannon_emitter" pos="0.505 -0.23 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="767538944" name="mainCannon_emitter" pos="0.505 -0.03 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="518290336" name="mainCannon_emitter" pos="0.705 -0.23 0.04095" rot="0.0 90.0 0.0"/>
+						<location id_="1148785152" name="mainCannon_emitter" pos="0.705 -0.03 0.04095" rot="0.0 90.0 0.0"/>
+					</group>
+					<location id_="1414680960" name="mainCannon_sight" tags="mainCannon_sight" pos="-0.67099 0.295 -0.15501"/>
+				</group>
+			</script>
+		</script>
+	</group>
+</prefab>
+

@@ -1,0 +1,106 @@
+<prefab version="0.9.6">
+	<group name="instance=MOD/avf/prefabs/technicals_woodland/offroad_WMIK_GMG.xml" pos="-141.7 8.1 -18.04" rot="0.0 -88.0 0.0">
+		<script pos="-0.1 0.0 0.0" file="MOD/avf/scripts/Immersive_Tank.lua">
+			<script pos="0.1 0.1 0.2" rot="0.0 0.0 0.0" file="MOD/avf/prefabs/technicals_woodland/Offroad_WMIK.lua">
+				<location name="GMG_shell_ejector" tags="GMG_shell_ejector" pos="0.391 2.73 0.085" rot="130.0 90.0 0.0"/>
+				<location name="GMG_emitter" tags="GMG_emitter flip_y_z" pos="0.057 2.65 -0.771" rot="0.0 -90.0 0.0"/>
+				<location name="GMG_shell_ejector_dir" tags="GMG_shell_ejector_dir" pos="1.411 2.41 -0.315" rot="130.0 90.0 0.0"/>
+				<location name="GMG_sight" tags="GMG_sight" pos="0.032 3.01 1.31" rot="0.0 180.0 0.0"/>
+				<vehicle name="offroad" tags="cfg=vehicle" pos="0.1 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="suv2 0.9" spring="0.8" damping="0.8" topspeed="60" acceleration="2" strength="5" antispin="0" antiroll="0.7" difflock="0.5" steerassist="0.0">
+					<group pos="-0.1 0.0 0.0" prop0="texture=1 .6">
+						<body pos="0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+							<vox pos="0.05 -0.2 0.15" rot="0 180 0" texture="1 .6" density="2" strength="5" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="body_scaffoled_military">
+								<light pos="0.75 0.55 -2.2" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+								<light pos="-0.65 0.55 -2.2" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+								<light pos="0.6 0.55 -2.2" rot="0.0 180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+								<light pos="-0.5 0.55 -2.2" rot="0.0 180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+								<light pos="0.65 0.65 2.0" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+								<light pos="-0.55 0.65 2.0" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+								<location tags="exhaust" pos="0.5 0.05 -2.2" rot="-180.0 360.0 -180.0"/>
+								<location tags="vital" pos="0.05 0.55 1.3" rot="-180.0 360.0 -180.0"/>
+								<location tags="player" pos="-0.29 1.25 0.15" rot="0.0 0.0 0.0"/>
+								<group name="immersive_elements" prop0="strength=12">
+									<vox name="engine" tags="engine" pos="0.0 0.2 1.5" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="engine"/>
+									<vox name="fuel_tank" tags="fuel_tank" pos="-0.3 0.1 -1.19998" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="fuel_tank"/>
+									<group name="ammo_rack" pos="0.0 0.4 -1.38" prop0="tags=ammo_rack=0.05">
+										<vox name="ammo_rack" pos="-0.3 -0.11 0.88" rot="0.0 90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="ammo_box_small_04"/>
+										<vox name="ammo_rack" pos="0.4 -0.1 0.83" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="ammo_box_small_01"/>
+										<vox name="ammo_rack" pos="0.4 -0.1 0.52" rot="0.0 180.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="ammo_box_small_04"/>
+										<vox name="ammo_rack" pos="0.37 -0.0 -0.92" rot="0.0 90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="ammo_box_small_05"/>
+										<vox name="ammo_rack" pos="-0.26 0.0 -0.92001" rot="0.0 -90.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="ammo_box_small_05"/>
+									</group>
+								</group>
+								<group name="hinged_eleements" pos="0.0 1.0 0.0" prop0="tags=RHA=170 nocull">
+									<vox pos="0.8 -0.7 0.4" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="door_front_left_mil"/>
+									<vox pos="0.8 -0.7 -0.6" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="door_back_left_tactical"/>
+									<vox pos="-0.0 -0.7 -2.3" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="rear_door_mil"/>
+									<vox pos="0.0 -0.1 1.5" prop="true" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="bonnet">
+										<joint pos="0.6 0.0 -0.59999" rot="0.0 -90.0 0.0" type="hinge" rotstrength=".05" rotspring="0" collide="true" limits="0 140"/>
+										<joint pos="-0.50001 0.0 -0.59999" rotspring="0" collide="true"/>
+									</vox>
+									<vox pos="-0.7 -0.7 0.4" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="door_front_right_mil"/>
+									<vox pos="-0.8 -0.7 -0.6" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="door_back_right_tactical"/>
+								</group>
+								<group name="turrets">
+									<vox tags="component=turret turretGroup=mainTurret" pos="0.0 1.6 -0.94" prop="true" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="turret_ring">
+										<joint tags="component=turretJoint" pos="0.06 -0.13 -0.23" rot="90 0 0" type="hinge" size=".6" rotstrength="0" rotspring="0" collide="true"/>
+										<group name="turret" pos="-0.2 0.3 -0.55" rot="0.0 0.0 0.0" prop0="strength=5">
+											<vox tags="GMG component=gun weaponType=customcannon commander avf_barrel_coords_true
+
+
+
+				 group=primary interact=mountedGun" pos="0.5 -0.07 1.35" rot="0.0 0.0 0.0" density=".05" strength="5" prop="true" file="MOD/avf/prefabs/turrets/turrets_02.vox" object="GMG_02">
+												<joint name="gunJoint" tags="component=gunJoint" pos="-0.2 0.17 -0.15" rot="0 90  0.0" type="hinge" size="0.1" rotspring="0" limits="-45 15"/>
+												<joint name="gunJoint2" pos="-0.31 0.17 -0.15" rot="0 90  0.0" type="hinge" size="0.1" rotspring="0" limits="-45 15"/>
+											</vox>
+										</group>
+									</vox>
+									<vox tags="component=turret turretGroup=mainTurret" pos="0.51 0.3 0.92" rot="0.0 29.0 0.0" prop="true" file="MOD/avf/prefabs/turrets/turrets_02.vox" object="tall_pintle_02">
+										<joint tags="component=turretJoint" pos="0.004 0.02 -0.197" rot="90 0 0" type="hinge" size=".2" rotstrength="0" rotspring="0" collide="true" limits="-50 80"/>
+										<location tags="player" pos="-0.43634 1.28 0.6525" rot="0.0 180.0 0.0"/>
+										<group name="turret" pos="-0.22634 0.3 -0.6675" rot="0.0 0.0 0.0" prop0="strength=5">
+											<vox tags="GPMG RHA=80
+
+
+
+				 group=primary interact=mountedGun" pos="0.43 0.54 0.85" rot="0.0 0.0 0.0" density=".05" strength="5" prop="true" file="MOD/avf/prefabs/turrets/turrets_02.vox" object="GPMG_02">
+												<joint name="gunJoint" tags="component=gunJoint" pos="-0.1 0.14 -0.03" rot="0 90  0.0" type="hinge" size="0.1" rotspring="0" limits="-45 5"/>
+												<joint name="gunJoint2" pos="-0.21 0.14 -0.03" rot="0 90  0.0" type="hinge" size="0.1" rotspring="0" limits="-45 5"/>
+											</vox>
+										</group>
+									</vox>
+								</group>
+								<group name="armour" prop0="tags=RHA=170 nocull">
+									<vox pos="-0.85 0.91 -1.04" rot="0.0 0.0 -8.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="rear_armour_plate_long"/>
+									<vox pos="0.85 0.91 -1.04" rot="0.0 0.0 8.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="rear_armour_plate_long"/>
+								</group>
+								<group name="details">
+									<vox tags=" nocull" pos="1.07 0.85 -0.4" rot="0.0 0.0 8.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="wheel_spare"/>
+								</group>
+							</vox>
+							<wheel name="bl" pos="-0.65 -0.15 1.4" drive="1" travel="-0.1 0.2">
+								<vox pos="-0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="wheel_bl_mil"/>
+							</wheel>
+							<wheel name="br" pos="0.65 -0.15 1.4" drive="1" travel="-0.1 0.2">
+								<vox pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="wheel_br_mil"/>
+							</wheel>
+							<wheel name="fl" pos="-0.75 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+								<vox pos="0.0 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="wheel_fl_mil"/>
+							</wheel>
+							<wheel name="fr" pos="0.65 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+								<vox pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/avf/prefabs/technicals_woodland/offroad.vox" object="wheel_fr_mil"/>
+							</wheel>
+						</body>
+					</group>
+				</vehicle>
+				<group name="gpmg" pos="-0.21457 1.36 -1.70569" rot="0.0 35.0 0.0">
+					<location name="GPMG_shell_ejector" tags="GPMG_shell_ejector" pos="-0.309 0.6 0.335" rot="130.0 90.0 0.0"/>
+					<location name="GPMG_emitter" tags="GPMG_emitter flip_y_z" pos="-0.444 0.53 -0.95" rot="0.0 -90.0 0.0"/>
+					<location name="GPMG_shell_ejector_dir" tags="GPMG_shell_ejector_dir" pos="0.661 0.21 -0.215" rot="130.0 90.0 0.0"/>
+					<location name="GPMG_sight" tags="GPMG_sight" pos="-0.668 0.81 1.17" rot="0.0 180.0 0.0"/>
+				</group>
+			</script>
+		</script>
+	</group>
+</prefab>
+

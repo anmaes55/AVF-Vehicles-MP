@@ -1,0 +1,13 @@
+<prefab version="0.9.3">
+	<group id_="469659648" open_="true" pos="-5.3 -0.1 5.5">
+		<vox id_="1387285248" open_="true" pos="0.0 0.1 0.0" texture="10 0.2" density="1" strength="10" collide="true" prop="true" file="MOD/prop/Barricade/Anti_BlastWall.vox" object="main">
+			<vox id_="1095959936" pos="-0.2 0.0 0.8" rot="0 -20" texture="10 0.2" file="MOD/prop/Barricade/Anti_BlastWall.vox" object="small corner"/>
+			<vox id_="165554048" pos="-0.3 0.2 0.1" rot="0 0 30" texture="10 0.2" file="MOD/prop/Barricade/Anti_BlastWall.vox" object="lid"/>
+			<vox id_="1473666944" pos="0.4 0.2 -0.1" rot="0 180 30" texture="10 0.2" file="MOD/prop/Barricade/Anti_BlastWall.vox" object="lid"/>
+			<vox id_="1302476416" pos="-0.2 0.0 -0.6" rot="0 20" texture="10 0.2" file="MOD/prop/Barricade/Anti_BlastWall.vox" object="small corner"/>
+			<vox id_="355620032" pos="0.3 0.0 0.6" rot="180 20 180" texture="10 0.2" file="MOD/prop/Barricade/Anti_BlastWall.vox" object="small corner"/>
+			<vox id_="325340576" pos="0.3 0.0 -0.8" rot="180 -20 180" texture="10 0.2" file="MOD/prop/Barricade/Anti_BlastWall.vox" object="small corner"/>
+		</vox>
+	</group>
+</prefab>
+

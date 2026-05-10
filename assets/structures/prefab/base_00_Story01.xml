@@ -1,0 +1,304 @@
+<prefab version="0.9.6">
+	<group pos="-225.8 3.8 10.9" rot="0.0 -90.0 0.0">
+		<group name="first floor" pos="-6.288 0.7 -5.709">
+			<compound name="unbreakableFoundation" pos="0.0 -0.6 0.0">
+				<voxbox name="hole" pos="1.1 0.0 -0.0" rot="0.0 0.0 0.0" size="116 14 115" brush="MOD/assets/vox/hole.vox"/>
+				<voxbox name="concreteFloor" pos="1.1 0.6 0.0" rot="0.0 0.0 0.0" size="116 2 115" brush="MOD/assets/brush/fundaments.vox" object="concrete_medium"/>
+				<voxbox name="rockFoundationFloor" pos="1.1 -0.1 0.0" rot="0.0 0.0 0.0" size="116 7 115" brush="MOD/assets/brush/fundaments.vox" object="rock_light">
+					<voxbox name="woodenFloor" pos="0.4 0.9 0.4" rot="0.0 0.0 0.0" size="107 1 106" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+				</voxbox>
+				<voxbox pos="3.7 0.4 0.0" rot="0.0 180.0 0.0" size="16 2 10" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+					<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="16 2 7" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+						<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="16 2 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+					</voxbox>
+				</voxbox>
+				<voxbox pos="10.4 0.4 11.5" rot="0.0 0.0 0.0" size="16 2 10" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+					<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="16 2 7" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+						<voxbox pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" size="16 2 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+					</voxbox>
+				</voxbox>
+				<voxbox name="skirting" pos="3.5 0.9 0.5" rot="0.0 0.0 0.0" size="19 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="5.9 0.9 0.5" rot="0.0 0.0 0.0" size="63 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="5.9 0.9 6.6" rot="0.0 0.0 0.0" size="63 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="12.1 0.9 6.6" rot="0.0 90.0 0.0" size="61 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="12.1 0.9 11.0" rot="0.0 90.0 0.0" size="38 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="12.1 0.9 11.0" rot="0.0 -180.0 0.0" size="3 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="11.8 0.9 11.0" rot="0.0 -180.0 0.0" size="12 1 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="10.6 0.9 11.0" rot="0.0 -180.0 0.0" size="90 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="1.7 0.9 0.6" rot="0.0 -90.0 0.0" size="104 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="5.4 0.9 0.6" rot="0.0 -90.0 0.0" size="35 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="5.4 0.9 5.3" rot="0.0 -90.0 0.0" size="20 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="5.4 0.9 7.2" rot="0.0 0.0 0.0" size="67 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="5.4 0.9 5.3" rot="0.0 0.0 0.0" size="20 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="5.4 0.9 4.1" rot="0.0 -90.0 0.0" size="12 1 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="6.0 0.9 0.5" rot="0.0 -90.0 0.0" size="36 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="6.0 0.9 5.3" rot="0.0 -90.0 0.0" size="14 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="6.0 0.9 4.1" rot="0.0 -90.0 0.0" size="12 1 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="1.6 0.9 0.5" rot="0.0 0.0 0.0" size="7 2 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+				<voxbox name="skirting" pos="2.3 0.9 0.5" rot="0.0 0.0 0.0" size="12 1 1" brush="MOD/assets/brush/fundaments.vox" object="log_6x6"/>
+			</compound>
+			<compound name="wallPlastered" pos="0.0 0.2 0.0">
+				<voxbox name="brick" pos="1.1 0.0 0.0" rot="0.0 0.0 0.0" size="115 39 5" brush="MOD/assets/vox/brick.vox"/>
+				<voxbox name="plaster" pos="12.2 0.1 0.5" rot="0.0 180.0 0.0" size="106 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+				<voxbox name="plaster" pos="0.9 0.0 0.5" rot="0.0 90.0 0.0" size="5 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="base"/>
+				<voxbox name="plaster" pos="1.1 0.0 -0.2" rot="0.0 0.0 0.0" size="116 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="base">
+					<vox pos="8.3 1.3 0.5" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+				</voxbox>
+			</compound>
+			<compound name="wallPlastered" pos="1.1 0.2 12.7" rot="0.0 90.0 0.0">
+				<voxbox name="brick" pos="1.3 0.0 0.0" rot="0.0 0.0 0.0" size="113 39 5" brush="MOD/assets/vox/brick.vox"/>
+				<voxbox name="plaster" pos="1.2 0.0 -0.2" rot="0.0 0.0 0.0" size="115 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="base"/>
+				<voxbox name="plaster" pos="12.2 0.1 0.5" rot="0.0 180.0 0.0" size="105 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+				<voxbox name="plaster" pos="12.9 0.0 0.0" rot="0.0 -90.0 0.0" size="5 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="base"/>
+				<vox pos="10.2 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+				<vox pos="3.5 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+			</compound>
+			<compound name="wallPlastered" pos="13.8 0.2 11.5" rot="0.0 180.0 0.0">
+				<voxbox name="brick" pos="1.2 0.0 0.0" rot="0.0 0.0 0.0" size="114 39 5" brush="MOD/assets/vox/brick.vox"/>
+				<voxbox name="plaster" pos="1.1 0.0 -0.2" rot="0.0 0.0 0.0" size="116 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="base"/>
+				<voxbox name="plaster" pos="12.2 0.1 0.5" rot="0.0 180.0 0.0" size="106 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+				<vox pos="10.2 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+			</compound>
+			<compound name="wallPlastered" pos="12.7 0.2 -1.1" rot="0.0 -90.0 0.0">
+				<voxbox name="brick" pos="1.2 0.0 0.0" rot="0.0 0.0 0.0" size="114 39 5" brush="MOD/assets/vox/brick.vox"/>
+				<voxbox name="plaster" pos="1.1 0.0 -0.2" rot="0.0 0.0 0.0" size="115 39 3" brush="MOD/assets/structures/plaster_cracked_concrete.vox" object="base"/>
+				<voxbox name="plaster" pos="12.1 0.1 0.5" rot="0.0 -180.0 0.0" size="105 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+				<vox pos="4.3 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+				<vox pos="10.2 1.3 0.3" file="MOD/assets/structures/wood_ME.vox" object="windowMid"/>
+			</compound>
+			<compound name="wallPlastered" pos="5.9 0.2 0.3" rot="0.0 -90.0 0.0">
+				<voxbox name="brick" pos="0.1 -0.0 -0.0" rot="0.0 0.0 0.0" size="63 39 5" brush="MOD/assets/vox/brick.vox"/>
+				<voxbox name="plaster" pos="6.9 0.1 0.5" rot="0.0 180.0 0.0" size="68 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+				<voxbox name="plaster" pos="6.4 0.0 0.1" rot="0.0 180.0 0.0" size="63 39 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+			</compound>
+			<compound name="wallPlastered" pos="6.5 0.2 6.7" rot="0.0 0.0 0.0">
+				<voxbox name="brick" pos="-1.0 0.0 0.0" rot="0.0 0.0 0.0" size="69 39 5" brush="MOD/assets/vox/brick.vox"/>
+				<voxbox name="plaster" pos="5.8 0.1 0.5" rot="0.0 -180.0 0.0" size="69 38 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+				<voxbox name="plaster" pos="5.8 0.0 0.1" rot="0.0 180.0 0.0" size="64 39 1" brush="MOD/assets/brush/plastered_cinderblock.vox" object="plaster"/>
+			</compound>
+			<group name="Doors and Windows">
+				<instance pos="2.9 0.3 0.3" rot="0.0 180.0 0.0" file="MOD/assets/structures/prefab/woodDoor.xml"/>
+				<instance pos="5.7 0.3 4.7" rot="0.0 -90.0 0.0" file="MOD/assets/structures/prefab/woodDoor.xml"/>
+				<instance pos="11.2 0.3 11.2" rot="0.0 0.0 0.0" file="MOD/assets/structures/prefab/woodDoor.xml"/>
+			</group>
+			<compound name="awningWood" pos="9.2 0.0 -1.3">
+				<voxbox name="awningWood" pos="-7.20055 2.67907 0.2" rot="0.0 0.0 -3.0" size="19 1 12" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+			</compound>
+			<group name="stairPoles"/>
+			<compound name="fireplace" pos="6.9 0.3 7.7" rot="0.0 180.0 0.0">
+				<voxbox pos="-0.3 0.0 0.0" rot="0.0 0.0 0.0" size="13 1 5" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+				<voxbox pos="-0.2 0.1 0.1" rot="0.0 0.0 0.0" size="11 3 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+				<voxbox pos="0.0 0.4 0.4" rot="0.0 0.0 0.0" size="7 10 1" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+				<voxbox pos="0.0 0.6 0.2" rot="90.0 0.0 0.0" size="7 2 2" brush="MOD/assets/brush/fundaments.vox" object="log_6x6_rounded"/>
+				<voxbox pos="0.7 0.4 0.1" rot="0.0 0.0 0.0" size="2 10 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+				<voxbox pos="0.7 0.4 0.0" rot="0.0 0.0 0.0" size="1 10 2" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+				<voxbox pos="0.0 0.4 0.0" rot="0.0 0.0 0.0" size="7 1 2" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+				<voxbox pos="0.0 0.5 0.0" rot="0.0 0.0 0.0" size="7 1 1" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+				<voxbox pos="0.0 1.2 0.0" rot="0.0 0.0 0.0" size="7 1 1" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+				<voxbox pos="0.0 1.3 0.0" rot="0.0 0.0 0.0" size="7 1 2" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+				<voxbox pos="-0.1 0.4 -0.0" rot="0.0 0.0 0.0" size="1 10 2" brush="MOD/assets/brush/fundaments.vox" object="concrete_dark"/>
+				<voxbox pos="-0.2 1.4 0.1" rot="0.0 0.0 0.0" size="11 2 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+				<voxbox pos="-0.2 0.4 0.1" rot="0.0 0.0 0.0" size="2 10 4" brush="MOD/assets/brush/fundaments.vox" object="concrete_light"/>
+				<voxagon name="fireplaceVoxagon" pos="0.0 1.6 0.1" rot="90 0 90" brush="MOD/assets/brush/fundaments.vox" object="concrete_light" extrude="4">
+					<vertex pos="0.0 0.0"/>
+					<vertex pos="0.9 0.1"/>
+					<vertex pos="0.0 0.0"/>
+					<vertex pos="0.9 0.1"/>
+					<vertex pos="0.9 0.6"/>
+					<vertex pos="0.0 0.7"/>
+				</voxagon>
+				<voxagon name="fireplaceVoxagon" pos="0.0 2.5 0.2" rot="90 0 90" brush="MOD/assets/brush/fundaments.vox" object="concrete_light" extrude="3">
+					<vertex pos="0.0 0.1"/>
+					<vertex pos="1.1 0.1"/>
+					<vertex pos="0.0 0.1"/>
+					<vertex pos="1.3 0.2"/>
+					<vertex pos="1.3 0.5"/>
+					<vertex pos="0.0 0.6"/>
+				</voxagon>
+			</compound>
+			<group name="props"/>
+		</group>
+		<group name="roof" pos="-23.78801 4.9 -5.70885">
+			<compound name="Floor">
+				<voxbox pos="26.8 -0.4 11.5" rot="0.0 90.0 0.0" size="118 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="24.7 -0.4 11.5" rot="0.0 90.0 0.0" size="118 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="22.7 -0.4 11.9" rot="0.0 90.0 0.0" size="122 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="21.4 -0.4 11.0" rot="0.0 90.0 0.0" size="113 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="20.4 -0.4 12.0" rot="0.0 90.0 0.0" size="123 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="19.5 -0.4 11.2" rot="0.0 90.0 0.0" size="78 2 2" brush="MOD/assets/vox/fundaments_dark.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="19.1 -0.2 7.1" rot="0.0 0.0 0.0" size="106 1 39" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+				<voxbox pos="23.4 -0.2 0.5" rot="0.0 0.0 0.0" size="63 1 62" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+				<voxbox pos="19.1 -0.2 0.5" rot="0.0 0.0 0.0" size="38 1 66" brush="MOD/assets/brush/fundaments.vox" object="wooden_floor_rough"/>
+				<voxbox name="roof" pos="23.4 -0.1 0.4" rot="0.0 0.0 0.0" size="64 2 30" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="27.5 -0.1 3.4" rot="0.0 0.0 0.0" size="23 2 78" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="19.1 -0.1 11.0" rot="0.0 90.0 0.0" size="47 2 17" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="20.8 -0.1 7.8" rot="0.0 0.0 0.0" size="27 2 33" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="20.8 -0.1 7.8" rot="0.0 90.0 0.0" size="15 2 27" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="23.4 -0.1 11.0" rot="0.0 90.0 0.0" size="16 2 27" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="22.8 -0.1 4.8" rot="0.0 0.0 0.0" size="18 2 15" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="23.4 -0.1 9.4" rot="0.0 90.0 0.0" size="30 2 27" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxagon pos="21.0 -0.1 4.9" rot="0.0 -50.0 0.0" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor" extrude="2">
+					<vertex pos="1.1 -1.4"/>
+					<vertex pos="2.3 -0.4"/>
+					<vertex pos="-0.2 2.4"/>
+					<vertex pos="-1.4 1.4"/>
+				</voxagon>
+				<voxagon pos="25.8 -0.1 4.9" rot="0.0 -50.0 0.0" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor" extrude="2">
+					<vertex pos="0.0 -2.4"/>
+					<vertex pos="0.1 -0.7"/>
+					<vertex pos="0.4 1.9"/>
+					<vertex pos="-1.0 0.8"/>
+					<vertex pos="-1.6 1.8"/>
+					<vertex pos="-2.7 0.8"/>
+				</voxagon>
+				<voxagon pos="25.8 -0.1 4.9" rot="0.0 0.0 0.0" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor" extrude="2">
+					<vertex pos="-0.3 1.5"/>
+					<vertex pos="-1.3 1.6"/>
+					<vertex pos="-0.5 0.7"/>
+					<vertex pos="1.7 -1.5"/>
+					<vertex pos="1.8 0.6"/>
+					<vertex pos="1.8 1.2"/>
+					<vertex pos="2.0 1.2"/>
+					<vertex pos="1.9 6.2"/>
+					<vertex pos="0.3 6.2"/>
+					<vertex pos="0.3 2.1"/>
+					<vertex pos="1.2 2.0"/>
+					<vertex pos="1.2 0.7"/>
+					<vertex pos="-0.1 0.6"/>
+				</voxagon>
+			</compound>
+			<compound name="wallPlastered" pos="22.9 -0.1 6.7" rot="0.0 90.0 0.0">
+				<voxbox name="brick" pos="2.0 0.0 0.2" rot="0.0 0.0 0.0" size="43 12 3" brush="MOD/assets/vox/brick.vox">
+					<voxbox name="plaster" pos="4.2 0.1 0.6" rot="0.0 180.0 0.0" size="43 12 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="0.1 1.0 -0.2" rot="0.0 0.0 0.0" size="40 2 3" brush="MOD/assets/structures/plaster_cracked_concrete_3.vox"/>
+				</voxbox>
+				<voxbox name="plaster" pos="6.3 1.5 0.5" rot="90.0 -180.0 0.0" size="44 3 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+			</compound>
+			<compound name="wallPlastered" pos="25.4 0.6 0.6" rot="0.0 180.0 0.0">
+				<voxbox name="brick" pos="2.0 0.0 0.2" rot="0.0 0.0 0.0" size="46 5 3" brush="MOD/assets/vox/brick.vox">
+					<voxbox name="plaster" pos="4.8 0.1 0.6" rot="0.0 -180.0 0.0" size="49 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="-0.3 0.1 0.4" rot="0.0 90.0 0.0" size="5 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="0.1 0.3 -0.2" rot="0.0 0.0 0.0" size="42 2 3" brush="MOD/assets/structures/plaster_cracked_concrete_3.vox"/>
+				</voxbox>
+				<voxbox name="plaster" pos="6.8 0.8 0.5" rot="90.0 180.0 0.0" size="49 3 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+			</compound>
+			<compound name="wallPlastered" pos="19.2 0.6 -1.8" rot="0.0 -90.0 0.0">
+				<voxbox name="brick" pos="2.0 0.0 0.2" rot="0.0 0.0 0.0" size="45 5 3" brush="MOD/assets/vox/brick.vox">
+					<voxbox name="plaster" pos="4.6 0.1 0.6" rot="0.0 180.0 0.0" size="47 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="4.8 0.1 -0.1" rot="0.0 -90.0 0.0" size="5 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="0.1 0.3 -0.2" rot="0.0 0.0 0.0" size="42 2 3" brush="MOD/assets/structures/plaster_cracked_concrete_3.vox"/>
+				</voxbox>
+				<voxbox name="plaster" pos="6.6 0.8 0.5" rot="90.0 -180.0 0.0" size="47 3 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+			</compound>
+			<compound name="wallPlastered" pos="17.2 -0.1 4.2" rot="0.0 0.0 0.0">
+				<voxbox name="brick" pos="2.0 0.0 0.2" rot="0.0 0.0 0.0" size="42 12 3" brush="MOD/assets/vox/brick.vox">
+					<voxbox name="plaster" pos="4.2 0.1 0.6" rot="0.0 180.0 0.0" size="43 12 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="0.1 1.0 -0.2" rot="0.0 0.0 0.0" size="40 2 3" brush="MOD/assets/structures/plaster_cracked_concrete_3.vox"/>
+				</voxbox>
+				<voxbox name="plaster" pos="6.3 1.5 0.5" rot="90.0 -180.0 0.0" size="45 3 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+			</compound>
+			<compound name="wallPlastered" pos="30.4 -0.1 0.5" rot="0.0 180.0 0.0">
+				<voxbox name="brick" pos="0.3 0.0 0.0" rot="0.0 0.0 0.0" size="114 8 5" brush="MOD/assets/vox/brick.vox">
+					<voxbox name="plaster" pos="-0.1 0.0 0.2" rot="0.0 0.0 0.0" size="116 8 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="0.4 0.2 -0.2" rot="0.0 0.0 0.0" size="62 6 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+				</voxbox>
+				<voxbox name="plaster" pos="6.9 1.1 0.5" rot="90.0 180.0 0.0" size="66 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+			</compound>
+			<compound name="wallPlastered" pos="18.3 -0.1 11.0" rot="0.0 0.0 0.0">
+				<voxbox name="brick" pos="0.4 0.0 -0.0" rot="0.0 0.0 0.0" size="113 8 5" brush="MOD/assets/vox/brick.vox">
+					<voxbox name="plaster" pos="-0.1 0.0 0.2" rot="0.0 0.0 0.0" size="116 8 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="0.4 0.2 -0.2" rot="0.0 0.0 0.0" size="106 6 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+				</voxbox>
+				<voxbox name="plaster" pos="11.8 1.1 0.5" rot="90.0 -180.0 0.0" size="115 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+				<voxbox name="hole" pos="4.7 0.0 0.0" size="9 9 6" brush="MOD/assets/vox/hole.vox">
+					<voxbox size="9 1 5" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+				</voxbox>
+			</compound>
+			<compound name="wallPlastered" pos="19.1 -0.1 -0.4" rot="0.0 -90.0 0.0">
+				<voxbox name="brick" pos="0.4 0.0 -0.0" rot="0.0 0.0 0.0" size="113 8 5" brush="MOD/assets/vox/brick.vox">
+					<voxbox name="plaster" pos="-0.1 0.0 0.2" rot="0.0 0.0 0.0" size="116 8 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="4.8 0.2 -0.2" rot="0.0 0.0 0.0" size="62 6 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+				</voxbox>
+				<voxbox name="plaster" pos="11.8 1.1 0.5" rot="90.0 -180.0 0.0" size="66 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+			</compound>
+			<compound name="wallPlastered" pos="29.7 -0.1 11.7" rot="0.0 90.0 0.0">
+				<voxbox name="brick" pos="0.3 0.0 0.0" rot="0.0 0.0 0.0" size="113 8 5" brush="MOD/assets/vox/brick.vox">
+					<voxbox name="plaster" pos="-0.1 0.0 0.2" rot="0.0 0.0 0.0" size="115 8 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+					<voxbox name="plaster" pos="0.2 0.2 -0.2" rot="0.0 0.0 0.0" size="107 6 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+				</voxbox>
+				<voxbox name="plaster" pos="11.7 1.1 0.5" rot="90.0 180.0 0.0" size="115 5 3" brush="MOD/assets/structures/plaster_cracked_concrete_2.vox"/>
+			</compound>
+			<compound name="roofRaised">
+				<voxbox name="roof" pos="19.9 0.7 0.4" rot="0.0 0.0 0.0" size="33 2 41" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="19.0 0.7 0.6" rot="0.0 0.0 0.0" size="9 2 38" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+				<voxbox name="roof" pos="19.0 0.7 0.4" rot="0.0 0.0 0.0" size="9 2 2" brush="MOD/assets/structures/ME-fundaments.vox" object="metal Floor"/>
+			</compound>
+			<group name="roofSteps" pos="19.9 0.0 4.7">
+				<voxbox pos="0.1 0.1 0.1" rot="0.0 0.0 0.0" size="2 13 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="0.3 1.0 0.1" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="0.3 0.7 0.4" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="2.6 0.1 0.1" rot="0.0 0.0 0.0" size="2 13 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="0.3 0.4 0.7" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="0.3 0.2 1.0" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+				<voxbox pos="0.3 0.1 1.3" rot="0.0 0.0 0.0" size="23 1 3" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4"/>
+				<voxagon pos="2.6 0.0 0.0" rot="90.0 90.0 30.0" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4" extrude="1">
+					<vertex pos="-1.5 -0.9"/>
+					<vertex pos="-1.3 -1.1"/>
+					<vertex pos="-0.8 -1.1"/>
+					<vertex pos="0.4 -1.2"/>
+					<vertex pos="0.1 -0.7"/>
+					<vertex pos="-1.1 -0.7"/>
+				</voxagon>
+				<voxagon pos="0.2 0.0 0.0" rot="90.0 90.0 30.0" brush="MOD/assets/structures/ME-fundaments.vox" object="wooden_beam_4x4" extrude="1">
+					<vertex pos="-1.5 -0.9"/>
+					<vertex pos="-1.3 -1.1"/>
+					<vertex pos="-0.8 -1.1"/>
+					<vertex pos="0.4 -1.2"/>
+					<vertex pos="0.1 -0.7"/>
+					<vertex pos="-1.1 -0.7"/>
+				</voxagon>
+			</group>
+		</group>
+		<group name="features" pos="-6.28801 0.7 -5.70885">
+			<group name="chimney" pos="-6.4 4.1 5.8">
+				<compound name="chimney" pos="12.9 0.0 1.5">
+					<voxbox name="chimney" pos="-0.1 0.0 -0.1" rot="0.0 0.0 0.0" size="3 10 3" brush="MOD/assets/brush/fundaments.vox" object="concrete_light">
+						<voxbox name="hole" pos="0.1 0.8 0.1" rot="0.0 0.0 0.0" size="2 1 1" brush="MOD/assets/vox/hole.vox"/>
+						<voxbox name="hole" pos="0.1 -2.4 0.1" rot="0.0 0.0 0.0" size="1 33 1" brush="MOD/assets/vox/hole.vox"/>
+					</voxbox>
+				</compound>
+				<voxbox name="hole" pos="12.85 0.8134 1.4" rot="0.0 0.0 30.0" size="4 4 3" brush="MOD/assets/vox/hole.vox">
+					<voxbox name="chimney" pos="-0.1 0.0 -0.1" rot="0.0 0.0 0.0" size="6 1 5" brush="MOD/assets/vox/wood_planks_beige.vox" object="plank wall"/>
+				</voxbox>
+			</group>
+			<compound/>
+			<instance pos="5.9 0.2 12.0" rot="0.0 0.0 0.0" file="MOD/assets/structures/prefab/ladder1.xml"/>
+			<group name="lights">
+				<instance pos="12.1 2.5 11.9" rot="0.0 0.0 0.0" file="MOD/assets/structures/prefab/externalLamp.xml"/>
+				<instance pos="1.7 2.5 -0.4" rot="0.0 -180.0 0.0" file="MOD/assets/structures/prefab/externalLamp.xml"/>
+			</group>
+			<group name="instance=MOD/assets/structures/prefab/ladderHole1.xml" pos="8.8 0.6 6.1" rot="0.0 0.0 0.0">
+				<compound name="ladder" pos="0.5 -0.1 0.6" rot="0.0 -180.0 0.0">
+					<voxbox name="hole" pos="-0.2 3.1 0.0" rot="0.0 0.0 0.0" size="13 8 12" brush="MOD/assets/vox/hole.vox"/>
+					<voxbox pos="0.1 -0.2 0.8" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 0.2 0.7" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 0.6 0.6" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 1.0 0.5" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 1.4 0.4" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 1.8 0.3" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 2.2 0.2" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 2.6 0.1" rot="0.0 0.0 0.0" size="7 6 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 3.1 -0.0" size="7 5 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.1 3.4 -0.1" rot="0.0 0.0 0.0" size="7 4 1" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="ladder"/>
+					<voxbox pos="0.7 2.4 -0.1" rot="0.0 0.0 0.0" size="1 1 3" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+					<voxbox pos="0.7 0.5 -0.1" rot="0.0 0.0 0.0" size="1 1 8" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+					<voxbox pos="0.1 0.5 -0.1" rot="0.0 0.0 0.0" size="1 1 9" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+					<voxbox pos="0.1 1.5 -0.1" rot="0.0 0.0 0.0" size="1 1 5" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+					<voxbox pos="0.7 1.5 -0.1" rot="0.0 0.0 0.0" size="1 1 5" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+					<voxbox pos="0.1 2.4 -0.1" rot="0.0 0.0 0.0" size="1 1 3" brush="MOD/assets/structures/furniture/ME_fixings.vox" object="metalBlock"/>
+				</compound>
+			</group>
+		</group>
+	</group>
+</prefab>
+
